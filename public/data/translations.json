@@ -1,0 +1,28 @@
+{
+    "translations": [
+        {
+            "id": "1",
+            "title": "NIV",
+            "description": "New International Version",
+            "image": "https://dummyimage.com/80x80"
+        },
+        {
+            "id": "2",
+            "title": "ESV",
+            "description": "English Standard Version",
+            "image": "https://dummyimage.com/80x80"
+        },
+        {
+            "id": "3",
+            "title": "KJV",
+            "description": "King James Version",
+            "image": "https://dummyimage.com/80x80"
+        },
+        {
+            "id": "4",
+            "title": "NLT",
+            "description": "New Living Translation",
+            "image": "https://dummyimage.com/80x80"
+        }
+    ]
+}
