@@ -1,6 +1,6 @@
-import { Translation } from '../../../types/translation'
-import json from '../../../public/data/translations.json'
+import json from '../../../public/data/bibleTree.json'
+import { Tree } from '../../../types/tree'
 
-export const getTranslationData = (): Translation[] => {
-  return json.translations as Translation[]
+export const getTranslationData = (): Tree => {
+  return json as Tree
 }

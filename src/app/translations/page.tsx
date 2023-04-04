@@ -1,14 +1,10 @@
 'use client'
 
 import React from 'react'
-import { Translation } from '../../../types/translation'
 import { getTranslationData } from '../util/getTranslationData'
+import { Bible } from '../../../types/tree'
 
-const TranslationComponent = ({
-  translation,
-}: {
-  translation: Translation
-}) => {
+const TranslationComponent = ({ translation }: { translation: Bible }) => {
   return (
     <div className="p-2 w-full">
       <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
@@ -30,10 +26,10 @@ const TranslationComponent = ({
 
 const Translations = () => {
   const [versionSearch, setVersionSearch] = React.useState('')
-  const [translationData, _setTranslationData] = React.useState<Translation[]>(
-    getTranslationData()
+  const [translationData, _setTranslationData] = React.useState<Bible[]>(
+    getTranslationData().nodes
   )
-  const [translations, setTranslations] = React.useState<Translation[]>([])
+  const [translations, setTranslations] = React.useState<Bible[]>([])
 
   React.useEffect(() => {
     // filter translations by the versionSearch

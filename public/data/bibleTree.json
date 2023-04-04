@@ -1,0 +1,341 @@
+{
+  "nodes": [
+    {
+      "_id": "95db0c3a-172e-4e94-b0b3-ef5c0ff609a8",
+      "id": "95db0c3a-172e-4e94-b0b3-ef5c0ff609a8",
+      "title": "New International Version",
+      "parents": "4705a210-9018-47df-a1bd-e7eb2bddbd68",
+      "description": "",
+      "image": "",
+      "year": "1978"
+    },
+    {
+      "_id": "ca58f32f-5a82-4fb7-90b2-3e27f0c82b76",
+      "id": "ca58f32f-5a82-4fb7-90b2-3e27f0c82b76",
+      "title": "NAB Revised Edition",
+      "parents": "e2ff24d2-69d7-4cc6-a089-60586fe2f500",
+      "description": "",
+      "image": "",
+      "year": "2011"
+    },
+    {
+      "_id": "e2ff24d2-69d7-4cc6-a089-60586fe2f500",
+      "id": "e2ff24d2-69d7-4cc6-a089-60586fe2f500",
+      "title": "New American Bible",
+      "parents": "4705a210-9018-47df-a1bd-e7eb2bddbd68",
+      "description": "",
+      "image": "",
+      "year": "1978"
+    },
+    {
+      "_id": "a09706d0-f3d7-479f-9622-7a400f5f8751",
+      "id": "a09706d0-f3d7-479f-9622-7a400f5f8751",
+      "title": "Christian Standard Bible",
+      "parents": "8a114fc1-2806-48c4-b751-4b087ca23be1",
+      "description": "",
+      "image": "",
+      "year": "2017"
+    },
+    {
+      "_id": "8a114fc1-2806-48c4-b751-4b087ca23be1",
+      "id": "8a114fc1-2806-48c4-b751-4b087ca23be1",
+      "title": "Holman Christian Standard Bible",
+      "parents": "4705a210-9018-47df-a1bd-e7eb2bddbd68",
+      "description": "",
+      "image": "",
+      "year": "2004"
+    },
+    {
+      "_id": "048ff88b-1d02-45cd-a2c8-5788de6672e7",
+      "id": "048ff88b-1d02-45cd-a2c8-5788de6672e7",
+      "title": "New Living Translation",
+      "parents": "31d057f4-3bb6-41ca-8f44-8bc77432ed6d",
+      "description": "",
+      "image": "",
+      "year": "1996"
+    },
+    {
+      "_id": "31d057f4-3bb6-41ca-8f44-8bc77432ed6d",
+      "id": "31d057f4-3bb6-41ca-8f44-8bc77432ed6d",
+      "title": "The Living Bible",
+      "parents": "e2d6a466-850f-4f76-a388-97c7c8786d3e",
+      "description": "",
+      "image": "",
+      "year": "1971"
+    },
+    {
+      "_id": "1cb9b7ce-41b3-4f15-af8b-b15011bf4054",
+      "id": "1cb9b7ce-41b3-4f15-af8b-b15011bf4054",
+      "title": "New American Standard Bible",
+      "parents": "e2d6a466-850f-4f76-a388-97c7c8786d3e",
+      "description": "",
+      "image": "",
+      "year": "1971"
+    },
+    {
+      "_id": "d7091086-012d-4110-8093-af880e3a037d",
+      "id": "d7091086-012d-4110-8093-af880e3a037d",
+      "title": "English Standard Version",
+      "parents": "2e534f4f-e6f1-47ff-a2a3-a8e63749210a",
+      "description": "",
+      "image": "",
+      "year": "2001"
+    },
+    {
+      "_id": "8824e11c-2407-413e-bf13-3a5ae377511b",
+      "id": "8824e11c-2407-413e-bf13-3a5ae377511b",
+      "title": "NRSV Updated Edition",
+      "parents": "2e404672-afdd-4fba-b4ac-9dc26d12ce67",
+      "description": "",
+      "image": "",
+      "year": "2021"
+    },
+    {
+      "_id": "0658057b-1f9e-4bd8-98d0-dc00f7a0291d",
+      "id": "0658057b-1f9e-4bd8-98d0-dc00f7a0291d",
+      "title": "New JPS Tanakh",
+      "parents": "06c3e4ec-b804-4158-82ed-32f4494164b2",
+      "description": "",
+      "image": "",
+      "year": "1985"
+    },
+    {
+      "_id": "fde9d264-32f8-4b2c-8220-426cbdc2680f",
+      "id": "fde9d264-32f8-4b2c-8220-426cbdc2680f",
+      "title": "New King James Version",
+      "parents": "790488e0-67e9-4918-b2ab-d1301bd32f78",
+      "description": "",
+      "image": "",
+      "year": "1982"
+    },
+    {
+      "_id": "06c3e4ec-b804-4158-82ed-32f4494164b2",
+      "id": "06c3e4ec-b804-4158-82ed-32f4494164b2",
+      "title": "JPS Tanakh",
+      "parents": "",
+      "description": "",
+      "image": "",
+      "year": "1917"
+    },
+    {
+      "_id": "e2d6a466-850f-4f76-a388-97c7c8786d3e",
+      "id": "e2d6a466-850f-4f76-a388-97c7c8786d3e",
+      "title": "American Standard Version",
+      "parents": "5d235c14-0f72-4829-ba87-8a972d66519e",
+      "description": "",
+      "image": "",
+      "year": "1901"
+    },
+    {
+      "_id": "5d235c14-0f72-4829-ba87-8a972d66519e",
+      "id": "5d235c14-0f72-4829-ba87-8a972d66519e",
+      "title": "English Revised Version",
+      "parents": "4705a210-9018-47df-a1bd-e7eb2bddbd68,790488e0-67e9-4918-b2ab-d1301bd32f78",
+      "description": "",
+      "image": "",
+      "year": "1885"
+    },
+    {
+      "_id": "790488e0-67e9-4918-b2ab-d1301bd32f78",
+      "id": "790488e0-67e9-4918-b2ab-d1301bd32f78",
+      "title": "King James Version",
+      "parents": "798f009f-3fc7-4206-9fbf-cf3ad053648c,9216939c-6211-4838-b3f8-c581a82cc521",
+      "description": "",
+      "image": "",
+      "year": "1611"
+    },
+    {
+      "_id": "4705a210-9018-47df-a1bd-e7eb2bddbd68",
+      "id": "4705a210-9018-47df-a1bd-e7eb2bddbd68",
+      "title": "Critical Text"
+    },
+    {
+      "_id": "86949ef1-fa84-4c35-8bc1-3b2f684cfd13",
+      "id": "86949ef1-fa84-4c35-8bc1-3b2f684cfd13",
+      "title": "Douay-Rheims Bible",
+      "parents": "27edb113-5f24-4ca6-ad20-fa5cbe9c124a",
+      "description": "",
+      "image": "",
+      "year": "1582"
+    },
+    {
+      "_id": "798f009f-3fc7-4206-9fbf-cf3ad053648c",
+      "id": "798f009f-3fc7-4206-9fbf-cf3ad053648c",
+      "title": "Geneva Bible",
+      "parents": "91569ca2-781d-460e-b523-071150aa70d7",
+      "description": "",
+      "image": "",
+      "year": "1560"
+    },
+    {
+      "_id": "9216939c-6211-4838-b3f8-c581a82cc521",
+      "id": "9216939c-6211-4838-b3f8-c581a82cc521",
+      "title": "Bishops Bible",
+      "parents": "e5479cde-e2eb-4fd5-9eb4-98d06bcd27d6,91569ca2-781d-460e-b523-071150aa70d7",
+      "description": "",
+      "image": "",
+      "year": "1568"
+    },
+    {
+      "_id": "e5479cde-e2eb-4fd5-9eb4-98d06bcd27d6",
+      "id": "e5479cde-e2eb-4fd5-9eb4-98d06bcd27d6",
+      "title": "The Great Bible",
+      "parents": "08451ffe-6f6b-45f0-9f0a-4abac2a61da5",
+      "description": "",
+      "image": "",
+      "year": "1539"
+    },
+    {
+      "_id": "08451ffe-6f6b-45f0-9f0a-4abac2a61da5",
+      "id": "08451ffe-6f6b-45f0-9f0a-4abac2a61da5",
+      "title": "Tyndale Bible",
+      "parents": "27edb113-5f24-4ca6-ad20-fa5cbe9c124a",
+      "description": "",
+      "image": "",
+      "year": "1526"
+    },
+    {
+      "_id": "e09bc697-31ec-42a4-bb82-63357ed0d791",
+      "id": "e09bc697-31ec-42a4-bb82-63357ed0d791",
+      "title": "Wycliffe Bible",
+      "parents": "27edb113-5f24-4ca6-ad20-fa5cbe9c124a",
+      "description": "",
+      "image": "",
+      "year": "1390"
+    },
+    {
+      "_id": "91569ca2-781d-460e-b523-071150aa70d7",
+      "id": "91569ca2-781d-460e-b523-071150aa70d7",
+      "title": "Textus Receptus"
+    },
+    {
+      "_id": "27edb113-5f24-4ca6-ad20-fa5cbe9c124a",
+      "id": "27edb113-5f24-4ca6-ad20-fa5cbe9c124a",
+      "title": "Vulgate"
+    },
+    {
+      "_id": "2e534f4f-e6f1-47ff-a2a3-a8e63749210a",
+      "id": "2e534f4f-e6f1-47ff-a2a3-a8e63749210a",
+      "title": "Revised Standard Version",
+      "parents": "e2d6a466-850f-4f76-a388-97c7c8786d3e",
+      "description": "",
+      "image": "",
+      "year": "1952"
+    },
+    {
+      "_id": "2e404672-afdd-4fba-b4ac-9dc26d12ce67",
+      "id": "2e404672-afdd-4fba-b4ac-9dc26d12ce67",
+      "title": "New Revised Standard Version",
+      "parents": "2e534f4f-e6f1-47ff-a2a3-a8e63749210a",
+      "description": "",
+      "image": "",
+      "year": "1989"
+    }
+  ],
+  "links": [
+    {
+      "source": "95db0c3a-172e-4e94-b0b3-ef5c0ff609a8",
+      "target": "4705a210-9018-47df-a1bd-e7eb2bddbd68"
+    },
+    {
+      "source": "ca58f32f-5a82-4fb7-90b2-3e27f0c82b76",
+      "target": "e2ff24d2-69d7-4cc6-a089-60586fe2f500"
+    },
+    {
+      "source": "e2ff24d2-69d7-4cc6-a089-60586fe2f500",
+      "target": "4705a210-9018-47df-a1bd-e7eb2bddbd68"
+    },
+    {
+      "source": "a09706d0-f3d7-479f-9622-7a400f5f8751",
+      "target": "8a114fc1-2806-48c4-b751-4b087ca23be1"
+    },
+    {
+      "source": "8a114fc1-2806-48c4-b751-4b087ca23be1",
+      "target": "4705a210-9018-47df-a1bd-e7eb2bddbd68"
+    },
+    {
+      "source": "048ff88b-1d02-45cd-a2c8-5788de6672e7",
+      "target": "31d057f4-3bb6-41ca-8f44-8bc77432ed6d"
+    },
+    {
+      "source": "31d057f4-3bb6-41ca-8f44-8bc77432ed6d",
+      "target": "e2d6a466-850f-4f76-a388-97c7c8786d3e"
+    },
+    {
+      "source": "1cb9b7ce-41b3-4f15-af8b-b15011bf4054",
+      "target": "e2d6a466-850f-4f76-a388-97c7c8786d3e"
+    },
+    {
+      "source": "d7091086-012d-4110-8093-af880e3a037d",
+      "target": "2e534f4f-e6f1-47ff-a2a3-a8e63749210a"
+    },
+    {
+      "source": "8824e11c-2407-413e-bf13-3a5ae377511b",
+      "target": "2e404672-afdd-4fba-b4ac-9dc26d12ce67"
+    },
+    {
+      "source": "0658057b-1f9e-4bd8-98d0-dc00f7a0291d",
+      "target": "06c3e4ec-b804-4158-82ed-32f4494164b2"
+    },
+    {
+      "source": "fde9d264-32f8-4b2c-8220-426cbdc2680f",
+      "target": "790488e0-67e9-4918-b2ab-d1301bd32f78"
+    },
+    {
+      "source": "e2d6a466-850f-4f76-a388-97c7c8786d3e",
+      "target": "5d235c14-0f72-4829-ba87-8a972d66519e"
+    },
+    {
+      "source": "5d235c14-0f72-4829-ba87-8a972d66519e",
+      "target": "4705a210-9018-47df-a1bd-e7eb2bddbd68"
+    },
+    {
+      "source": "5d235c14-0f72-4829-ba87-8a972d66519e",
+      "target": "790488e0-67e9-4918-b2ab-d1301bd32f78"
+    },
+    {
+      "source": "790488e0-67e9-4918-b2ab-d1301bd32f78",
+      "target": "798f009f-3fc7-4206-9fbf-cf3ad053648c"
+    },
+    {
+      "source": "790488e0-67e9-4918-b2ab-d1301bd32f78",
+      "target": "9216939c-6211-4838-b3f8-c581a82cc521"
+    },
+    {
+      "source": "86949ef1-fa84-4c35-8bc1-3b2f684cfd13",
+      "target": "27edb113-5f24-4ca6-ad20-fa5cbe9c124a"
+    },
+    {
+      "source": "798f009f-3fc7-4206-9fbf-cf3ad053648c",
+      "target": "91569ca2-781d-460e-b523-071150aa70d7"
+    },
+    {
+      "source": "9216939c-6211-4838-b3f8-c581a82cc521",
+      "target": "e5479cde-e2eb-4fd5-9eb4-98d06bcd27d6"
+    },
+    {
+      "source": "9216939c-6211-4838-b3f8-c581a82cc521",
+      "target": "91569ca2-781d-460e-b523-071150aa70d7"
+    },
+    {
+      "source": "e5479cde-e2eb-4fd5-9eb4-98d06bcd27d6",
+      "target": "08451ffe-6f6b-45f0-9f0a-4abac2a61da5"
+    },
+    {
+      "source": "08451ffe-6f6b-45f0-9f0a-4abac2a61da5",
+      "target": "27edb113-5f24-4ca6-ad20-fa5cbe9c124a"
+    },
+    {
+      "source": "e09bc697-31ec-42a4-bb82-63357ed0d791",
+      "target": "27edb113-5f24-4ca6-ad20-fa5cbe9c124a"
+    },
+    {
+      "source": "2e534f4f-e6f1-47ff-a2a3-a8e63749210a",
+      "target": "e2d6a466-850f-4f76-a388-97c7c8786d3e"
+    },
+    {
+      "source": "2e404672-afdd-4fba-b4ac-9dc26d12ce67",
+      "target": "2e534f4f-e6f1-47ff-a2a3-a8e63749210a"
+    }
+  ]
+}
