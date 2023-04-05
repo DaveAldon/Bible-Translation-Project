@@ -3,12 +3,42 @@ import { getTranslationData } from '@/app/util/getTranslationData'
 import React from 'react'
 import FG2D, { ForceGraphMethods } from 'react-force-graph-2d'
 import { SizeMe } from 'react-sizeme'
-import { Tree } from '../../../../types/tree'
+import { Tree, Node, Link } from '../../../../types/tree'
 import * as d3 from 'd3'
+import { clone } from '@/app/util/clone'
 
-export const ForceGraph2D = () => {
-  const [data, _setData] = React.useState<Tree>(getTranslationData())
+interface ForceGraph2DProps {
+  sliderValue: number
+}
+export const ForceGraph2D = (props: ForceGraph2DProps) => {
+  const unfilteredData = getTranslationData()
+  const [data, setData] = React.useState<Tree>()
   const ref = React.useRef<ForceGraphMethods>()
+
+  const getFilteredNodes = (filterYear: number, data: Tree): Node[] => {
+    return data.nodes.filter((node) => {
+      const nodeYear = parseInt(node.year)
+      return nodeYear <= filterYear
+    })
+  }
+
+  const getFilteredLinks = (filteredNodes: Node[], data: Tree): Link[] => {
+    return data.links.filter((link) => {
+      const source = filteredNodes.find((node) => node.id === link.source)
+      const target = filteredNodes.find((node) => node.id === link.target)
+      return source !== undefined && target !== undefined
+    })
+  }
+
+  React.useEffect(() => {
+    const nodes = getFilteredNodes(props.sliderValue, clone(unfilteredData))
+    const links = getFilteredLinks(nodes, clone(unfilteredData))
+    const tempData = {
+      nodes,
+      links,
+    }
+    setData({ ...tempData })
+  }, [props.sliderValue])
 
   React.useEffect(() => {
     const graphInstance = ref.current
@@ -30,9 +60,9 @@ export const ForceGraph2D = () => {
           backgroundColor="#232323"
           width={size.width || 0}
           height={window.innerHeight - 64}
-          autoPauseRedraw={true}
+          autoPauseRedraw={false}
           nodeLabel={(node) =>
-            `${data.nodes.find((n) => n.id === node.id)?.title}`
+            `${data && data.nodes.find((n) => n.id === node.id)?.title}`
           }
           /* dagMode="bu"
           dagLevelDistance={10} */

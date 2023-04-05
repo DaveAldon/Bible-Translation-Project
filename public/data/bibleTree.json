@@ -147,7 +147,11 @@
     {
       "_id": "4705a210-9018-47df-a1bd-e7eb2bddbd68",
       "id": "4705a210-9018-47df-a1bd-e7eb2bddbd68",
-      "title": "Critical Text"
+      "title": "Critical Text",
+      "parents": "",
+      "description": "",
+      "image": "",
+      "year": "1500"
     },
     {
       "_id": "86949ef1-fa84-4c35-8bc1-3b2f684cfd13",
@@ -206,12 +210,20 @@
     {
       "_id": "91569ca2-781d-460e-b523-071150aa70d7",
       "id": "91569ca2-781d-460e-b523-071150aa70d7",
-      "title": "Textus Receptus"
+      "title": "Textus Receptus",
+      "parents": "",
+      "description": "",
+      "image": "",
+      "year": "1519"
     },
     {
       "_id": "27edb113-5f24-4ca6-ad20-fa5cbe9c124a",
       "id": "27edb113-5f24-4ca6-ad20-fa5cbe9c124a",
-      "title": "Vulgate"
+      "title": "Vulgate",
+      "parents": "",
+      "description": "",
+      "image": "",
+      "year": "400"
     },
     {
       "_id": "2e534f4f-e6f1-47ff-a2a3-a8e63749210a",
