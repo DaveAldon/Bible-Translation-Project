@@ -7,7 +7,8 @@
       "parents": "4705a210-9018-47df-a1bd-e7eb2bddbd68",
       "description": "",
       "image": "",
-      "year": "1978"
+      "year": "1978",
+      "acronym": "NIV"
     },
     {
       "_id": "ca58f32f-5a82-4fb7-90b2-3e27f0c82b76",
@@ -16,7 +17,8 @@
       "parents": "e2ff24d2-69d7-4cc6-a089-60586fe2f500",
       "description": "",
       "image": "",
-      "year": "2011"
+      "year": "2011",
+      "acronym": "NABRE"
     },
     {
       "_id": "e2ff24d2-69d7-4cc6-a089-60586fe2f500",
@@ -25,7 +27,8 @@
       "parents": "4705a210-9018-47df-a1bd-e7eb2bddbd68",
       "description": "",
       "image": "",
-      "year": "1978"
+      "year": "1978",
+      "acronym": "NAB"
     },
     {
       "_id": "a09706d0-f3d7-479f-9622-7a400f5f8751",
@@ -34,7 +37,8 @@
       "parents": "8a114fc1-2806-48c4-b751-4b087ca23be1",
       "description": "",
       "image": "",
-      "year": "2017"
+      "year": "2017",
+      "acronym": "CSB"
     },
     {
       "_id": "8a114fc1-2806-48c4-b751-4b087ca23be1",
@@ -43,7 +47,8 @@
       "parents": "4705a210-9018-47df-a1bd-e7eb2bddbd68",
       "description": "",
       "image": "",
-      "year": "2004"
+      "year": "2004",
+      "acronym": "HCSB"
     },
     {
       "_id": "048ff88b-1d02-45cd-a2c8-5788de6672e7",
@@ -52,7 +57,8 @@
       "parents": "31d057f4-3bb6-41ca-8f44-8bc77432ed6d",
       "description": "",
       "image": "",
-      "year": "1996"
+      "year": "1996",
+      "acronym": "NLT"
     },
     {
       "_id": "31d057f4-3bb6-41ca-8f44-8bc77432ed6d",
@@ -61,7 +67,8 @@
       "parents": "e2d6a466-850f-4f76-a388-97c7c8786d3e",
       "description": "",
       "image": "",
-      "year": "1971"
+      "year": "1971",
+      "acronym": "TLB"
     },
     {
       "_id": "1cb9b7ce-41b3-4f15-af8b-b15011bf4054",
@@ -70,7 +77,8 @@
       "parents": "e2d6a466-850f-4f76-a388-97c7c8786d3e",
       "description": "",
       "image": "",
-      "year": "1971"
+      "year": "1971",
+      "acronym": "NASB"
     },
     {
       "_id": "d7091086-012d-4110-8093-af880e3a037d",
@@ -79,7 +87,8 @@
       "parents": "2e534f4f-e6f1-47ff-a2a3-a8e63749210a",
       "description": "",
       "image": "",
-      "year": "2001"
+      "year": "2001",
+      "acronym": "ESV"
     },
     {
       "_id": "8824e11c-2407-413e-bf13-3a5ae377511b",
@@ -88,7 +97,8 @@
       "parents": "2e404672-afdd-4fba-b4ac-9dc26d12ce67",
       "description": "",
       "image": "",
-      "year": "2021"
+      "year": "2021",
+      "acronym": "NRSVUE"
     },
     {
       "_id": "0658057b-1f9e-4bd8-98d0-dc00f7a0291d",
@@ -97,7 +107,8 @@
       "parents": "06c3e4ec-b804-4158-82ed-32f4494164b2",
       "description": "",
       "image": "",
-      "year": "1985"
+      "year": "1985",
+      "acronym": "NJPST"
     },
     {
       "_id": "fde9d264-32f8-4b2c-8220-426cbdc2680f",
@@ -106,7 +117,8 @@
       "parents": "790488e0-67e9-4918-b2ab-d1301bd32f78",
       "description": "",
       "image": "",
-      "year": "1982"
+      "year": "1982",
+      "acronym": "NKJV"
     },
     {
       "_id": "06c3e4ec-b804-4158-82ed-32f4494164b2",
@@ -115,7 +127,8 @@
       "parents": "1f277743-7f9d-4595-b43c-75cdc29d2416",
       "description": "",
       "image": "",
-      "year": "1917"
+      "year": "1917",
+      "acronym": "JPST"
     },
     {
       "_id": "e2d6a466-850f-4f76-a388-97c7c8786d3e",
@@ -124,7 +137,8 @@
       "parents": "5d235c14-0f72-4829-ba87-8a972d66519e",
       "description": "",
       "image": "",
-      "year": "1901"
+      "year": "1901",
+      "acronym": "ASV"
     },
     {
       "_id": "5d235c14-0f72-4829-ba87-8a972d66519e",
@@ -133,7 +147,8 @@
       "parents": "4705a210-9018-47df-a1bd-e7eb2bddbd68,790488e0-67e9-4918-b2ab-d1301bd32f78",
       "description": "",
       "image": "",
-      "year": "1885"
+      "year": "1885",
+      "acronym": "ERV"
     },
     {
       "_id": "790488e0-67e9-4918-b2ab-d1301bd32f78",
@@ -142,7 +157,8 @@
       "parents": "798f009f-3fc7-4206-9fbf-cf3ad053648c,9216939c-6211-4838-b3f8-c581a82cc521",
       "description": "",
       "image": "",
-      "year": "1611"
+      "year": "1611",
+      "acronym": "KJV"
     },
     {
       "_id": "4705a210-9018-47df-a1bd-e7eb2bddbd68",
@@ -151,7 +167,8 @@
       "parents": "1f277743-7f9d-4595-b43c-75cdc29d2416,2ba05602-c7fe-4044-8a38-8461dc86cff1",
       "description": "",
       "image": "",
-      "year": "1500"
+      "year": "1500",
+      "acronym": "CT"
     },
     {
       "_id": "86949ef1-fa84-4c35-8bc1-3b2f684cfd13",
@@ -160,7 +177,8 @@
       "parents": "27edb113-5f24-4ca6-ad20-fa5cbe9c124a",
       "description": "",
       "image": "",
-      "year": "1582"
+      "year": "1582",
+      "acronym": "DRB"
     },
     {
       "_id": "798f009f-3fc7-4206-9fbf-cf3ad053648c",
@@ -169,7 +187,8 @@
       "parents": "91569ca2-781d-460e-b523-071150aa70d7",
       "description": "",
       "image": "",
-      "year": "1560"
+      "year": "1560",
+      "acronym": "GB"
     },
     {
       "_id": "9216939c-6211-4838-b3f8-c581a82cc521",
@@ -178,7 +197,8 @@
       "parents": "e5479cde-e2eb-4fd5-9eb4-98d06bcd27d6,91569ca2-781d-460e-b523-071150aa70d7",
       "description": "",
       "image": "",
-      "year": "1568"
+      "year": "1568",
+      "acronym": "BB"
     },
     {
       "_id": "e5479cde-e2eb-4fd5-9eb4-98d06bcd27d6",
@@ -187,7 +207,8 @@
       "parents": "08451ffe-6f6b-45f0-9f0a-4abac2a61da5",
       "description": "",
       "image": "",
-      "year": "1539"
+      "year": "1539",
+      "acronym": "TGB"
     },
     {
       "_id": "08451ffe-6f6b-45f0-9f0a-4abac2a61da5",
@@ -196,7 +217,8 @@
       "parents": "27edb113-5f24-4ca6-ad20-fa5cbe9c124a",
       "description": "",
       "image": "",
-      "year": "1526"
+      "year": "1526",
+      "acronym": "TB"
     },
     {
       "_id": "e09bc697-31ec-42a4-bb82-63357ed0d791",
@@ -205,7 +227,8 @@
       "parents": "27edb113-5f24-4ca6-ad20-fa5cbe9c124a",
       "description": "",
       "image": "",
-      "year": "1390"
+      "year": "1390",
+      "acronym": "WB"
     },
     {
       "_id": "91569ca2-781d-460e-b523-071150aa70d7",
@@ -214,7 +237,8 @@
       "parents": "1f277743-7f9d-4595-b43c-75cdc29d2416,2ba05602-c7fe-4044-8a38-8461dc86cff1",
       "description": "",
       "image": "",
-      "year": "1519"
+      "year": "1519",
+      "acronym": "TR"
     },
     {
       "_id": "27edb113-5f24-4ca6-ad20-fa5cbe9c124a",
@@ -223,7 +247,8 @@
       "parents": "1f277743-7f9d-4595-b43c-75cdc29d2416,2ba05602-c7fe-4044-8a38-8461dc86cff1",
       "description": "",
       "image": "",
-      "year": "400"
+      "year": "400",
+      "acronym": "V"
     },
     {
       "_id": "2e534f4f-e6f1-47ff-a2a3-a8e63749210a",
@@ -232,7 +257,8 @@
       "parents": "e2d6a466-850f-4f76-a388-97c7c8786d3e",
       "description": "",
       "image": "",
-      "year": "1952"
+      "year": "1952",
+      "acronym": "RSV"
     },
     {
       "_id": "2e404672-afdd-4fba-b4ac-9dc26d12ce67",
@@ -241,7 +267,8 @@
       "parents": "2e534f4f-e6f1-47ff-a2a3-a8e63749210a",
       "description": "",
       "image": "",
-      "year": "1989"
+      "year": "1989",
+      "acronym": "NRSV"
     },
     {
       "_id": "a70221c3-1fed-4e98-bc32-a5780cbdfa1b",
@@ -250,7 +277,8 @@
       "parents": "",
       "description": "",
       "image": "",
-      "year": "-1500"
+      "year": "-1500",
+      "acronym": "God"
     },
     {
       "_id": "008be837-1dad-420e-983f-0a4050dd1226",
@@ -259,7 +287,8 @@
       "parents": "a70221c3-1fed-4e98-bc32-a5780cbdfa1b",
       "description": "",
       "image": "",
-      "year": "-1400"
+      "year": "-1400",
+      "acronym": "Mos."
     },
     {
       "_id": "040f01b3-e840-4b1c-a83b-47646882e3e3",
@@ -268,7 +297,8 @@
       "parents": "a70221c3-1fed-4e98-bc32-a5780cbdfa1b",
       "description": "",
       "image": "",
-      "year": "-1350"
+      "year": "-1350",
+      "acronym": "Josh."
     },
     {
       "_id": "2ad2e18c-146e-4daf-98c2-1e8444646186",
@@ -277,7 +307,8 @@
       "parents": "a70221c3-1fed-4e98-bc32-a5780cbdfa1b",
       "description": "",
       "image": "",
-      "year": "-1000"
+      "year": "-1000",
+      "acronym": "Sam."
     },
     {
       "_id": "88f587b0-3050-4141-8f13-9ed0b99371df",
@@ -286,7 +317,8 @@
       "parents": "a70221c3-1fed-4e98-bc32-a5780cbdfa1b",
       "description": "",
       "image": "",
-      "year": "-600"
+      "year": "-600",
+      "acronym": "Jer."
     },
     {
       "_id": "ce07bed3-9128-4953-a110-3e5366490309",
@@ -295,7 +327,8 @@
       "parents": "a70221c3-1fed-4e98-bc32-a5780cbdfa1b",
       "description": "",
       "image": "",
-      "year": "-450"
+      "year": "-450",
+      "acronym": "Ezr."
     },
     {
       "_id": "7d3c37f0-9541-4fce-8e6f-ac5d9f0d06c6",
@@ -304,7 +337,8 @@
       "parents": "a70221c3-1fed-4e98-bc32-a5780cbdfa1b",
       "description": "",
       "image": "",
-      "year": "-400"
+      "year": "-400",
+      "acronym": "Mor."
     },
     {
       "_id": "c21faa48-94e6-48ad-8b13-01465a949943",
@@ -313,7 +347,8 @@
       "parents": "a70221c3-1fed-4e98-bc32-a5780cbdfa1b",
       "description": "",
       "image": "",
-      "year": "-1000"
+      "year": "-1000",
+      "acronym": "Dav."
     },
     {
       "_id": "92f23f80-866c-49ec-b70c-cd4aa1a6b923",
@@ -322,7 +357,8 @@
       "parents": "a70221c3-1fed-4e98-bc32-a5780cbdfa1b",
       "description": "",
       "image": "",
-      "year": "-900"
+      "year": "-900",
+      "acronym": "Sol."
     },
     {
       "_id": "3956f886-cf0b-48e8-ae2c-fba3a726eb23",
@@ -331,7 +367,8 @@
       "parents": "a70221c3-1fed-4e98-bc32-a5780cbdfa1b",
       "description": "",
       "image": "",
-      "year": "-700"
+      "year": "-700",
+      "acronym": "Isa."
     },
     {
       "_id": "cc2f07ad-6066-4581-8302-b4c07c800681",
@@ -340,7 +377,8 @@
       "parents": "a70221c3-1fed-4e98-bc32-a5780cbdfa1b",
       "description": "",
       "image": "",
-      "year": "-550"
+      "year": "-550",
+      "acronym": "Eze."
     },
     {
       "_id": "c2428cb0-df83-441b-9319-de1aec68e369",
@@ -349,7 +387,8 @@
       "parents": "a70221c3-1fed-4e98-bc32-a5780cbdfa1b",
       "description": "",
       "image": "",
-      "year": "-550"
+      "year": "-550",
+      "acronym": "Dan."
     },
     {
       "_id": "c8b0cd5f-8d77-48f7-8201-647fc67139d4",
@@ -358,7 +397,8 @@
       "parents": "a70221c3-1fed-4e98-bc32-a5780cbdfa1b",
       "description": "",
       "image": "",
-      "year": "-750"
+      "year": "-750",
+      "acronym": "Hos."
     },
     {
       "_id": "79af4ee5-65f9-4eb5-8b0c-e5cc5c6f44c7",
@@ -367,7 +407,8 @@
       "parents": "a70221c3-1fed-4e98-bc32-a5780cbdfa1b",
       "description": "",
       "image": "",
-      "year": "-850"
+      "year": "-850",
+      "acronym": "Joe."
     },
     {
       "_id": "a119d331-624f-4542-a7e1-7d0c7e62b866",
@@ -376,7 +417,8 @@
       "parents": "a70221c3-1fed-4e98-bc32-a5780cbdfa1b",
       "description": "",
       "image": "",
-      "year": "-750"
+      "year": "-750",
+      "acronym": "Amo."
     },
     {
       "_id": "1322c979-c9f6-43f8-bacc-6f4f5a753656",
@@ -385,7 +427,8 @@
       "parents": "a70221c3-1fed-4e98-bc32-a5780cbdfa1b",
       "description": "",
       "image": "",
-      "year": "-600"
+      "year": "-600",
+      "acronym": "Oba."
     },
     {
       "_id": "8df4d52b-6bb2-4606-8213-2f1749cf740f",
@@ -394,7 +437,8 @@
       "parents": "a70221c3-1fed-4e98-bc32-a5780cbdfa1b",
       "description": "",
       "image": "",
-      "year": "-700"
+      "year": "-700",
+      "acronym": "Jon."
     },
     {
       "_id": "a42ee497-4d0f-4d9a-b7f9-6ccfe46831d6",
@@ -403,7 +447,8 @@
       "parents": "a70221c3-1fed-4e98-bc32-a5780cbdfa1b",
       "description": "",
       "image": "",
-      "year": "-700"
+      "year": "-700",
+      "acronym": "Mic."
     },
     {
       "_id": "d3351abc-6d39-4276-8bdd-6550262f589f",
@@ -412,7 +457,8 @@
       "parents": "a70221c3-1fed-4e98-bc32-a5780cbdfa1b",
       "description": "",
       "image": "",
-      "year": "-650"
+      "year": "-650",
+      "acronym": "Nah."
     },
     {
       "_id": "86dfa149-3628-4422-b4df-66826ea7452a",
@@ -421,7 +467,8 @@
       "parents": "a70221c3-1fed-4e98-bc32-a5780cbdfa1b",
       "description": "",
       "image": "",
-      "year": "-600"
+      "year": "-600",
+      "acronym": "Hab."
     },
     {
       "_id": "21523589-ce1b-44f7-ae75-cd3578b64a86",
@@ -430,7 +477,8 @@
       "parents": "a70221c3-1fed-4e98-bc32-a5780cbdfa1b",
       "description": "",
       "image": "",
-      "year": "-650"
+      "year": "-650",
+      "acronym": "Zep."
     },
     {
       "_id": "76de0a21-869b-48ff-a308-3565cf250982",
@@ -439,7 +487,8 @@
       "parents": "a70221c3-1fed-4e98-bc32-a5780cbdfa1b",
       "description": "",
       "image": "",
-      "year": "-520"
+      "year": "-520",
+      "acronym": "Hag."
     },
     {
       "_id": "503c3d6c-cdb4-424e-9ce6-8ed98637e572",
@@ -448,7 +497,8 @@
       "parents": "a70221c3-1fed-4e98-bc32-a5780cbdfa1b",
       "description": "",
       "image": "",
-      "year": "-500"
+      "year": "-500",
+      "acronym": "Zec."
     },
     {
       "_id": "8c4d451d-ab8e-498d-a485-a5211eaa13b9",
@@ -457,7 +507,8 @@
       "parents": "a70221c3-1fed-4e98-bc32-a5780cbdfa1b",
       "description": "",
       "image": "",
-      "year": "-430"
+      "year": "-430",
+      "acronym": "Mal."
     },
     {
       "_id": "636e3562-afc0-4ea0-9337-e11d72216fc1",
@@ -466,7 +517,8 @@
       "parents": "a70221c3-1fed-4e98-bc32-a5780cbdfa1b",
       "description": "",
       "image": "",
-      "year": "0"
+      "year": "0",
+      "acronym": "Mat."
     },
     {
       "_id": "c4d4aec9-e68b-48db-bbe7-4639d25c685b",
@@ -475,7 +527,8 @@
       "parents": "a70221c3-1fed-4e98-bc32-a5780cbdfa1b",
       "description": "",
       "image": "",
-      "year": "0"
+      "year": "0",
+      "acronym": "Mar."
     },
     {
       "_id": "a88f04ea-6c5b-46d4-8536-c49dfcb982da",
@@ -484,7 +537,8 @@
       "parents": "a70221c3-1fed-4e98-bc32-a5780cbdfa1b",
       "description": "",
       "image": "",
-      "year": "0"
+      "year": "0",
+      "acronym": "Luk."
     },
     {
       "_id": "813ba216-4472-4693-8b4b-ba8bc234f8ef",
@@ -493,7 +547,8 @@
       "parents": "a70221c3-1fed-4e98-bc32-a5780cbdfa1b",
       "description": "",
       "image": "",
-      "year": "0"
+      "year": "0",
+      "acronym": "Joh."
     },
     {
       "_id": "2b03ec54-72af-49e4-b642-6ce1195f1a87",
@@ -502,7 +557,8 @@
       "parents": "a70221c3-1fed-4e98-bc32-a5780cbdfa1b",
       "description": "",
       "image": "",
-      "year": "0"
+      "year": "0",
+      "acronym": "Pau."
     },
     {
       "_id": "950883fe-9732-4d93-b92b-e7e0940acfad",
@@ -511,7 +567,8 @@
       "parents": "a70221c3-1fed-4e98-bc32-a5780cbdfa1b",
       "description": "",
       "image": "",
-      "year": "0"
+      "year": "0",
+      "acronym": "Jam."
     },
     {
       "_id": "d94e3899-3b36-4c7a-ae19-224ba64aead5",
@@ -520,7 +577,8 @@
       "parents": "a70221c3-1fed-4e98-bc32-a5780cbdfa1b",
       "description": "",
       "image": "",
-      "year": "0"
+      "year": "0",
+      "acronym": "Pet."
     },
     {
       "_id": "a69a96e5-b2d0-4ab8-9c67-09727f297cfb",
@@ -529,7 +587,8 @@
       "parents": "a70221c3-1fed-4e98-bc32-a5780cbdfa1b",
       "description": "",
       "image": "",
-      "year": "0"
+      "year": "0",
+      "acronym": "Jud."
     },
     {
       "_id": "8db453d7-dd1c-4ee6-b593-bacbac0b62db",
@@ -538,7 +597,8 @@
       "parents": "008be837-1dad-420e-983f-0a4050dd1226",
       "description": "",
       "image": "",
-      "year": "-1400"
+      "year": "-1400",
+      "acronym": "Gen."
     },
     {
       "_id": "f5d6783d-10b1-4c40-a4e3-57bcd9e7cffd",
@@ -547,7 +607,8 @@
       "parents": "008be837-1dad-420e-983f-0a4050dd1226",
       "description": "",
       "image": "",
-      "year": "-1400"
+      "year": "-1400",
+      "acronym": "Exo."
     },
     {
       "_id": "e88bb25b-4c60-4028-bb2c-d04385ba7b5a",
@@ -556,7 +617,8 @@
       "parents": "008be837-1dad-420e-983f-0a4050dd1226",
       "description": "",
       "image": "",
-      "year": "-1400"
+      "year": "-1400",
+      "acronym": "Lev."
     },
     {
       "_id": "8f396541-76b0-49fe-8f72-7b29d98b5b4c",
@@ -565,7 +627,8 @@
       "parents": "008be837-1dad-420e-983f-0a4050dd1226",
       "description": "",
       "image": "",
-      "year": "-1400"
+      "year": "-1400",
+      "acronym": "Num."
     },
     {
       "_id": "b7e357db-942b-46b0-ba3c-ee7e7ddaf0f3",
@@ -574,7 +637,8 @@
       "parents": "008be837-1dad-420e-983f-0a4050dd1226",
       "description": "",
       "image": "",
-      "year": "-1400"
+      "year": "-1400",
+      "acronym": "Deu."
     },
     {
       "_id": "bf41315b-b4e3-4563-bdc7-a149566cfa6a",
@@ -583,7 +647,8 @@
       "parents": "040f01b3-e840-4b1c-a83b-47646882e3e3",
       "description": "",
       "image": "",
-      "year": "-1350"
+      "year": "-1350",
+      "acronym": "Jos."
     },
     {
       "_id": "056145ba-86aa-4ab8-88b1-79474d03719f",
@@ -592,7 +657,8 @@
       "parents": "2ad2e18c-146e-4daf-98c2-1e8444646186",
       "description": "",
       "image": "",
-      "year": "-1000"
+      "year": "-1000",
+      "acronym": "Jud."
     },
     {
       "_id": "d06cc818-703c-414b-9b92-ec841e9096bc",
@@ -601,7 +667,8 @@
       "parents": "2ad2e18c-146e-4daf-98c2-1e8444646186",
       "description": "",
       "image": "",
-      "year": "-1000"
+      "year": "-1000",
+      "acronym": "Rut."
     },
     {
       "_id": "032def7f-c6c0-492b-884f-d5f2b647b212",
@@ -610,7 +677,8 @@
       "parents": "2ad2e18c-146e-4daf-98c2-1e8444646186",
       "description": "",
       "image": "",
-      "year": "-1000"
+      "year": "-1000",
+      "acronym": "Sam."
     },
     {
       "_id": "5255bdd1-a7e5-47ab-9047-7e486e1b85f9",
@@ -619,7 +687,8 @@
       "parents": "88f587b0-3050-4141-8f13-9ed0b99371df",
       "description": "",
       "image": "",
-      "year": "-600"
+      "year": "-600",
+      "acronym": "Kin."
     },
     {
       "_id": "fcf765a7-cc8a-41d0-aeab-f4704d5c1c17",
@@ -628,7 +697,8 @@
       "parents": "ce07bed3-9128-4953-a110-3e5366490309",
       "description": "",
       "image": "",
-      "year": "-450"
+      "year": "-450",
+      "acronym": "Chr."
     },
     {
       "_id": "a76750f1-1ebd-4a61-b44c-8e9446504116",
@@ -637,7 +707,8 @@
       "parents": "ce07bed3-9128-4953-a110-3e5366490309",
       "description": "",
       "image": "",
-      "year": "-450"
+      "year": "-450",
+      "acronym": "Ezr."
     },
     {
       "_id": "637f65a5-b42f-4bc0-9eed-7853018fe33c",
@@ -646,7 +717,8 @@
       "parents": "ce07bed3-9128-4953-a110-3e5366490309",
       "description": "",
       "image": "",
-      "year": "-450"
+      "year": "-450",
+      "acronym": "Neh."
     },
     {
       "_id": "adb8811e-130d-4b74-977c-827093d1a416",
@@ -655,7 +727,8 @@
       "parents": "7d3c37f0-9541-4fce-8e6f-ac5d9f0d06c6",
       "description": "",
       "image": "",
-      "year": "-400"
+      "year": "-400",
+      "acronym": "Est."
     },
     {
       "_id": "9394e5c6-fd08-4ac5-b8c9-dc7d4b1c0172",
@@ -664,7 +737,8 @@
       "parents": "008be837-1dad-420e-983f-0a4050dd1226",
       "description": "",
       "image": "",
-      "year": "-1400"
+      "year": "-1400",
+      "acronym": "Job"
     },
     {
       "_id": "32e0d4e4-b3a7-478d-81cb-a3fb3c8e781e",
@@ -673,7 +747,8 @@
       "parents": "c21faa48-94e6-48ad-8b13-01465a949943",
       "description": "",
       "image": "",
-      "year": "-1000"
+      "year": "-1000",
+      "acronym": "Psa."
     },
     {
       "_id": "04d5211c-6e66-484a-aeb3-d3dfd245025d",
@@ -682,7 +757,8 @@
       "parents": "92f23f80-866c-49ec-b70c-cd4aa1a6b923",
       "description": "",
       "image": "",
-      "year": "-900"
+      "year": "-900",
+      "acronym": "Pro."
     },
     {
       "_id": "93459ba0-f385-40b0-aea1-1ec0cd23b50c",
@@ -691,7 +767,8 @@
       "parents": "92f23f80-866c-49ec-b70c-cd4aa1a6b923",
       "description": "",
       "image": "",
-      "year": "-900"
+      "year": "-900",
+      "acronym": "Ecc."
     },
     {
       "_id": "6d526a8f-5f05-4920-821a-2e9addc913bb",
@@ -700,7 +777,8 @@
       "parents": "92f23f80-866c-49ec-b70c-cd4aa1a6b923",
       "description": "",
       "image": "",
-      "year": "-900"
+      "year": "-900",
+      "acronym": "SoS"
     },
     {
       "_id": "74f3d2f7-68bc-40fc-877b-629763d42481",
@@ -709,7 +787,8 @@
       "parents": "3956f886-cf0b-48e8-ae2c-fba3a726eb23",
       "description": "",
       "image": "",
-      "year": "-700"
+      "year": "-700",
+      "acronym": "Isa."
     },
     {
       "_id": "9f02d7e4-c042-4760-bf1a-a42628441b3d",
@@ -718,7 +797,8 @@
       "parents": "88f587b0-3050-4141-8f13-9ed0b99371df",
       "description": "",
       "image": "",
-      "year": "-600"
+      "year": "-600",
+      "acronym": "Jer."
     },
     {
       "_id": "2380fda7-e57f-4212-8f47-5447f05613be",
@@ -727,7 +807,8 @@
       "parents": "88f587b0-3050-4141-8f13-9ed0b99371df",
       "description": "",
       "image": "",
-      "year": "-600"
+      "year": "-600",
+      "acronym": "Lam."
     },
     {
       "_id": "deed108f-97c5-4b35-8663-f096d646fcbf",
@@ -736,7 +817,8 @@
       "parents": "cc2f07ad-6066-4581-8302-b4c07c800681",
       "description": "",
       "image": "",
-      "year": "-550"
+      "year": "-550",
+      "acronym": "Eze."
     },
     {
       "_id": "20b5bac0-fec1-4bfd-82a3-9ce56fd88bfe",
@@ -745,7 +827,8 @@
       "parents": "c2428cb0-df83-441b-9319-de1aec68e369",
       "description": "",
       "image": "",
-      "year": "-550"
+      "year": "-550",
+      "acronym": "Dan."
     },
     {
       "_id": "d98de767-ff9b-4908-bb74-7a50668c8c51",
@@ -754,7 +837,8 @@
       "parents": "c8b0cd5f-8d77-48f7-8201-647fc67139d4",
       "description": "",
       "image": "",
-      "year": "-750"
+      "year": "-750",
+      "acronym": "Hos."
     },
     {
       "_id": "2da63bbe-1924-4c8f-8c6e-5a1129dd549a",
@@ -763,7 +847,8 @@
       "parents": "79af4ee5-65f9-4eb5-8b0c-e5cc5c6f44c7",
       "description": "",
       "image": "",
-      "year": "-850"
+      "year": "-850",
+      "acronym": "Joe."
     },
     {
       "_id": "e861619f-509c-48d8-a52c-1e367bf778e3",
@@ -772,7 +857,8 @@
       "parents": "a119d331-624f-4542-a7e1-7d0c7e62b866",
       "description": "",
       "image": "",
-      "year": "-750"
+      "year": "-750",
+      "acronym": "Amo."
     },
     {
       "_id": "0aca8b64-5a1b-4206-b2e7-91a166900b96",
@@ -781,7 +867,8 @@
       "parents": "1322c979-c9f6-43f8-bacc-6f4f5a753656",
       "description": "",
       "image": "",
-      "year": "-600"
+      "year": "-600",
+      "acronym": "Oba."
     },
     {
       "_id": "1f94c8b6-1939-484e-8421-5de84607b2d9",
@@ -790,7 +877,8 @@
       "parents": "8df4d52b-6bb2-4606-8213-2f1749cf740f",
       "description": "",
       "image": "",
-      "year": "-700"
+      "year": "-700",
+      "acronym": "Jon."
     },
     {
       "_id": "26106c55-f90c-4033-bc6a-a88af4fe87b1",
@@ -799,7 +887,8 @@
       "parents": "a42ee497-4d0f-4d9a-b7f9-6ccfe46831d6",
       "description": "",
       "image": "",
-      "year": "-700"
+      "year": "-700",
+      "acronym": "Mic."
     },
     {
       "_id": "ffe9e308-629f-4de6-8dc2-a4073f3296d8",
@@ -808,7 +897,8 @@
       "parents": "d3351abc-6d39-4276-8bdd-6550262f589f",
       "description": "",
       "image": "",
-      "year": "-650"
+      "year": "-650",
+      "acronym": "Nah."
     },
     {
       "_id": "6e1b51b7-e7fd-4f57-9510-448a6b6ff8fc",
@@ -817,7 +907,8 @@
       "parents": "86dfa149-3628-4422-b4df-66826ea7452a",
       "description": "",
       "image": "",
-      "year": "-600"
+      "year": "-600",
+      "acronym": "Hab."
     },
     {
       "_id": "9d299147-f759-42fb-bed5-8acd98f7c494",
@@ -826,7 +917,8 @@
       "parents": "21523589-ce1b-44f7-ae75-cd3578b64a86",
       "description": "",
       "image": "",
-      "year": "-650"
+      "year": "-650",
+      "acronym": "Zep."
     },
     {
       "_id": "700357bd-12b3-4793-ad58-172df103d010",
@@ -835,7 +927,8 @@
       "parents": "76de0a21-869b-48ff-a308-3565cf250982",
       "description": "",
       "image": "",
-      "year": "-520"
+      "year": "-520",
+      "acronym": "Hag."
     },
     {
       "_id": "c54db6a2-9a35-42ea-bce6-9a2ef5031d2d",
@@ -844,7 +937,8 @@
       "parents": "503c3d6c-cdb4-424e-9ce6-8ed98637e572",
       "description": "",
       "image": "",
-      "year": "-500"
+      "year": "-500",
+      "acronym": "Zec."
     },
     {
       "_id": "bc74171f-afd0-4f02-8bc8-f7ceaddb0205",
@@ -853,7 +947,8 @@
       "parents": "8c4d451d-ab8e-498d-a485-a5211eaa13b9",
       "description": "",
       "image": "",
-      "year": "-430"
+      "year": "-430",
+      "acronym": "Mal."
     },
     {
       "_id": "3502e611-74a2-4a1c-85dc-1af81c5240d8",
@@ -862,7 +957,8 @@
       "parents": "636e3562-afc0-4ea0-9337-e11d72216fc1",
       "description": "",
       "image": "",
-      "year": "55"
+      "year": "55",
+      "acronym": "Mat."
     },
     {
       "_id": "4f5108a1-46aa-4d58-a22c-15fe2cb56465",
@@ -871,7 +967,8 @@
       "parents": "c4d4aec9-e68b-48db-bbe7-4639d25c685b",
       "description": "",
       "image": "",
-      "year": "50"
+      "year": "50",
+      "acronym": "Mar."
     },
     {
       "_id": "e53ed7e1-b99e-43dc-aeb6-603660ff7a24",
@@ -880,7 +977,8 @@
       "parents": "a88f04ea-6c5b-46d4-8536-c49dfcb982da",
       "description": "",
       "image": "",
-      "year": "60"
+      "year": "60",
+      "acronym": "Luk."
     },
     {
       "_id": "3838c5f3-2145-4c65-a559-7aaa598ffc5a",
@@ -889,7 +987,8 @@
       "parents": "813ba216-4472-4693-8b4b-ba8bc234f8ef",
       "description": "",
       "image": "",
-      "year": "90"
+      "year": "90",
+      "acronym": "Joh."
     },
     {
       "_id": "e2e03804-2c49-4bf9-a4a1-2faa0a24fd7c",
@@ -898,7 +997,8 @@
       "parents": "28bcbe7f-f871-4a9d-b627-9b574d149e4e",
       "description": "",
       "image": "",
-      "year": "65"
+      "year": "65",
+      "acronym": "Act."
     },
     {
       "_id": "46fbac2e-2851-4c7d-98b0-21e58fc41056",
@@ -907,7 +1007,8 @@
       "parents": "2b03ec54-72af-49e4-b642-6ce1195f1a87",
       "description": "",
       "image": "",
-      "year": "50"
+      "year": "50",
+      "acronym": "Rom."
     },
     {
       "_id": "daacc574-fa3f-4415-a407-a7bf4bc3da54",
@@ -916,7 +1017,8 @@
       "parents": "2b03ec54-72af-49e4-b642-6ce1195f1a87",
       "description": "",
       "image": "",
-      "year": "50"
+      "year": "50",
+      "acronym": "Cor."
     },
     {
       "_id": "f41df222-e872-4cdb-bee7-273daa6a5c20",
@@ -925,7 +1027,8 @@
       "parents": "2b03ec54-72af-49e4-b642-6ce1195f1a87",
       "description": "",
       "image": "",
-      "year": "50"
+      "year": "50",
+      "acronym": "Gal."
     },
     {
       "_id": "00903998-5235-4889-a103-0d18843e348b",
@@ -934,7 +1037,8 @@
       "parents": "2b03ec54-72af-49e4-b642-6ce1195f1a87",
       "description": "",
       "image": "",
-      "year": "50"
+      "year": "50",
+      "acronym": "Eph."
     },
     {
       "_id": "1be17504-9d8b-4beb-af74-e947b10336d4",
@@ -943,7 +1047,8 @@
       "parents": "2b03ec54-72af-49e4-b642-6ce1195f1a87",
       "description": "",
       "image": "",
-      "year": "50"
+      "year": "50",
+      "acronym": "Phi."
     },
     {
       "_id": "2faa6b43-94e9-40e7-8239-81c5d63d95fa",
@@ -952,7 +1057,8 @@
       "parents": "2b03ec54-72af-49e4-b642-6ce1195f1a87",
       "description": "",
       "image": "",
-      "year": "50"
+      "year": "50",
+      "acronym": "Col."
     },
     {
       "_id": "8c0d76b0-be43-4149-a162-f45a0496a6cd",
@@ -961,7 +1067,8 @@
       "parents": "2b03ec54-72af-49e4-b642-6ce1195f1a87",
       "description": "",
       "image": "",
-      "year": "50"
+      "year": "50",
+      "acronym": "The."
     },
     {
       "_id": "2d002cf5-e618-48b5-8132-30aa06c758bf",
@@ -970,7 +1077,8 @@
       "parents": "2b03ec54-72af-49e4-b642-6ce1195f1a87",
       "description": "",
       "image": "",
-      "year": "50"
+      "year": "50",
+      "acronym": "Tim."
     },
     {
       "_id": "8fca24d0-8eb0-45b6-8b4b-61162547b87e",
@@ -979,7 +1087,8 @@
       "parents": "2b03ec54-72af-49e4-b642-6ce1195f1a87",
       "description": "",
       "image": "",
-      "year": "50"
+      "year": "50",
+      "acronym": "Tit."
     },
     {
       "_id": "0682f27f-0e21-473e-8d63-a967f8313e2f",
@@ -988,7 +1097,8 @@
       "parents": "2b03ec54-72af-49e4-b642-6ce1195f1a87",
       "description": "",
       "image": "",
-      "year": "50"
+      "year": "50",
+      "acronym": "Phi."
     },
     {
       "_id": "1753dfc2-0deb-4417-9e0d-f30a8be110af",
@@ -997,7 +1107,8 @@
       "parents": "2b03ec54-72af-49e4-b642-6ce1195f1a87",
       "description": "",
       "image": "",
-      "year": "65"
+      "year": "65",
+      "acronym": "Heb."
     },
     {
       "_id": "ead314e5-f8c4-4fe6-8811-dec5cd873aa7",
@@ -1006,7 +1117,8 @@
       "parents": "950883fe-9732-4d93-b92b-e7e0940acfad",
       "description": "",
       "image": "",
-      "year": "45"
+      "year": "45",
+      "acronym": "Jam."
     },
     {
       "_id": "467cc92f-6808-48ed-baa3-77585a849ce5",
@@ -1015,7 +1127,8 @@
       "parents": "d94e3899-3b36-4c7a-ae19-224ba64aead5",
       "description": "",
       "image": "",
-      "year": "60"
+      "year": "60",
+      "acronym": "Pet."
     },
     {
       "_id": "094178f3-817c-42d2-b03f-3872f157ca52",
@@ -1024,7 +1137,8 @@
       "parents": "813ba216-4472-4693-8b4b-ba8bc234f8ef",
       "description": "",
       "image": "",
-      "year": "90"
+      "year": "90",
+      "acronym": "Joh."
     },
     {
       "_id": "74acc95e-301e-473c-9481-69c7a9126e95",
@@ -1033,7 +1147,8 @@
       "parents": "a69a96e5-b2d0-4ab8-9c67-09727f297cfb",
       "description": "",
       "image": "",
-      "year": "60"
+      "year": "60",
+      "acronym": "Jud."
     },
     {
       "_id": "d65f56f9-9a21-4f38-b794-d1cddb68dd6f",
@@ -1042,7 +1157,8 @@
       "parents": "813ba216-4472-4693-8b4b-ba8bc234f8ef",
       "description": "",
       "image": "",
-      "year": "90"
+      "year": "90",
+      "acronym": "Rev."
     },
     {
       "_id": "1f277743-7f9d-4595-b43c-75cdc29d2416",
@@ -1051,7 +1167,8 @@
       "parents": "8db453d7-dd1c-4ee6-b593-bacbac0b62db,f5d6783d-10b1-4c40-a4e3-57bcd9e7cffd,e88bb25b-4c60-4028-bb2c-d04385ba7b5a,8f396541-76b0-49fe-8f72-7b29d98b5b4c,b7e357db-942b-46b0-ba3c-ee7e7ddaf0f3,bf41315b-b4e3-4563-bdc7-a149566cfa6a,056145ba-86aa-4ab8-88b1-79474d03719f,d06cc818-703c-414b-9b92-ec841e9096bc,032def7f-c6c0-492b-884f-d5f2b647b212,5255bdd1-a7e5-47ab-9047-7e486e1b85f9,fcf765a7-cc8a-41d0-aeab-f4704d5c1c17,a76750f1-1ebd-4a61-b44c-8e9446504116,637f65a5-b42f-4bc0-9eed-7853018fe33c,adb8811e-130d-4b74-977c-827093d1a416,9394e5c6-fd08-4ac5-b8c9-dc7d4b1c0172,32e0d4e4-b3a7-478d-81cb-a3fb3c8e781e,04d5211c-6e66-484a-aeb3-d3dfd245025d,93459ba0-f385-40b0-aea1-1ec0cd23b50c,6d526a8f-5f05-4920-821a-2e9addc913bb,74f3d2f7-68bc-40fc-877b-629763d42481,9f02d7e4-c042-4760-bf1a-a42628441b3d,2380fda7-e57f-4212-8f47-5447f05613be,deed108f-97c5-4b35-8663-f096d646fcbf,20b5bac0-fec1-4bfd-82a3-9ce56fd88bfe,d98de767-ff9b-4908-bb74-7a50668c8c51,2da63bbe-1924-4c8f-8c6e-5a1129dd549a,e861619f-509c-48d8-a52c-1e367bf778e3,0aca8b64-5a1b-4206-b2e7-91a166900b96,1f94c8b6-1939-484e-8421-5de84607b2d9,26106c55-f90c-4033-bc6a-a88af4fe87b1,ffe9e308-629f-4de6-8dc2-a4073f3296d8,6e1b51b7-e7fd-4f57-9510-448a6b6ff8fc,9d299147-f759-42fb-bed5-8acd98f7c494,700357bd-12b3-4793-ad58-172df103d010,c54db6a2-9a35-42ea-bce6-9a2ef5031d2d,bc74171f-afd0-4f02-8bc8-f7ceaddb0205",
       "description": "",
       "image": "",
-      "year": "-450"
+      "year": "-450",
+      "acronym": "TOT"
     },
     {
       "_id": "2ba05602-c7fe-4044-8a38-8461dc86cff1",
@@ -1060,7 +1177,8 @@
       "parents": "3502e611-74a2-4a1c-85dc-1af81c5240d8,4f5108a1-46aa-4d58-a22c-15fe2cb56465,e53ed7e1-b99e-43dc-aeb6-603660ff7a24,3838c5f3-2145-4c65-a559-7aaa598ffc5a,e2e03804-2c49-4bf9-a4a1-2faa0a24fd7c,46fbac2e-2851-4c7d-98b0-21e58fc41056,daacc574-fa3f-4415-a407-a7bf4bc3da54,f41df222-e872-4cdb-bee7-273daa6a5c20,00903998-5235-4889-a103-0d18843e348b,1be17504-9d8b-4beb-af74-e947b10336d4,2faa6b43-94e9-40e7-8239-81c5d63d95fa,8c0d76b0-be43-4149-a162-f45a0496a6cd,2d002cf5-e618-48b5-8132-30aa06c758bf,8fca24d0-8eb0-45b6-8b4b-61162547b87e,0682f27f-0e21-473e-8d63-a967f8313e2f,1753dfc2-0deb-4417-9e0d-f30a8be110af,ead314e5-f8c4-4fe6-8811-dec5cd873aa7,467cc92f-6808-48ed-baa3-77585a849ce5,094178f3-817c-42d2-b03f-3872f157ca52,74acc95e-301e-473c-9481-69c7a9126e95,d65f56f9-9a21-4f38-b794-d1cddb68dd6f",
       "description": "",
       "image": "",
-      "year": "90"
+      "year": "90",
+      "acronym": "TNT"
     }
   ],
   "links": [

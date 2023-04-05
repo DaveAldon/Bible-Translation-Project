@@ -6,7 +6,7 @@ import { useForceGraph } from './useForceGraph'
 import { ForceGraph2DProps } from './ForceGraphTypes'
 
 export const ForceGraph2D = (props: ForceGraph2DProps) => {
-  const { data, ref } = useForceGraph(props)
+  const { data, ref, nodeCanvasObject } = useForceGraph(props)
 
   return (
     <SizeMe monitorHeight refreshRate={128}>
@@ -16,16 +16,22 @@ export const ForceGraph2D = (props: ForceGraph2DProps) => {
           linkDirectionalParticles={2}
           graphData={data}
           linkColor={() => '#FFFFFF'}
-          nodeRelSize={5}
+          nodeRelSize={10}
           backgroundColor="#232323"
           width={size.width || 0}
           height={window.innerHeight - 64}
-          autoPauseRedraw={false}
+          autoPauseRedraw={true}
           nodeLabel={(node) =>
-            `${data && data.nodes.find((n) => n.id === node.id)?.title}`
+            `${
+              data &&
+              data.nodes.find(
+                (n: { id: string | number | undefined }) => n.id === node.id
+              )?.title
+            }`
           }
-          /* dagMode="bu"
-          dagLevelDistance={10} */
+          /* dagMode="radialout"
+          dagLevelDistance={0} */
+          nodeCanvasObject={nodeCanvasObject}
         />
       )}
     </SizeMe>

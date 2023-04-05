@@ -13,6 +13,9 @@ interface ControlProps {
 }
 
 export const Controls = (props: ControlProps) => {
+  const firstElement = props.marks[0]
+  const lastElement = props.marks[props.marks.length - 1]
+
   return props.marks.length > 0 ? (
     <div
       className="flex w-full bg-gray-800 p-10"
@@ -26,12 +29,12 @@ export const Controls = (props: ControlProps) => {
         aria-label="Restricted values"
         getAriaValueText={getValueText}
         valueLabelFormat={getValueText}
-        defaultValue={props.marks[0].value}
+        defaultValue={lastElement.value}
         valueLabelDisplay="on"
         step={null}
         marks={props.marks}
-        min={props.marks[0].value}
-        max={props.marks[props.marks.length - 1].value}
+        min={firstElement.value}
+        max={lastElement.value}
         onChange={(_e, value) => {
           props.onChange(value as number)
         }}

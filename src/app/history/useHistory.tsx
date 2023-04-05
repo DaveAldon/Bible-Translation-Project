@@ -5,7 +5,7 @@ import { Mark } from '../components/ForceGraph/ForceGraphTypes'
 export const useHistory = () => {
   const translationData = getTranslationData()
   const [sliderValue, setSliderValue] = React.useState(
-    Math.min(...translationData.nodes.map((node) => parseInt(node.year)))
+    Math.max(...translationData.nodes.map((node) => parseInt(node.year)))
   )
   const [marks, setMarks] = React.useState<Mark[]>([])
 
