@@ -1,9 +1,17 @@
 import { Slider } from '@mui/material'
 
+const getValueText = (value: number) => {
+  if (value < 0) {
+    return `${Math.abs(value)} BC`
+  }
+  return `${value} AD`
+}
+
 interface ControlProps {
   onChange: (value: number) => void
   marks: { value: number; label: string }[]
 }
+
 export const Controls = (props: ControlProps) => {
   return props.marks.length > 0 ? (
     <div
@@ -16,12 +24,12 @@ export const Controls = (props: ControlProps) => {
     >
       <Slider
         aria-label="Restricted values"
-        getAriaValueText={(value) => `${value}s`}
+        getAriaValueText={getValueText}
+        valueLabelFormat={getValueText}
         defaultValue={props.marks[0].value}
         valueLabelDisplay="on"
-        //marks={props.marks}
-        valueLabelFormat={(value) => `${value}s`}
-        step={10}
+        step={null}
+        marks={props.marks}
         min={props.marks[0].value}
         max={props.marks[props.marks.length - 1].value}
         onChange={(_e, value) => {

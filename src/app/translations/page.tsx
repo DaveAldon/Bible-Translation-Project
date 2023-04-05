@@ -1,8 +1,8 @@
 'use client'
 
 import React from 'react'
-import { getTranslationData } from '../util/getTranslationData'
 import { Bible } from '../../../types/tree'
+import { useTranslations } from './useTranslations'
 
 const TranslationComponent = ({ translation }: { translation: Bible }) => {
   return (
@@ -25,19 +25,7 @@ const TranslationComponent = ({ translation }: { translation: Bible }) => {
 }
 
 const Translations = () => {
-  const [versionSearch, setVersionSearch] = React.useState('')
-  const [translationData, _setTranslationData] = React.useState<Bible[]>(
-    getTranslationData().nodes
-  )
-  const [translations, setTranslations] = React.useState<Bible[]>([])
-
-  React.useEffect(() => {
-    // filter translations by the versionSearch
-    const filteredTranslations = translationData.filter((translation) =>
-      translation.title.toLowerCase().includes(versionSearch.toLowerCase())
-    )
-    setTranslations([...filteredTranslations])
-  }, [versionSearch])
+  const { translations, setVersionSearch } = useTranslations()
 
   return (
     <div>
