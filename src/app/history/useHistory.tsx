@@ -26,5 +26,7 @@ export const useHistory = () => {
     setSliderValue(value)
   }
 
-  return { sliderValue, marks, onSliderChange }
+  const [filterName, setFilterName] = React.useState<string[]>([])
+
+  return { sliderValue, marks, onSliderChange, filterName, setFilterName }
 }

@@ -31,6 +31,8 @@ export const getTreeData = async (): Promise<Bible[]> => {
         image: row[4],
         year: row[5],
         acronym: row[6],
+        category: row[7],
+        filter: row[8],
       }))
     }
   } catch (err) {

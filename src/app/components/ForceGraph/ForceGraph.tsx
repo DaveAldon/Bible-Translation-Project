@@ -4,6 +4,7 @@ import FG2D from 'react-force-graph-2d'
 import { SizeMe } from 'react-sizeme'
 import { useForceGraph } from './useForceGraph'
 import { ForceGraph2DProps } from './ForceGraphTypes'
+import { hext } from '@davealdon/hext'
 
 export const ForceGraph2D = (props: ForceGraph2DProps) => {
   const { data, ref, nodeCanvasObject } = useForceGraph(props)
@@ -15,12 +16,13 @@ export const ForceGraph2D = (props: ForceGraph2DProps) => {
           ref={ref}
           linkDirectionalParticles={2}
           graphData={data}
-          linkColor={() => '#FFFFFF'}
+          linkColor={() => hext('#FFFFFF', 20)}
           nodeRelSize={10}
           backgroundColor="#232323"
           width={size.width || 0}
           height={window.innerHeight - 64}
           autoPauseRedraw={true}
+          linkCurvature={0.05}
           nodeLabel={(node) =>
             `${
               data &&
@@ -29,8 +31,8 @@ export const ForceGraph2D = (props: ForceGraph2DProps) => {
               )?.title
             }`
           }
-          /* dagMode="radialout"
-          dagLevelDistance={0} */
+          dagMode="bu"
+          dagLevelDistance={0}
           nodeCanvasObject={nodeCanvasObject}
         />
       )}

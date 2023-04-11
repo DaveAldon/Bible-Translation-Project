@@ -6,6 +6,8 @@ export interface Bible {
   image: string
   year: string
   acronym: string
+  category: string
+  filter: string
 }
 
 export interface Node extends Bible {}

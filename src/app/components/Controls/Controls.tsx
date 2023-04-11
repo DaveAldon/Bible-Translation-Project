@@ -1,4 +1,5 @@
 import { Slider } from '@mui/material'
+import { MultiSelect } from './MultiSelect'
 
 const getValueText = (value: number) => {
   if (value < 0) {
@@ -10,6 +11,8 @@ const getValueText = (value: number) => {
 interface ControlProps {
   onChange: (value: number) => void
   marks: { value: number; label: string }[]
+  filterName: string[]
+  setFilterName: (value: string[]) => void
 }
 
 export const Controls = (props: ControlProps) => {
@@ -39,6 +42,7 @@ export const Controls = (props: ControlProps) => {
           props.onChange(value as number)
         }}
       />
+      <MultiSelect {...props} />
     </div>
   ) : null
 }
