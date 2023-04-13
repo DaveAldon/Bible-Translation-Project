@@ -1,6 +1,6 @@
 import React from 'react'
 import { getTranslationData } from '../util/getTranslationData'
-import { Mark } from '../components/ForceGraph/ForceGraphTypes'
+import { Mark } from '../components/GraphTree/GraphTreeTypes'
 
 export const useHistory = () => {
   const translationData = getTranslationData()

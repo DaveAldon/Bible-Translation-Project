@@ -1,18 +1,8 @@
 'use client'
-import dynamic from 'next/dynamic'
 import { Controls } from '../components/Controls/Controls'
 import React from 'react'
 import { useHistory } from './useHistory'
-
-const ForceGraph2D = dynamic(
-  () =>
-    import('../components/ForceGraph/ForceGraph').then(
-      (mod) => mod.ForceGraph2D
-    ),
-  {
-    ssr: false,
-  }
-)
+import { GraphTree } from '../components/GraphTree/GraphTree'
 
 const History = () => {
   const { sliderValue, marks, onSliderChange, filterName, setFilterName } =
@@ -28,7 +18,7 @@ const History = () => {
           setFilterName={setFilterName}
         />
       </div>
-      <ForceGraph2D sliderValue={sliderValue} filterCategories={filterName} />
+      <GraphTree />
     </div>
   )
 }
