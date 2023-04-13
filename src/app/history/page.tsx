@@ -18,7 +18,7 @@ const History = () => {
           setFilterName={setFilterName}
         />
       </div>
-      <GraphTree />
+      <GraphTree sliderValue={sliderValue} />
     </div>
   )
 }

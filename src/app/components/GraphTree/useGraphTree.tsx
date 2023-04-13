@@ -1,5 +1,5 @@
 import React, { useCallback } from 'react'
-import ReactFlow, {
+import {
   addEdge,
   ConnectionLineType,
   useNodesState,
@@ -7,71 +7,43 @@ import ReactFlow, {
   Connection,
   Edge,
 } from 'reactflow'
-import dagre from 'dagre'
 import 'reactflow/dist/style.css'
-
-import { initialNodes, initialEdges } from './nodeEdges'
-
 import './index.css'
+import { getTranslationData } from '@/app/util/getTranslationData'
+import { getLayoutedElements } from './getLayoutedElements'
+import { BibleNode } from '../../../../types/tree'
 
-const dagreGraph = new dagre.graphlib.Graph()
-dagreGraph.setDefaultEdgeLabel(() => ({}))
+const { nodes: initialNodes, edges: initialEdges } = getTranslationData()
 
-const nodeWidth = 172
-const nodeHeight = 36
-
-const getLayoutedElements = (
-  nodes: any[],
-  edges: Edge<any>[],
-  direction = 'TB'
-) => {
-  const isHorizontal = direction === 'LR'
-  dagreGraph.setGraph({ rankdir: direction })
-
-  nodes.forEach((node: { id: any }) => {
-    dagreGraph.setNode(node.id, { width: nodeWidth, height: nodeHeight })
-  })
-
-  edges.forEach((edge: Edge<any>) => {
-    dagreGraph.setEdge(edge.source, edge.target)
-  })
-
-  dagre.layout(dagreGraph)
-
-  nodes.forEach(
-    (node: {
-      id: any
-      targetPosition: string
-      sourcePosition: string
-      position: { x: number; y: number }
-    }) => {
-      const nodeWithPosition = dagreGraph.node(node.id)
-      node.targetPosition = isHorizontal ? 'left' : 'top'
-      node.sourcePosition = isHorizontal ? 'right' : 'bottom'
-
-      // We are shifting the dagre node position (anchor=center center) to the top left
-      // so it matches the React Flow node anchor point (top left).
-      node.position = {
-        x: nodeWithPosition.x - nodeWidth / 2,
-        y: nodeWithPosition.y - nodeHeight / 2,
-      }
-
-      return node
-    }
-  )
-
-  return { nodes, edges }
+interface UseGraphTreeProps {
+  sliderValue: number
 }
-
-const { nodes: layoutedNodes, edges: layoutedEdges } = getLayoutedElements(
-  initialNodes,
-  initialEdges
-)
-
-export const useGraphTree = () => {
-  const [nodes, setNodes, onNodesChange] = useNodesState(layoutedNodes)
-  const [edges, setEdges, onEdgesChange] = useEdgesState(layoutedEdges)
+export const useGraphTree = (props: UseGraphTreeProps) => {
+  const [nodes, setNodes, onNodesChange] = useNodesState([])
+  const [edges, setEdges, onEdgesChange] = useEdgesState([])
   const options = { hideAttribution: true }
+
+  React.useEffect(() => {
+    const filteredNodes = initialNodes.filter(
+      (node) => parseInt(node.data.year) <= props.sliderValue
+    )
+    const filteredEdges = initialEdges.filter((edge) => {
+      const nodeRef = filteredNodes.find(
+        (node: BibleNode) => node.id === edge.source
+      )
+      if (nodeRef) {
+        return parseInt(nodeRef.data.year) <= props.sliderValue
+      }
+    })
+
+    const { nodes: layoutedNodes, edges: layoutedEdges } = getLayoutedElements(
+      filteredNodes,
+      filteredEdges
+    )
+
+    setNodes([...layoutedNodes])
+    setEdges([...layoutedEdges])
+  }, [props.sliderValue])
 
   const onConnect = useCallback(
     (params: Edge | Connection) =>
@@ -83,6 +55,7 @@ export const useGraphTree = () => {
       ),
     []
   )
+
   const onLayout = useCallback(
     (direction: string | undefined) => {
       const { nodes: layoutedNodes, edges: layoutedEdges } =

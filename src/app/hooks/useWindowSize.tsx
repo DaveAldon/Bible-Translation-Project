@@ -1,5 +1,6 @@
 'use client'
-import { useLayoutEffect, useState } from 'react'
+import { useState } from 'react'
+import useLayoutEffect from './useIsomorphicLayoutEffect'
 
 export const useWindowSize = () => {
   const [size, setSize] = useState([0, 0])

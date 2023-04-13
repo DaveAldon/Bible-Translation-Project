@@ -42,7 +42,7 @@ export const Controls = (props: ControlProps) => {
           props.onChange(value as number)
         }}
       />
-      <MultiSelect {...props} />
+      {/* <MultiSelect {...props} /> */}
     </div>
   ) : null
 }

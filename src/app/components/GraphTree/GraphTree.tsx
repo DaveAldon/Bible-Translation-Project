@@ -3,9 +3,12 @@ import { useWindowSize } from '@/app/hooks/useWindowSize'
 import ReactFlow from 'reactflow'
 import { useGraphTree } from './useGraphTree'
 
-export const GraphTree = () => {
+interface GraphTreeProps {
+  sliderValue: number
+}
+export const GraphTree = (props: GraphTreeProps) => {
   const [width, height] = useWindowSize()
-  const { nodes, edges, options } = useGraphTree()
+  const { nodes, edges, options } = useGraphTree(props)
 
   if (nodes === null || height === 0 || width === 0) {
     return <></>
@@ -17,7 +20,13 @@ export const GraphTree = () => {
         width,
       }}
     >
-      <ReactFlow nodes={nodes} edges={edges} fitView proOptions={options} />
+      <ReactFlow
+        nodes={nodes}
+        edges={edges}
+        fitView
+        proOptions={options}
+        nodesDraggable={false}
+      />
     </div>
   )
 }

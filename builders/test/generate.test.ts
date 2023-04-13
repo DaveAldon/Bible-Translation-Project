@@ -1,7 +1,6 @@
 import fs from 'fs'
 import { generateTree } from '../generateTree'
 import { writeToFile } from '../writeToFile'
-import { TestTree } from '@/app/components/ForceGraph/Tree'
 
 describe('generate and writeToFile', () => {
   it('results in generated json file', async () => {
@@ -12,8 +11,5 @@ describe('generate and writeToFile', () => {
 
     const exists = fs.existsSync('./public/data/bibleTree.json')
     expect(exists).toBe(true)
-  })
-  it('test tree', async () => {
-    const result = TestTree()
   })
 })

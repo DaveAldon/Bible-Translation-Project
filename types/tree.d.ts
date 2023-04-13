@@ -1,3 +1,5 @@
+import { Edge } from 'reactflow'
+
 export interface Bible {
   id: string
   title: string
@@ -10,14 +12,16 @@ export interface Bible {
   filter: string
 }
 
-export interface Node extends Bible {}
-
-export interface Link {
-  source: string
-  target: string
+export interface Tree {
+  nodes: BibleNode[]
+  edges: Edge[]
 }
 
-export interface Tree {
-  nodes: Node[]
-  links: Link[]
+export interface BibleNode {
+  id: string
+  data: Bible
+  position: {
+    x: number
+    y: number
+  }
 }

@@ -1,18 +1,23 @@
 import React from 'react'
 import { getTranslationData } from '../util/getTranslationData'
 import { Mark } from '../components/GraphTree/GraphTreeTypes'
+import { BibleNode } from '../../../types/tree'
 
 export const useHistory = () => {
   const translationData = getTranslationData()
   const [sliderValue, setSliderValue] = React.useState(
-    Math.max(...translationData.nodes.map((node) => parseInt(node.year)))
+    Math.max(
+      ...translationData.nodes.map((node: BibleNode) =>
+        parseInt(node.data.year)
+      )
+    )
   )
   const [marks, setMarks] = React.useState<Mark[]>([])
 
   React.useEffect(() => {
     const tempMarks: Mark[] = []
-    getTranslationData().nodes.forEach((node) => {
-      const nodeYear = parseInt(node.year)
+    getTranslationData().nodes.forEach((node: BibleNode) => {
+      const nodeYear = parseInt(node.data.year)
       if (tempMarks.find((mark) => mark.value === nodeYear)) return
       tempMarks.push({
         value: nodeYear,

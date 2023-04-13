@@ -1,23 +1,23 @@
 'use client'
 
 import React from 'react'
-import { Bible } from '../../../types/tree'
+import { BibleNode } from '../../../types/tree'
 import { useTranslations } from './useTranslations'
 
-const TranslationComponent = ({ translation }: { translation: Bible }) => {
+const TranslationComponent = ({ translation }: { translation: BibleNode }) => {
   return (
     <div className="p-2 w-full">
       <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
         <img
           alt="team"
           className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
-          src={translation.image}
+          src={translation.data.image}
         />
         <div className="flex-grow">
           <h2 className="text-white title-font font-medium">
-            {translation.title}
+            {translation.data.title}
           </h2>
-          <p className="text-gray-500">{translation.description}</p>
+          <p className="text-gray-500">{translation.data.description}</p>
         </div>
       </div>
     </div>

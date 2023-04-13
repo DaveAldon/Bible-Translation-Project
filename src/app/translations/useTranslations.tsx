@@ -1,17 +1,17 @@
 import React from 'react'
 import { getTranslationData } from '../util/getTranslationData'
-import { Bible } from '../../../types/tree'
+import { BibleNode } from '../../../types/tree'
 
 export const useTranslations = () => {
   const [versionSearch, setVersionSearch] = React.useState('')
-  const [translationData, _setTranslationData] = React.useState<Bible[]>(
+  const [translationData, _setTranslationData] = React.useState<BibleNode[]>(
     getTranslationData().nodes
   )
-  const [translations, setTranslations] = React.useState<Bible[]>([])
+  const [translations, setTranslations] = React.useState<BibleNode[]>([])
 
   React.useEffect(() => {
     const filteredTranslations = translationData.filter((translation) =>
-      translation.title.toLowerCase().includes(versionSearch.toLowerCase())
+      translation.data.title.toLowerCase().includes(versionSearch.toLowerCase())
     )
     setTranslations([...filteredTranslations])
   }, [versionSearch])
