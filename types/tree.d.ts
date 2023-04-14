@@ -24,4 +24,7 @@ export interface BibleNode {
     x: number
     y: number
   }
+  style?: {
+    [key: string]: string
+  }
 }

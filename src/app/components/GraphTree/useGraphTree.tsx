@@ -12,6 +12,8 @@ import './index.css'
 import { getTranslationData } from '@/app/util/getTranslationData'
 import { getLayoutedElements } from './getLayoutedElements'
 import { BibleNode } from '../../../../types/tree'
+import { getNodesOnPath, getReverseNodesOnPath } from '@/app/util/nodePaths'
+import { getEdgeStyles, getNodeStyles } from './getStyles'
 
 const { nodes: initialNodes, edges: initialEdges } = getTranslationData()
 
@@ -19,8 +21,9 @@ interface UseGraphTreeProps {
   sliderValue: number
 }
 export const useGraphTree = (props: UseGraphTreeProps) => {
-  const [nodes, setNodes, onNodesChange] = useNodesState([])
-  const [edges, setEdges, onEdgesChange] = useEdgesState([])
+  const [selectedNode, setSelectedNode] = React.useState<BibleNode | null>(null)
+  const [nodes, setNodes, onNodesChange] = useNodesState<BibleNode[]>([])
+  const [edges, setEdges, onEdgesChange] = useEdgesState<Edge[]>([])
   const options = { hideAttribution: true }
 
   React.useEffect(() => {
@@ -41,9 +44,31 @@ export const useGraphTree = (props: UseGraphTreeProps) => {
       filteredEdges
     )
 
-    setNodes([...layoutedNodes])
-    setEdges([...layoutedEdges])
-  }, [props.sliderValue])
+    const nodesOnPath = selectedNode
+      ? getNodesOnPath({
+          node: selectedNode,
+          nodes: [...layoutedNodes],
+        })
+      : layoutedNodes
+
+    const reverseNodesOnPath = selectedNode
+      ? getReverseNodesOnPath({
+          nodes: layoutedNodes,
+          nodesOnPath: [...nodesOnPath],
+        })
+      : layoutedNodes
+
+    const styledNodes = getNodeStyles(
+      [...filteredNodes],
+      reverseNodesOnPath,
+      selectedNode || undefined
+    )
+
+    const styledEdges = getEdgeStyles([...layoutedEdges], [...nodesOnPath])
+
+    setNodes([...(styledNodes as any)])
+    setEdges([...styledEdges])
+  }, [props.sliderValue, selectedNode])
 
   const onConnect = useCallback(
     (params: Edge | Connection) =>
@@ -67,5 +92,12 @@ export const useGraphTree = (props: UseGraphTreeProps) => {
     [nodes, edges]
   )
 
-  return { nodes, edges, onConnect, onLayout, options }
+  return {
+    nodes,
+    edges,
+    onConnect,
+    onLayout,
+    options,
+    setSelectedNode,
+  }
 }

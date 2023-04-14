@@ -1,5 +1,5 @@
 import { Slider } from '@mui/material'
-import { MultiSelect } from './MultiSelect'
+import { hext } from '@davealdon/hext'
 
 const getValueText = (value: number) => {
   if (value < 0) {
@@ -25,7 +25,7 @@ export const Controls = (props: ControlProps) => {
       style={{
         backdropFilter: 'blur(10px)',
         WebkitBackdropFilter: 'blur(10px)',
-        backgroundColor: 'rgba(0, 0, 0, 0.1)',
+        backgroundColor: hext('#808080', 30),
       }}
     >
       <Slider
