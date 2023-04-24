@@ -12,6 +12,7 @@ export const getNodeStyles = (
     const background =
       Category_Colors[node.data.category as keyof typeof Category_Colors]
     let color = ''
+    let type = 'activeGraphNode'
     if (nodes.length === exclusionNodes.length) {
       color = hext(background, 100)
     } else {
@@ -21,15 +22,18 @@ export const getNodeStyles = (
         exclusionNodes.find((excludedNode) => excludedNode.id === node.id)
       ) {
         color = hext(background, 10)
+        type = 'inactiveGraphNode'
       } else {
         color = hext(background, 100)
       }
     }
     return {
       ...node,
+      type,
       style: {
         ...node.style,
         background: color,
+        borderRadius: 10,
       },
     }
   })

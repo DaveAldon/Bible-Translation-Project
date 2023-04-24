@@ -1,8 +1,8 @@
 import { Edge } from 'reactflow'
 import dagre from 'dagre'
 
-const nodeWidth = 172
-const nodeHeight = 36
+const nodeWidth = 250
+const nodeHeight = 120
 
 export const getLayoutedElements = (
   nodes: any[],
