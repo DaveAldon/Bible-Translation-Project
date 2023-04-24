@@ -20,7 +20,7 @@ export const getNodeStyles = (
       } else if (
         exclusionNodes.find((excludedNode) => excludedNode.id === node.id)
       ) {
-        color = hext(background, 30)
+        color = hext(background, 10)
       } else {
         color = hext(background, 100)
       }
@@ -36,14 +36,29 @@ export const getNodeStyles = (
 }
 
 export const getEdgeStyles = (edges: Edge[], includedNodes: BibleNode[]) => {
-  console.log('includedNodes', includedNodes)
   return edges.map((edge) => {
-    const color = '#77dd77'
+    const activeColor = '#77dd77'
+    const deactiveColor = hext(activeColor, 30)
+
+    let color
+
+    if (
+      includedNodes.length === 2 &&
+      includedNodes[0].id === includedNodes[1].id
+    ) {
+      color = activeColor
+    } else {
+      const foundSource = includedNodes.find((node) => node.id === edge.source)
+      const foundTarget = includedNodes.find((node) => node.id === edge.target)
+      color = foundSource && foundTarget ? activeColor : deactiveColor
+    }
+
     return {
       ...edge,
       style: {
         ...edge.style,
         stroke: color,
+        strokeWidth: 5,
       },
     }
   })

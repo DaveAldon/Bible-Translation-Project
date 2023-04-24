@@ -64,7 +64,10 @@ export const useGraphTree = (props: UseGraphTreeProps) => {
       selectedNode || undefined
     )
 
-    const styledEdges = getEdgeStyles([...layoutedEdges], [...nodesOnPath])
+    const styledEdges = getEdgeStyles(
+      [...layoutedEdges],
+      [...nodesOnPath, ...(selectedNode ? [selectedNode] : [])]
+    )
 
     setNodes([...(styledNodes as any)])
     setEdges([...styledEdges])
