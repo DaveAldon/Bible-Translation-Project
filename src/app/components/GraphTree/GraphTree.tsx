@@ -1,10 +1,10 @@
 'use client'
+import React from 'react'
 import { useWindowSize } from '@/app/hooks/useWindowSize'
 import ReactFlow, {
   Controls,
   MiniMap,
   ReactFlowProvider,
-  Viewport,
   useReactFlow,
 } from 'reactflow'
 import { useGraphTree } from './useGraphTree'
@@ -12,13 +12,16 @@ import { BibleNode } from '../../../../types/tree'
 import { hext } from '@davealdon/hext'
 import { ActiveGraphNode, InactiveGraphNode } from './GraphNode/GraphNode'
 import './node.style.css'
-import React from 'react'
 
 const nodeTypes = {
   activeGraphNode: ActiveGraphNode,
   inactiveGraphNode: InactiveGraphNode,
 }
 
+interface GraphTreeProps {
+  sliderValue: number
+  filterName: string
+}
 const Flow = (props: GraphTreeProps) => {
   const reactFlowInstance = useReactFlow()
   const [width, height] = useWindowSize()
@@ -52,13 +55,31 @@ const Flow = (props: GraphTreeProps) => {
         }}
       />
       <Controls />
+      <svg>
+        <defs>
+          <linearGradient id="edge-gradient">
+            <stop offset="0%" stopColor="#ae53ba" />
+            <stop offset="100%" stopColor="#2a8af6" />
+          </linearGradient>
+
+          <marker
+            id="edge-circle"
+            viewBox="-5 -5 10 10"
+            refX="0"
+            refY="0"
+            markerUnits="strokeWidth"
+            markerWidth="10"
+            markerHeight="10"
+            orient="auto"
+          >
+            <circle stroke="#2a8af6" strokeOpacity="0.75" r="2" cx="0" cy="0" />
+          </marker>
+        </defs>
+      </svg>
     </ReactFlow>
   )
 }
 
-interface GraphTreeProps {
-  sliderValue: number
-}
 export const GraphTree = (props: GraphTreeProps) => {
   const [width, height] = useWindowSize()
 

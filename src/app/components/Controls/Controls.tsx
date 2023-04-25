@@ -1,4 +1,4 @@
-import { Slider } from '@mui/material'
+import { Slider, TextField } from '@mui/material'
 import { hext } from '@davealdon/hext'
 
 const getValueText = (value: number) => {
@@ -11,8 +11,8 @@ const getValueText = (value: number) => {
 interface ControlProps {
   onChange: (value: number) => void
   marks: { value: number; label: string }[]
-  filterName: string[]
-  setFilterName: (value: string[]) => void
+  filterName: string
+  setFilterName: (value: string) => void
 }
 
 export const Controls = (props: ControlProps) => {
@@ -21,7 +21,7 @@ export const Controls = (props: ControlProps) => {
 
   return props.marks.length > 0 ? (
     <div
-      className="flex w-full bg-gray-800 p-10"
+      className="flex flex-col w-full bg-gray-800 px-10 py-2"
       style={{
         backdropFilter: 'blur(10px)',
         WebkitBackdropFilter: 'blur(10px)',
@@ -40,6 +40,18 @@ export const Controls = (props: ControlProps) => {
         max={lastElement.value}
         onChange={(_e, value) => {
           props.onChange(value as number)
+        }}
+      />
+      <TextField
+        id="outlined-basic"
+        label="Outlined"
+        variant="outlined"
+        style={{
+          width: 200,
+        }}
+        value={props.filterName}
+        onChange={(e) => {
+          props.setFilterName(e.target.value)
         }}
       />
       {/* <MultiSelect {...props} /> */}

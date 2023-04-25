@@ -13,6 +13,7 @@ export const useHistory = () => {
     )
   )
   const [marks, setMarks] = React.useState<Mark[]>([])
+  const [filterName, setFilterName] = React.useState<string>('')
 
   React.useEffect(() => {
     const tempMarks: Mark[] = []
@@ -30,8 +31,6 @@ export const useHistory = () => {
   const onSliderChange = (value: number) => {
     setSliderValue(value)
   }
-
-  const [filterName, setFilterName] = React.useState<string[]>([])
 
   return { sliderValue, marks, onSliderChange, filterName, setFilterName }
 }

@@ -19,6 +19,7 @@ const { nodes: initialNodes, edges: initialEdges } = getTranslationData()
 
 interface UseGraphTreeProps {
   sliderValue: number
+  filterName: string
 }
 export const useGraphTree = (props: UseGraphTreeProps) => {
   const [selectedNode, setSelectedNode] = React.useState<BibleNode | null>(null)
@@ -64,14 +65,35 @@ export const useGraphTree = (props: UseGraphTreeProps) => {
       selectedNode || undefined
     )
 
+    const filterStyles = styledNodes.map((node) => {
+      if (
+        props.filterName !== '' &&
+        node.data.title.toLowerCase().includes(props.filterName.toLowerCase())
+      ) {
+        return {
+          ...node,
+          style: {
+            ...node.style,
+            borderColor: 'white',
+            borderRadius: 10,
+            padding: 2,
+            border: `10px solid white`,
+            boxShadow: `0 0 50px white`,
+          },
+        }
+      } else {
+        return { ...node }
+      }
+    })
+
     const styledEdges = getEdgeStyles(
       [...layoutedEdges],
       [...nodesOnPath, ...(selectedNode ? [selectedNode] : [])]
     )
 
-    setNodes([...(styledNodes as any)])
+    setNodes([...(filterStyles as any)])
     setEdges([...styledEdges])
-  }, [props.sliderValue, selectedNode])
+  }, [props.sliderValue, selectedNode, props.filterName])
 
   const onConnect = useCallback(
     (params: Edge | Connection) =>
