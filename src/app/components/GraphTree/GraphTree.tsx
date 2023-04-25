@@ -19,8 +19,6 @@ const nodeTypes = {
   inactiveGraphNode: InactiveGraphNode,
 }
 
-const defaultViewport: Viewport = { x: 100, y: 150, zoom: 0.1 }
-
 const Flow = (props: GraphTreeProps) => {
   const reactFlowInstance = useReactFlow()
   const [width, height] = useWindowSize()
@@ -42,14 +40,15 @@ const Flow = (props: GraphTreeProps) => {
       nodesDraggable={false}
       nodeTypes={nodeTypes}
       minZoom={0.2}
-      defaultViewport={defaultViewport}
       onNodeClick={(event, node) => {
         setSelectedNode(node as BibleNode)
       }}
     >
       <MiniMap
         style={{
-          background: hext('#FFFFFF', 0),
+          backdropFilter: 'blur(10px)',
+          WebkitBackdropFilter: 'blur(10px)',
+          backgroundColor: hext('#808080', 30),
         }}
       />
       <Controls />
