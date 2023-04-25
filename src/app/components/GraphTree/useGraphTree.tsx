@@ -68,16 +68,25 @@ export const useGraphTree = (props: UseGraphTreeProps) => {
     const filterStyles = styledNodes.map((node) => {
       if (
         props.filterName !== '' &&
-        node.data.title.toLowerCase().includes(props.filterName.toLowerCase())
+        (node.data.title
+          .toLowerCase()
+          .includes(props.filterName.toLowerCase()) ||
+          node.data.acronym
+            .toLowerCase()
+            .includes(props.filterName.toLowerCase()))
       ) {
         return {
           ...node,
+          data: {
+            ...node.data,
+            //filterStyle: true,
+          },
           style: {
             ...node.style,
             borderColor: 'white',
             borderRadius: 10,
-            padding: 2,
-            border: `10px solid white`,
+            padding: 5,
+            border: `5px solid white`,
             boxShadow: `0 0 50px white`,
           },
         }

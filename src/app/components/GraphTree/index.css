@@ -9,3 +9,8 @@
 .layoutflow .controls button:first-child {
     margin-right: 10px;
 }
+
+.MuiSlider-mark {
+    height: 5px;
+    width: 5px;
+}

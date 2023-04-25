@@ -10,6 +10,7 @@ export interface Bible {
   acronym: string
   category: string
   filter: string
+  filterStyle: boolean
 }
 
 export interface Tree {

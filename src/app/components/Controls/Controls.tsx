@@ -1,4 +1,4 @@
-import { Slider, TextField } from '@mui/material'
+import { Slider, TextField, Typography } from '@mui/material'
 import { hext } from '@davealdon/hext'
 
 const getValueText = (value: number) => {
@@ -21,39 +21,50 @@ export const Controls = (props: ControlProps) => {
 
   return props.marks.length > 0 ? (
     <div
-      className="flex flex-col w-full bg-gray-800 px-10 py-2"
+      className="flex flex-row gap-10 w-full bg-gray-800 px-10 py-2 justify-center items-center"
       style={{
         backdropFilter: 'blur(10px)',
         WebkitBackdropFilter: 'blur(10px)',
         backgroundColor: hext('#808080', 30),
       }}
     >
-      <Slider
-        aria-label="Restricted values"
-        getAriaValueText={getValueText}
-        valueLabelFormat={getValueText}
-        defaultValue={lastElement.value}
-        valueLabelDisplay="on"
-        step={null}
-        marks={props.marks}
-        min={firstElement.value}
-        max={lastElement.value}
-        onChange={(_e, value) => {
-          props.onChange(value as number)
-        }}
-      />
       <TextField
         id="outlined-basic"
-        label="Outlined"
+        label="Search Translations"
+        InputLabelProps={{
+          style: { color: 'white' },
+        }}
         variant="outlined"
         style={{
           width: 200,
         }}
+        inputProps={{ style: { color: 'white' } }}
+        sx={{ color: 'white', borderColor: 'white' }}
         value={props.filterName}
         onChange={(e) => {
           props.setFilterName(e.target.value)
         }}
       />
+      <div className="w-full">
+        <Typography id="input-slider" gutterBottom>
+          Drag the slider to show translations throughout history
+        </Typography>
+
+        <Slider
+          aria-label="Restricted values"
+          getAriaValueText={getValueText}
+          valueLabelFormat={getValueText}
+          defaultValue={lastElement.value}
+          valueLabelDisplay="on"
+          step={null}
+          marks={props.marks}
+          min={firstElement.value}
+          max={lastElement.value}
+          onChange={(_e, value) => {
+            props.onChange(value as number)
+          }}
+        />
+      </div>
       {/* <MultiSelect {...props} /> */}
     </div>
   ) : null

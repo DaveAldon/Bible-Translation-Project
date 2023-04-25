@@ -14,7 +14,9 @@ export const ActiveGraphNode = memo(({ data }: NodeProps<Bible>) => {
 
   return (
     <div
-      className="px-2 py-2 shadow-md rounded-lg border-2 bg-black"
+      className={`px-2 py-2 shadow-md rounded-lg border-2 bg-black ${
+        data.filterStyle ? 'pulse' : ''
+      }`}
       style={{
         borderColor: outline,
         border: `2px solid ${outline}`,
