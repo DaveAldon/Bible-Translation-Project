@@ -71,9 +71,16 @@ export const BibleModal = ({
                   <h1 className="mb-8 text-3xl text-center">
                     {data.data.title}
                   </h1>
-
+                  <img src={data.data.image} />
+                  <a
+                    target="_blank"
+                    href={data.data.link}
+                    className="text-center text-sm text-grey-dark mt-4"
+                  >
+                    Read it Online
+                  </a>
                   <div className="text-center text-sm text-grey-dark mt-4">
-                    {data.data.acronym} - {data.data.year}
+                    {data.data.description}
                   </div>
                 </Dialog.Panel>
               </Transition.Child>

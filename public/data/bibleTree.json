@@ -3,16 +3,19 @@
     {
       "id": "95db0c3a-172e-4e94-b0b3-ef5c0ff609a8",
       "data": {
-        "_id": "95db0c3a-172e-4e94-b0b3-ef5c0ff609a8",
         "id": "95db0c3a-172e-4e94-b0b3-ef5c0ff609a8",
         "title": "New International Version",
         "parents": "4705a210-9018-47df-a1bd-e7eb2bddbd68",
-        "description": "",
-        "image": "",
+        "description": "The NIV is a contemporary English based translation, created from the critical editions of the original Hebrew, Aramaic, and Greek tests.Howard Long believed that the King James Version was frustrating and used too much archaic language. So he petitioned the Christian Reformed Church, along with his pastor Peter DeJong, to investigate the issue in 1957. In 1967, a team of 15 scholars from Evangelical Christan denomications took on research which would lead to the creation of the NIV's New Testament in 1973, and then the full Bible in 1978.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Bible_-_New_International_Version_2011_-_Blue.jpg/220px-Bible_-_New_International_Version_2011_-_Blue.jpg",
         "year": "1978",
         "acronym": "NIV",
         "category": "Critical Text",
         "filter": "Translation",
+        "link": "https://www.biblegateway.com/versions/New-International-Version-NIV-Bible",
+        "authors": "Howard Long",
+        "source": "https://en.wikipedia.org/wiki/New_International_Version",
+        "copies": "450,000,000",
         "label": "New International Version"
       },
       "position": {
@@ -23,16 +26,18 @@
     {
       "id": "ca58f32f-5a82-4fb7-90b2-3e27f0c82b76",
       "data": {
-        "_id": "ca58f32f-5a82-4fb7-90b2-3e27f0c82b76",
         "id": "ca58f32f-5a82-4fb7-90b2-3e27f0c82b76",
         "title": "NAB Revised Edition",
         "parents": "e2ff24d2-69d7-4cc6-a089-60586fe2f500",
-        "description": "",
-        "image": "",
+        "description": "The NABRE is an English, Catholic translation of the Bible. It is a major update to the New American Bible (NAB), whic hwas originally published in 1970. The NABRE is approved for private use and study by Catholics, however it is not approved for Catholic liturgical use.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d9/BIG_NABRE.jpg",
         "year": "2011",
         "acronym": "NABRE",
         "category": "Critical Text",
         "filter": "Translation",
+        "link": "https://www.biblegateway.com/versions/New-American-Bible-Revised-Edition-NABRE-Bible/",
+        "authors": "Catholic Biblical Association",
+        "source": "https://en.wikipedia.org/wiki/New_American_Bible_Revised_Edition",
         "label": "NAB Revised Edition"
       },
       "position": {
@@ -43,16 +48,16 @@
     {
       "id": "e2ff24d2-69d7-4cc6-a089-60586fe2f500",
       "data": {
-        "_id": "e2ff24d2-69d7-4cc6-a089-60586fe2f500",
         "id": "e2ff24d2-69d7-4cc6-a089-60586fe2f500",
         "title": "New American Bible",
         "parents": "4705a210-9018-47df-a1bd-e7eb2bddbd68",
-        "description": "",
-        "image": "",
+        "description": "The NAB is an English tralnsation of the Bible published in 1970. While it has been revised over time, the first edition is approved by the Episcopal Church in the United States. It was translated from Hebrew, Greek, and Aramaic, instead of the Vulgate, which previous Catholic translations had been. It incorporated the newly discovered Dead Sea Scrolls, and the Masada manuscript.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NAB_cover.png/200px-NAB_cover.png",
         "year": "1978",
         "acronym": "NAB",
         "category": "Critical Text",
         "filter": "Translation",
+        "link": "https://www.vatican.va/archive/ENG0839/_INDEX.HTM",
         "label": "New American Bible"
       },
       "position": {
@@ -63,16 +68,16 @@
     {
       "id": "a09706d0-f3d7-479f-9622-7a400f5f8751",
       "data": {
-        "_id": "a09706d0-f3d7-479f-9622-7a400f5f8751",
         "id": "a09706d0-f3d7-479f-9622-7a400f5f8751",
         "title": "Christian Standard Bible",
         "parents": "8a114fc1-2806-48c4-b751-4b087ca23be1",
-        "description": "",
-        "image": "",
+        "description": "The Christian Standard Bible is a contemporary English translation of the Bible. The text was derived from the Holman Christian Standard Bible, and is based on the Bibnlia Hebraica Stuttgartensia for the Old Testament, and the Testamentum Graece and United Bible Societies for the New Testament.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/CSB_Pew_Bible_%28Hardcover%2C_Black%29%2C_Mar_2017.png/200px-CSB_Pew_Bible_%28Hardcover%2C_Black%29%2C_Mar_2017.png",
         "year": "2017",
         "acronym": "CSB",
         "category": "Critical Text",
         "filter": "Translation",
+        "link": "https://www.biblegateway.com/versions/Christian-Standard-Bible-CSB/",
         "label": "Christian Standard Bible"
       },
       "position": {
@@ -83,16 +88,16 @@
     {
       "id": "8a114fc1-2806-48c4-b751-4b087ca23be1",
       "data": {
-        "_id": "8a114fc1-2806-48c4-b751-4b087ca23be1",
         "id": "8a114fc1-2806-48c4-b751-4b087ca23be1",
         "title": "Holman Christian Standard Bible",
         "parents": "4705a210-9018-47df-a1bd-e7eb2bddbd68",
-        "description": "",
-        "image": "",
+        "description": "The Holman Christian Standard Bible is a modern English translation of the Bible. It was originally going to be based on the same sources for the King James Version, but Arthur Farstad, who was in charge of the project, died and it was passed to Edwin Blum. The source of the text was then changed to Koine Greek based manuscripts, including the Novum Testamentum Graece, Biblia Hebraica Stuttgartensia, and Septuagint.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/The_Holman_Christian_Standard_Bible.jpg/220px-The_Holman_Christian_Standard_Bible.jpg",
         "year": "2004",
         "acronym": "HCSB",
         "category": "Critical Text",
         "filter": "Translation",
+        "link": "https://www.biblegateway.com/versions/Holman-Christian-Standard-Bible-HCSB/",
         "label": "Holman Christian Standard Bible"
       },
       "position": {
@@ -103,16 +108,16 @@
     {
       "id": "048ff88b-1d02-45cd-a2c8-5788de6672e7",
       "data": {
-        "_id": "048ff88b-1d02-45cd-a2c8-5788de6672e7",
         "id": "048ff88b-1d02-45cd-a2c8-5788de6672e7",
         "title": "New Living Translation",
         "parents": "31d057f4-3bb6-41ca-8f44-8bc77432ed6d",
-        "description": "",
-        "image": "",
+        "description": "The New Living Translation is a contemporary English translation of the Bible. It comes from the critical editions of the Hebrew, Aramaic, and Greek texts, including the Biblia Hebraica Stuttgartensia, Greek New Testament, and Novum Testamentum Graece. Translators came from many different Christian denominations were sourced to produce this translation.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/New_Living_Translation_logo_%282021_refresh_simple%29.png",
         "year": "1996",
         "acronym": "NLT",
         "category": "Critical Text",
         "filter": "Translation",
+        "link": "https://www.biblegateway.com/versions/New-Living-Translation-NLT-Bible/",
         "label": "New Living Translation"
       },
       "position": {
@@ -123,16 +128,17 @@
     {
       "id": "31d057f4-3bb6-41ca-8f44-8bc77432ed6d",
       "data": {
-        "_id": "31d057f4-3bb6-41ca-8f44-8bc77432ed6d",
         "id": "31d057f4-3bb6-41ca-8f44-8bc77432ed6d",
         "title": "The Living Bible",
         "parents": "e2d6a466-850f-4f76-a388-97c7c8786d3e",
-        "description": "",
-        "image": "",
+        "description": "The Living Bible is a paraphrased English Bible. The American Standard Version was the basis of this text. It was created to make the text more accessible for children and families, when compared to the King James Version, or the Revised Standard Version. It is written \"thought for thought\" instead of translating directly or with original author intent.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Living_Bible_%28cropped%29.jpg/225px-Living_Bible_%28cropped%29.jpg",
         "year": "1971",
         "acronym": "TLB",
         "category": "Critical Text",
         "filter": "Translation",
+        "link": "https://www.biblegateway.com/versions/The-Living-Bible-TLB/",
+        "authors": "Kenneth N. Taylor",
         "label": "The Living Bible"
       },
       "position": {
@@ -143,16 +149,16 @@
     {
       "id": "1cb9b7ce-41b3-4f15-af8b-b15011bf4054",
       "data": {
-        "_id": "1cb9b7ce-41b3-4f15-af8b-b15011bf4054",
         "id": "1cb9b7ce-41b3-4f15-af8b-b15011bf4054",
         "title": "New American Standard Bible",
         "parents": "e2d6a466-850f-4f76-a388-97c7c8786d3e",
-        "description": "",
-        "image": "",
+        "description": "The New American Standard Bible is a contemporary English based translation. It is based on critical eidtions of Hebrew, Aramaic, and Greek texts, including the Biblia Hebraica Stuttgartensia, Biblia Hebraica Quinta, and the Novum Testamentum Graece. It is considered one of the most literally translated into English from these manuscripts.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/New_American_Standard_Bible_cover.jpg/220px-New_American_Standard_Bible_cover.jpg",
         "year": "1971",
         "acronym": "NASB",
         "category": "Critical Text",
         "filter": "Translation",
+        "link": "https://www.biblegateway.com/versions/New-American-Standard-Bible-NASB/",
         "label": "New American Standard Bible"
       },
       "position": {
@@ -163,16 +169,19 @@
     {
       "id": "d7091086-012d-4110-8093-af880e3a037d",
       "data": {
-        "_id": "d7091086-012d-4110-8093-af880e3a037d",
         "id": "d7091086-012d-4110-8093-af880e3a037d",
         "title": "English Standard Version",
         "parents": "2e534f4f-e6f1-47ff-a2a3-a8e63749210a",
-        "description": "",
-        "image": "",
+        "description": "The English Standard Version is a contemporary English based translation. It uses critical editions of Hebrew, Aramaic, and Greek texts, including Biblia Hebraica Stuttgartensia, Greek New Testament, Nobum Testamentum Graece, Septuagint, and the Latin Vulgate. It attempts to be a more literal translation, while still incorporating original author intent.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9d/ESV_Pew_Bible_%28Hardcover%2C_Black%29%2C_Oct_2018.png/200px-ESV_Pew_Bible_%28Hardcover%2C_Black%29%2C_Oct_2018.png",
         "year": "2001",
         "acronym": "ESV",
         "category": "Critical Text",
         "filter": "Translation",
+        "link": "https://www.biblegateway.com/versions/English-Standard-Version-ESV-Bible/",
+        "authors": "",
+        "source": "",
+        "copies": "250,000,000",
         "label": "English Standard Version"
       },
       "position": {
@@ -183,16 +192,16 @@
     {
       "id": "8824e11c-2407-413e-bf13-3a5ae377511b",
       "data": {
-        "_id": "8824e11c-2407-413e-bf13-3a5ae377511b",
         "id": "8824e11c-2407-413e-bf13-3a5ae377511b",
         "title": "NRSV Updated Edition",
         "parents": "2e404672-afdd-4fba-b4ac-9dc26d12ce67",
-        "description": "",
+        "description": "The New Revised Standard Version Updated Edition is a major revision of its textual basis, the New Revised Standard Version. It was created to incoporate textual criticism since the 1989 publication.",
         "image": "",
         "year": "2021",
         "acronym": "NRSVUE",
         "category": "Critical Text",
         "filter": "Translation",
+        "link": "https://www.biblegateway.com/versions/New-Revised-Standard-Version-Updated-Edition-NRSVue-Bible/",
         "label": "NRSV Updated Edition"
       },
       "position": {
@@ -203,12 +212,11 @@
     {
       "id": "0658057b-1f9e-4bd8-98d0-dc00f7a0291d",
       "data": {
-        "_id": "0658057b-1f9e-4bd8-98d0-dc00f7a0291d",
         "id": "0658057b-1f9e-4bd8-98d0-dc00f7a0291d",
         "title": "New JPS Tanakh",
         "parents": "06c3e4ec-b804-4158-82ed-32f4494164b2",
-        "description": "",
-        "image": "",
+        "description": "The New Jewish Publication Society of America Tanakh is a Jewish translation of the Masoretic Text of the Hebrew Bible into English. It is based on revised publications of the Tanakh's subdivisions, including the Torah, and Five Megillot. The NJPS is effectively the primary translation for all English-speaking Judaism outside of Orthodox Judaism. It is not based on the JPS Tanakh, which has an entirely different translation basis.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/JPS_Tanakh.jpg/230px-JPS_Tanakh.jpg",
         "year": "1985",
         "acronym": "NJPST",
         "category": "Tanakh",
@@ -223,16 +231,16 @@
     {
       "id": "fde9d264-32f8-4b2c-8220-426cbdc2680f",
       "data": {
-        "_id": "fde9d264-32f8-4b2c-8220-426cbdc2680f",
         "id": "fde9d264-32f8-4b2c-8220-426cbdc2680f",
         "title": "New King James Version",
         "parents": "790488e0-67e9-4918-b2ab-d1301bd32f78",
-        "description": "",
-        "image": "",
+        "description": "The New King James Version is a translation of the Bible in contemporary English. It is based on the Biblia Hebraica Stuttgartensia, and the Textus Receptus. The objective of this translation was to update the vocabulary and grammar of the 1769 text of the King James Version.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fd/NKJV_Pew_Bible_%28Hardcover%2C_Black%29%2C_Jan_2018.png/200px-NKJV_Pew_Bible_%28Hardcover%2C_Black%29%2C_Jan_2018.png",
         "year": "1982",
         "acronym": "NKJV",
         "category": "Textus Receptus",
         "filter": "Translation",
+        "link": "https://www.biblegateway.com/versions/New-King-James-Version-NKJV-Bible/",
         "label": "New King James Version"
       },
       "position": {
@@ -243,16 +251,16 @@
     {
       "id": "06c3e4ec-b804-4158-82ed-32f4494164b2",
       "data": {
-        "_id": "06c3e4ec-b804-4158-82ed-32f4494164b2",
         "id": "06c3e4ec-b804-4158-82ed-32f4494164b2",
         "title": "JPS Tanakh",
         "parents": "1f277743-7f9d-4595-b43c-75cdc29d2416",
-        "description": "",
-        "image": "",
+        "description": "The Jewish Publication Society of America Version was the first Bible translation of the Tanakh into English by a committe of Jews. It is based on the Revised Version and American Standard Version.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/JPS_1917.png/220px-JPS_1917.png",
         "year": "1917",
         "acronym": "JPST",
         "category": "Tanakh",
         "filter": "Translation",
+        "link": "https://opensiddur.org/readings-and-sourcetexts/mekorot/tanakh/translations/tanakh-the-holy-scriptures-a-new-translation-jps-1917/",
         "label": "JPS Tanakh"
       },
       "position": {
@@ -263,16 +271,16 @@
     {
       "id": "e2d6a466-850f-4f76-a388-97c7c8786d3e",
       "data": {
-        "_id": "e2d6a466-850f-4f76-a388-97c7c8786d3e",
         "id": "e2d6a466-850f-4f76-a388-97c7c8786d3e",
         "title": "American Standard Version",
         "parents": "5d235c14-0f72-4829-ba87-8a972d66519e",
-        "description": "",
-        "image": "",
+        "description": "The American Standard Version is a translation of the Bible into English. The work on this translation began in 1870 in order to revise the 1611 text of the King James Bible. It is based on the Westcott and Hort, Masoretic Text, and the Septuagint.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/ASV_Star_Bible.jpg/220px-ASV_Star_Bible.jpg",
         "year": "1901",
         "acronym": "ASV",
         "category": "Critical Text",
         "filter": "Translation",
+        "link": "https://www.biblegateway.com/versions/American-Standard-Version-ASV-Bible/",
         "label": "American Standard Version"
       },
       "position": {
@@ -283,12 +291,11 @@
     {
       "id": "5d235c14-0f72-4829-ba87-8a972d66519e",
       "data": {
-        "_id": "5d235c14-0f72-4829-ba87-8a972d66519e",
         "id": "5d235c14-0f72-4829-ba87-8a972d66519e",
         "title": "English Revised Version",
         "parents": "4705a210-9018-47df-a1bd-e7eb2bddbd68,790488e0-67e9-4918-b2ab-d1301bd32f78",
-        "description": "",
-        "image": "",
+        "description": "The English Revised Version is a British revision of the King James Version. It was commissioned by the convocation of Canterbury in order to adapt the King James Version into a more present state of the English language.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Revised_Version_Bible_01.JPG/220px-Revised_Version_Bible_01.JPG",
         "year": "1885",
         "acronym": "ERV",
         "category": "Critical Text",
@@ -303,16 +310,16 @@
     {
       "id": "790488e0-67e9-4918-b2ab-d1301bd32f78",
       "data": {
-        "_id": "790488e0-67e9-4918-b2ab-d1301bd32f78",
         "id": "790488e0-67e9-4918-b2ab-d1301bd32f78",
         "title": "King James Version",
         "parents": "798f009f-3fc7-4206-9fbf-cf3ad053648c,9216939c-6211-4838-b3f8-c581a82cc521",
-        "description": "",
-        "image": "",
+        "description": "The King James Version is an Early Modern English translation of the Bible for the Church of England. It was the third translation of the Bible into English approvbed by the English Church authorities, the first being the Great Bible, and the second being the Bishops' Bible. It is based on the Masoretic Text, Septuagint, Textus Receptus, and the Latin Vulgate.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/King-James-Version-Bible-first-edition-title-page-1611.png/200px-King-James-Version-Bible-first-edition-title-page-1611.png",
         "year": "1611",
         "acronym": "KJV",
         "category": "Textus Receptus",
         "filter": "Translation",
+        "link": "https://www.kingjamesbibleonline.org/",
         "label": "King James Version"
       },
       "position": {
@@ -323,7 +330,6 @@
     {
       "id": "4705a210-9018-47df-a1bd-e7eb2bddbd68",
       "data": {
-        "_id": "4705a210-9018-47df-a1bd-e7eb2bddbd68",
         "id": "4705a210-9018-47df-a1bd-e7eb2bddbd68",
         "title": "Critical Text",
         "parents": "1f277743-7f9d-4595-b43c-75cdc29d2416,2ba05602-c7fe-4044-8a38-8461dc86cff1",
@@ -343,16 +349,16 @@
     {
       "id": "86949ef1-fa84-4c35-8bc1-3b2f684cfd13",
       "data": {
-        "_id": "86949ef1-fa84-4c35-8bc1-3b2f684cfd13",
         "id": "86949ef1-fa84-4c35-8bc1-3b2f684cfd13",
         "title": "Douay-Rheims Bible",
         "parents": "27edb113-5f24-4ca6-ad20-fa5cbe9c124a",
-        "description": "",
-        "image": "",
+        "description": "The Douay–Rheims Bible is a translation of the Bible from the Latin Vulgate into English. The New Testament was published in Reims, France, in 1582, and the Old Testament was published in two parts at the University of Douai in 1609 and 1610. The purpose of the translation was to uphold the Catholic tradition in the face of the Protestant Reformation, as a part of the Counter-Reformation. It is based entirely on the Latin Vulgate.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/1609_Doway_Old_Testament.pdf/page1-220px-1609_Doway_Old_Testament.pdf.jpg",
         "year": "1582",
         "acronym": "DRB",
         "category": "Vulgate",
         "filter": "Translation",
+        "link": "https://www.drbo.org/",
         "label": "Douay-Rheims Bible"
       },
       "position": {
@@ -363,16 +369,16 @@
     {
       "id": "798f009f-3fc7-4206-9fbf-cf3ad053648c",
       "data": {
-        "_id": "798f009f-3fc7-4206-9fbf-cf3ad053648c",
         "id": "798f009f-3fc7-4206-9fbf-cf3ad053648c",
         "title": "Geneva Bible",
         "parents": "91569ca2-781d-460e-b523-071150aa70d7",
-        "description": "",
-        "image": "",
+        "description": "The Geneva Bible is a translation of the Bible into English. It was the primary Bible of the 16th century Protestants. It was also one of the Bibles taken to America on the Mayflower. It is also significant because it was the result of the Bible being mechanically printed and mass-produced for the first time for the general public. This translation was derived from the Tyndale Bible, and is based on the Textus Receptus.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/GenevaBible.JPG/220px-GenevaBible.JPG",
         "year": "1560",
         "acronym": "GB",
         "category": "Textus Receptus",
         "filter": "Translation",
+        "link": "https://www.biblegateway.com/versions/1599-Geneva-Bible-GNV/",
         "label": "Geneva Bible"
       },
       "position": {
@@ -383,16 +389,16 @@
     {
       "id": "9216939c-6211-4838-b3f8-c581a82cc521",
       "data": {
-        "_id": "9216939c-6211-4838-b3f8-c581a82cc521",
         "id": "9216939c-6211-4838-b3f8-c581a82cc521",
         "title": "Bishops Bible",
         "parents": "e5479cde-e2eb-4fd5-9eb4-98d06bcd27d6,91569ca2-781d-460e-b523-071150aa70d7",
-        "description": "",
-        "image": "",
+        "description": "The Bishops' Bible is an English translation of the Bible. The Great Bible at the time was the only version legally authorized for Anglican worship, and was based on the Latin Vulgate. Therefore, the Bishop's Bible was created to use the original Hebrew, Aramiac, and Greek texts. Its source is the Textus Receptus.",
+        "image": "https://textusreceptusbibles.com/Content/images/Bishops.png",
         "year": "1568",
         "acronym": "BB",
         "category": "Textus Receptus",
         "filter": "Translation",
+        "link": "https://textusreceptusbibles.com/Bishops",
         "label": "Bishops Bible"
       },
       "position": {
@@ -403,16 +409,17 @@
     {
       "id": "e5479cde-e2eb-4fd5-9eb4-98d06bcd27d6",
       "data": {
-        "_id": "e5479cde-e2eb-4fd5-9eb4-98d06bcd27d6",
         "id": "e5479cde-e2eb-4fd5-9eb4-98d06bcd27d6",
         "title": "The Great Bible",
         "parents": "08451ffe-6f6b-45f0-9f0a-4abac2a61da5",
-        "description": "",
-        "image": "",
+        "description": "The Great Bible was the first authorized translation of the Bible into English, authorized by King Henry VIII of England. Its purpose was to be read aloud in church services. It is based heavily on the Tyndale Bible, with objectionable portions revised. The remaining portions of the Bible missing from the Tyndale Bible were translated from the Latin Vulgate, German translations, and the Textus Receptus.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/GreatbibleI.jpg/220px-GreatbibleI.jpg",
         "year": "1539",
         "acronym": "TGB",
         "category": "Vulgate",
         "filter": "Translation",
+        "link": "https://textusreceptusbibles.com/Great",
+        "authors": "Myles Coverdale",
         "label": "The Great Bible"
       },
       "position": {
@@ -423,16 +430,17 @@
     {
       "id": "08451ffe-6f6b-45f0-9f0a-4abac2a61da5",
       "data": {
-        "_id": "08451ffe-6f6b-45f0-9f0a-4abac2a61da5",
         "id": "08451ffe-6f6b-45f0-9f0a-4abac2a61da5",
         "title": "Tyndale Bible",
         "parents": "27edb113-5f24-4ca6-ad20-fa5cbe9c124a",
-        "description": "",
-        "image": "",
+        "description": "The Tyndale Bible was one of first English translations of the Bible working directly from Hebrew and Greekl texts. It was written by William Tyndale, however he did not complete the entire Bible. Tyndale translated the New Testament, the Pentateuch, and the historical books of the Old Testament. It also used the Latin Vulgate as a reference.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Tyndale_Bible_-_Gospel_of_John.jpg/220px-Tyndale_Bible_-_Gospel_of_John.jpg",
         "year": "1526",
         "acronym": "TB",
         "category": "Vulgate",
         "filter": "Translation",
+        "link": "https://www.biblestudytools.com/tyn/",
+        "authors": "William Tyndale",
         "label": "Tyndale Bible"
       },
       "position": {
@@ -443,16 +451,17 @@
     {
       "id": "e09bc697-31ec-42a4-bb82-63357ed0d791",
       "data": {
-        "_id": "e09bc697-31ec-42a4-bb82-63357ed0d791",
         "id": "e09bc697-31ec-42a4-bb82-63357ed0d791",
         "title": "Wycliffe Bible",
         "parents": "27edb113-5f24-4ca6-ad20-fa5cbe9c124a",
-        "description": "",
-        "image": "",
+        "description": "The Wycliffe Bible is a group of Bible translations into Middle English, that were made under direction of John Wycliffe. While not many people at the time could read, John's intent was to translate the Bible in a way that could help anyone \"know best Christ's sentence.\" It is based on the Latin Vulgate.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wycliffe_John_Gospel.jpg/220px-Wycliffe_John_Gospel.jpg",
         "year": "1390",
         "acronym": "WB",
         "category": "Vulgate",
         "filter": "Translation",
+        "link": "https://textusreceptusbibles.com/Wycliffe",
+        "authors": "John Wycliffe",
         "label": "Wycliffe Bible"
       },
       "position": {
@@ -463,7 +472,6 @@
     {
       "id": "91569ca2-781d-460e-b523-071150aa70d7",
       "data": {
-        "_id": "91569ca2-781d-460e-b523-071150aa70d7",
         "id": "91569ca2-781d-460e-b523-071150aa70d7",
         "title": "Textus Receptus",
         "parents": "1f277743-7f9d-4595-b43c-75cdc29d2416,2ba05602-c7fe-4044-8a38-8461dc86cff1",
@@ -483,16 +491,17 @@
     {
       "id": "27edb113-5f24-4ca6-ad20-fa5cbe9c124a",
       "data": {
-        "_id": "27edb113-5f24-4ca6-ad20-fa5cbe9c124a",
         "id": "27edb113-5f24-4ca6-ad20-fa5cbe9c124a",
         "title": "Vulgate",
         "parents": "1f277743-7f9d-4595-b43c-75cdc29d2416,2ba05602-c7fe-4044-8a38-8461dc86cff1",
-        "description": "",
-        "image": "",
+        "description": "The Vulgate is a Latin translation of the Bible. Created by Jerome and commissioned by Pope Damasus I in 382, it served to revise the Vetus Latina Gospels used by the Roman Catholic Church. Jerome expanded this to include most of the books of the Bible. This translation was sourced from the Vetus Latina for the New Testament, the Greek Hexapla Septuagint for Psalms, Daniel from the Greek Theodotion, and rest from the Hebrew and Aramaic Jewish Bibles.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Cod._Sangallensis_63_%28277%29.jpg/220px-Cod._Sangallensis_63_%28277%29.jpg",
         "year": "400",
         "acronym": "V",
         "category": "Vulgate",
         "filter": "Translation",
+        "link": "https://vulgate.org/",
+        "authors": "Jerome",
         "label": "Vulgate"
       },
       "position": {
@@ -503,16 +512,16 @@
     {
       "id": "2e534f4f-e6f1-47ff-a2a3-a8e63749210a",
       "data": {
-        "_id": "2e534f4f-e6f1-47ff-a2a3-a8e63749210a",
         "id": "2e534f4f-e6f1-47ff-a2a3-a8e63749210a",
         "title": "Revised Standard Version",
         "parents": "e2d6a466-850f-4f76-a388-97c7c8786d3e",
-        "description": "",
-        "image": "",
+        "description": "The Revised Standard Version is an English translation of the Bible. It is a revision of the American Standard Version, and was intended to be a readable and literally accurate modern English translation. The RSV was the first translation of the Bible to use the Dead Sea Scrolls of Isaiah.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/The_Revised_Standard_Version.jpg/220px-The_Revised_Standard_Version.jpg",
         "year": "1952",
         "acronym": "RSV",
         "category": "Critical Text",
         "filter": "Translation",
+        "link": "https://www.biblegateway.com/versions/Revised-Standard-Version-RSV-Bible/",
         "label": "Revised Standard Version"
       },
       "position": {
@@ -523,16 +532,16 @@
     {
       "id": "2e404672-afdd-4fba-b4ac-9dc26d12ce67",
       "data": {
-        "_id": "2e404672-afdd-4fba-b4ac-9dc26d12ce67",
         "id": "2e404672-afdd-4fba-b4ac-9dc26d12ce67",
         "title": "New Revised Standard Version",
         "parents": "2e534f4f-e6f1-47ff-a2a3-a8e63749210a",
-        "description": "",
-        "image": "",
+        "description": "The New Revised Standard Version is a translation of the Bible into contemporary English. It was sourced from the Revised Standard Version, and uses the Biblia Hebraica Stuttgartensia, Septuagint, and the Greek New Testmanet.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/57/NRSV_Bible_%26_Apocrypha.gif/220px-NRSV_Bible_%26_Apocrypha.gif",
         "year": "1989",
         "acronym": "NRSV",
         "category": "Critical Text",
         "filter": "Translation",
+        "link": "https://www.biblegateway.com/versions/New-Revised-Standard-Version-Updated-Edition-NRSVue-Bible/",
         "label": "New Revised Standard Version"
       },
       "position": {
@@ -543,7 +552,6 @@
     {
       "id": "a70221c3-1fed-4e98-bc32-a5780cbdfa1b",
       "data": {
-        "_id": "a70221c3-1fed-4e98-bc32-a5780cbdfa1b",
         "id": "a70221c3-1fed-4e98-bc32-a5780cbdfa1b",
         "title": "God",
         "parents": "",
@@ -563,7 +571,6 @@
     {
       "id": "1f277743-7f9d-4595-b43c-75cdc29d2416",
       "data": {
-        "_id": "1f277743-7f9d-4595-b43c-75cdc29d2416",
         "id": "1f277743-7f9d-4595-b43c-75cdc29d2416",
         "title": "The Old Testament",
         "parents": "a70221c3-1fed-4e98-bc32-a5780cbdfa1b",
@@ -583,7 +590,6 @@
     {
       "id": "2ba05602-c7fe-4044-8a38-8461dc86cff1",
       "data": {
-        "_id": "2ba05602-c7fe-4044-8a38-8461dc86cff1",
         "id": "2ba05602-c7fe-4044-8a38-8461dc86cff1",
         "title": "The New Testament",
         "parents": "a70221c3-1fed-4e98-bc32-a5780cbdfa1b",

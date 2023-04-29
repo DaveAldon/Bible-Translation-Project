@@ -10,7 +10,10 @@ export interface Bible {
   acronym: string
   category: string
   filter: string
-  filterStyle: boolean
+  link: string
+  authors: string
+  source: string
+  copies: string
 }
 
 export interface Tree {
@@ -28,4 +31,5 @@ export interface BibleNode {
   style?: {
     [key: string]: string
   }
+  filterStyle: boolean
 }

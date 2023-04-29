@@ -23,7 +23,6 @@ export const getTreeData = async (): Promise<Bible[]> => {
     const rows = response.data.values
     if (rows && rows.length) {
       return rows.slice(1).map((row: any[]) => ({
-        _id: row[0],
         id: row[0],
         title: row[1],
         parents: row[2],
@@ -33,6 +32,10 @@ export const getTreeData = async (): Promise<Bible[]> => {
         acronym: row[6],
         category: row[7],
         filter: row[8],
+        link: row[9],
+        authors: row[10],
+        source: row[11],
+        copies: row[12],
       }))
     }
   } catch (err) {
