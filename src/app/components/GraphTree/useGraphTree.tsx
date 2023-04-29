@@ -25,7 +25,16 @@ export const useGraphTree = (props: UseGraphTreeProps) => {
   const [selectedNode, setSelectedNode] = React.useState<BibleNode | null>(null)
   const [nodes, setNodes, onNodesChange] = useNodesState<BibleNode[]>([])
   const [edges, setEdges, onEdgesChange] = useEdgesState<Edge[]>([])
+  const [modalVisible, setModalVisible] = React.useState(false)
   const options = { hideAttribution: true }
+
+  const onNodeClickEvent = useCallback(
+    (node: BibleNode) => {
+      setSelectedNode(node as BibleNode)
+      setModalVisible(true)
+    },
+    [setSelectedNode]
+  )
 
   React.useEffect(() => {
     const filteredNodes = initialNodes.filter(
@@ -132,6 +141,9 @@ export const useGraphTree = (props: UseGraphTreeProps) => {
     onConnect,
     onLayout,
     options,
-    setSelectedNode,
+    onNodeClickEvent,
+    modalVisible,
+    setModalVisible,
+    selectedNode,
   }
 }

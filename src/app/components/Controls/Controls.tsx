@@ -1,5 +1,6 @@
 import { Slider, TextField, Typography } from '@mui/material'
 import { hext } from '@davealdon/hext'
+import { getBlurStyle } from '@/app/styles/specialEffects'
 
 const getValueText = (value: number) => {
   if (value < 0) {
@@ -22,11 +23,7 @@ export const Controls = (props: ControlProps) => {
   return props.marks.length > 0 ? (
     <div
       className="flex flex-row gap-10 w-full bg-gray-800 px-10 py-2 justify-center items-center"
-      style={{
-        backdropFilter: 'blur(10px)',
-        WebkitBackdropFilter: 'blur(10px)',
-        backgroundColor: hext('#808080', 30),
-      }}
+      style={getBlurStyle()}
     >
       <TextField
         id="outlined-basic"
