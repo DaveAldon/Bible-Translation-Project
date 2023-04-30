@@ -4,9 +4,9 @@ import { XMarkIcon } from '@heroicons/react/20/solid'
 import { Dialog, Transition, Menu } from '@headlessui/react'
 //import 'react-toastify/dist/ReactToastify.css'
 import { Dispatch, SetStateAction } from 'react'
-import { BibleNode } from '../../../../types/tree'
+import { Bible, BibleNode } from '../../../../types/tree'
 import { getBlurStyle } from '@/app/styles/specialEffects'
-
+import { getDemographicsById } from '../../util/getDemographic'
 interface BibleModalProps {
   isOpen: boolean
   setIsOpen: Dispatch<SetStateAction<boolean>>
@@ -25,7 +25,7 @@ export const BibleModal = ({
     <>
       <Transition appear show={isOpen} as={Fragment}>
         <Dialog as="div" className="relative z-50" onClose={closeModal}>
-          {/* <Transition.Child
+          <Transition.Child
             as={Fragment}
             enter="ease-out duration-300"
             enterFrom="opacity-0"
@@ -35,7 +35,7 @@ export const BibleModal = ({
             leaveTo="opacity-0"
           >
             <div className="fixed inset-0 bg-black bg-opacity-25" />
-          </Transition.Child> */}
+          </Transition.Child>
 
           <div className="fixed inset-0 overflow-y-auto">
             <div className="flex min-h-full items-center justify-end p-4 text-center">
@@ -71,16 +71,21 @@ export const BibleModal = ({
                   <h1 className="mb-8 text-3xl text-center">
                     {data.data.title}
                   </h1>
-                  <img src={data.data.image} />
-                  <a
-                    target="_blank"
-                    href={data.data.link}
-                    className="text-center text-sm text-grey-dark mt-4"
-                  >
-                    Read it Online
-                  </a>
-                  <div className="text-center text-sm text-grey-dark mt-4">
-                    {data.data.description}
+                  <div className="flex flex-col items-center justify-center">
+                    <img src={data.data.image} className="rounded-lg h-48" />
+                    {/* <button
+                      type="button"
+                      onClick={() => {
+                        window.open(data.data.link, '_blank')
+                      }}
+                      className="mt-6 text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
+                    >
+                      Read it Online
+                    </button> */}
+                    <BibleDemographicsTable data={data.data} />
+                    <div className="text-left text-sm text-grey-dark mt-4">
+                      {data.data.description}
+                    </div>
                   </div>
                 </Dialog.Panel>
               </Transition.Child>
@@ -89,5 +94,87 @@ export const BibleModal = ({
         </Dialog>
       </Transition>
     </>
+  )
+}
+
+export const BibleDemographicsTable = ({ data }: { data: Bible }) => {
+  return (
+    <div className="relative overflow-x-auto">
+      <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+        <tbody>
+          <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+            <th
+              scope="row"
+              className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+            >
+              Year Published
+            </th>
+            <td className="px-6 py-4">{data.year}</td>
+          </tr>
+          <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+            <th
+              scope="row"
+              className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+            >
+              Translation Sources
+            </th>
+            <td className="px-6 py-4">
+              <ParentButtons data={data} />
+            </td>
+          </tr>
+          <tr className="bg-white dark:bg-gray-800">
+            <th
+              scope="row"
+              className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+            >
+              View for Free Online
+            </th>
+            <td className="px-6 py-4">
+              <LinkButton data={data} />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  )
+}
+
+export const ParentButtons = ({ data }: { data: Bible }) => {
+  return (
+    <div className="flex flex-row">
+      {data.parents.split(',').map((parent) => {
+        const parentNodeRef = getDemographicsById(parent)
+        if (!parentNodeRef) return null
+        return <TranslationSourceButton data={parentNodeRef.data} />
+      })}
+    </div>
+  )
+}
+
+export const TranslationSourceButton = ({ data }: { data: Bible }) => {
+  return (
+    <button
+      type="button"
+      onClick={() => {
+        window.open(data.link, '_blank')
+      }}
+      className="mt-6 text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
+    >
+      {data.acronym}
+    </button>
+  )
+}
+
+export const LinkButton = ({ data }: { data: Bible }) => {
+  return (
+    <button
+      type="button"
+      onClick={() => {
+        window.open(data.link, '_blank')
+      }}
+      className="mt-6 text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
+    >
+      {data.link ? data.link.split('/')[2] : 'Unavailable'}
+    </button>
   )
 }
