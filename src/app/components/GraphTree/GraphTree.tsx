@@ -53,7 +53,9 @@ const Flow = (props: GraphTreeProps) => {
         nodeTypes={nodeTypes}
         minZoom={0.2}
         onNodeClick={(_event, node) => {
-          graphTree.onNodeClickEvent(node as BibleNode)
+          if (graphTree.selectedNode?.id !== node.id) {
+            graphTree.onNodeClickEvent(node as BibleNode)
+          }
         }}
       >
         <MiniMap

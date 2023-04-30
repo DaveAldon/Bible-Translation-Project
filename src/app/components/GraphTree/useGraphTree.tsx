@@ -11,11 +11,16 @@ import 'reactflow/dist/style.css'
 import './index.css'
 import { getTranslationData } from '@/app/util/getTranslationData'
 import { getLayoutedElements } from './getLayoutedElements'
-import { BibleNode } from '../../../../types/tree'
+import { Bible, BibleNode } from '../../../../types/tree'
 import { getNodesOnPath, getReverseNodesOnPath } from '@/app/util/nodePaths'
 import { getEdgeStyles, getNodeStyles } from './getStyles'
 
 const { nodes: initialNodes, edges: initialEdges } = getTranslationData()
+
+export interface BibleInteractable extends Bible {
+  onClickFavorite: (data: Bible) => void
+  onClickExpand: (data: Bible) => void
+}
 
 interface UseGraphTreeProps {
   sliderValue: number
@@ -23,7 +28,9 @@ interface UseGraphTreeProps {
 }
 export const useGraphTree = (props: UseGraphTreeProps) => {
   const [selectedNode, setSelectedNode] = React.useState<BibleNode | null>(null)
-  const [nodes, setNodes, onNodesChange] = useNodesState<BibleNode[]>([])
+  const [nodes, setNodes, onNodesChange] = useNodesState<BibleInteractable[]>(
+    []
+  )
   const [edges, setEdges, onEdgesChange] = useEdgesState<Edge[]>([])
   const [modalVisible, setModalVisible] = React.useState(false)
   const options = { hideAttribution: true }
@@ -31,7 +38,7 @@ export const useGraphTree = (props: UseGraphTreeProps) => {
   const onNodeClickEvent = useCallback(
     (node: BibleNode) => {
       setSelectedNode(node as BibleNode)
-      setModalVisible(true)
+      //setModalVisible(true)
     },
     [setSelectedNode]
   )
@@ -88,6 +95,12 @@ export const useGraphTree = (props: UseGraphTreeProps) => {
           ...node,
           data: {
             ...node.data,
+            onClickExpand: () => {
+              setModalVisible(true)
+            },
+            onClickFavorite: () => {
+              onNodeClickEvent(node as BibleNode)
+            },
             //filterStyle: true,
           },
           style: {
@@ -100,7 +113,18 @@ export const useGraphTree = (props: UseGraphTreeProps) => {
           },
         }
       } else {
-        return { ...node }
+        return {
+          ...node,
+          data: {
+            ...node.data,
+            onClickExpand: () => {
+              setModalVisible(true)
+            },
+            onClickFavorite: () => {
+              onNodeClickEvent(node as BibleNode)
+            },
+          },
+        }
       }
     })
 
