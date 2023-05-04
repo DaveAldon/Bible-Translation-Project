@@ -28,10 +28,10 @@ interface UseGraphTreeProps {
 }
 export const useGraphTree = (props: UseGraphTreeProps) => {
   const [selectedNode, setSelectedNode] = React.useState<BibleNode | null>(null)
-  const [nodes, setNodes, onNodesChange] = useNodesState<BibleInteractable[]>(
+  const [nodes, setNodes, _onNodesChange] = useNodesState<BibleInteractable[]>(
     []
   )
-  const [edges, setEdges, onEdgesChange] = useEdgesState<Edge[]>([])
+  const [edges, setEdges, _onEdgesChange] = useEdgesState<Edge[]>([])
   const [modalVisible, setModalVisible] = React.useState(false)
   const options = { hideAttribution: true }
 

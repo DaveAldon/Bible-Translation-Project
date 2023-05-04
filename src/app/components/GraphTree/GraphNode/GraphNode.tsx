@@ -1,6 +1,5 @@
 import React, { memo } from 'react'
 import { Handle, NodeProps, Position } from 'reactflow'
-import { Bible } from '../../../../../types/tree'
 import { Category_Colors } from '../../../../../types/categories.enum'
 import { hext } from '@davealdon/hext'
 import { ChevronDoubleRightIcon, HeartIcon } from '@heroicons/react/20/solid'

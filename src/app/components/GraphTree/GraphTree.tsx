@@ -44,6 +44,7 @@ const Flow = (props: GraphTreeProps) => {
         setIsOpen={() => {}}
         closeModal={() => graphTree.setModalVisible(false)}
         data={graphTree.selectedNode}
+        navigateToNode={(node: BibleNode) => graphTree.onNodeClickEvent(node)}
       />
       <ReactFlow
         nodes={graphTree.nodes}

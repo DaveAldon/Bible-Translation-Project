@@ -1,7 +1,7 @@
 'use client'
-import { useState, Fragment, useEffect } from 'react'
+import { Fragment } from 'react'
 import { XMarkIcon } from '@heroicons/react/20/solid'
-import { Dialog, Transition, Menu } from '@headlessui/react'
+import { Dialog, Transition } from '@headlessui/react'
 //import 'react-toastify/dist/ReactToastify.css'
 import { Dispatch, SetStateAction } from 'react'
 import { Bible, BibleNode } from '../../../../types/tree'
@@ -12,19 +12,17 @@ interface BibleModalProps {
   setIsOpen: Dispatch<SetStateAction<boolean>>
   closeModal: (value: boolean) => void
   data: BibleNode | null
+  navigateToNode: (node: BibleNode) => void
 }
 
-export const BibleModal = ({
-  isOpen,
-  setIsOpen,
-  closeModal,
-  data,
-}: BibleModalProps) => {
-  if (!data) return null
+export const BibleModal = (props: BibleModalProps) => {
+  if (!props.data) return null
+  const { data } = props.data
+
   return (
     <>
-      <Transition appear show={isOpen} as={Fragment}>
-        <Dialog as="div" className="relative z-50" onClose={closeModal}>
+      <Transition appear show={props.isOpen} as={Fragment}>
+        <Dialog as="div" className="relative z-50" onClose={props.closeModal}>
           <Transition.Child
             as={Fragment}
             enter="ease-out duration-300"
@@ -49,7 +47,7 @@ export const BibleModal = ({
                 leaveTo="opacity-0 scale-95"
               >
                 <Dialog.Panel
-                  className="relative w-full max-w-md transform overflow-hidden rounded-2xl bg-black p-12 text-left align-middle shadow-xl transition-all"
+                  className="relative w-full max-w-md transform overflow-hidden rounded-2xl bg-black p-4 text-left align-middle shadow-xl transition-all"
                   style={getBlurStyle()}
                 >
                   <div className="absolute top-0 right-0">
@@ -61,30 +59,23 @@ export const BibleModal = ({
                       }}
                       className="inline-flex items-center justify-center p-3 text-white hover:text-gray-500 hover:bg-gray-100 rounded-full focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500"
                       onClick={() => {
-                        closeModal(false)
+                        props.closeModal(false)
                       }}
                     >
                       <span className="sr-only">Close menu</span>
                       <XMarkIcon className="h-6 w-6" aria-hidden="true" />
                     </button>
                   </div>
-                  <h1 className="mb-8 text-3xl text-center">
-                    {data.data.title}
-                  </h1>
-                  <div className="flex flex-col items-center justify-center">
-                    <img src={data.data.image} className="rounded-lg h-48" />
-                    {/* <button
-                      type="button"
-                      onClick={() => {
-                        window.open(data.data.link, '_blank')
-                      }}
-                      className="mt-6 text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
-                    >
-                      Read it Online
-                    </button> */}
-                    <BibleDemographicsTable data={data.data} />
-                    <div className="text-left text-sm text-grey-dark mt-4">
-                      {data.data.description}
+                  <h1 className="text-3xl text-center">{data.title}</h1>
+                  <div className="flex flex-col justify-center">
+                    <div className="flex justify-center items-center w-full">
+                      <img src={data.image} className="rounded-lg h-48 m-2" />
+                    </div>
+                    <BibleDemographicsTable {...props} />
+                    <div className="text-left text-sm text-grey-dark m-2">
+                      {data.description.split('~').map((paragraph) => {
+                        return <p className="mb-4">{paragraph}</p>
+                      })}
                     </div>
                   </div>
                 </Dialog.Panel>
@@ -97,70 +88,75 @@ export const BibleModal = ({
   )
 }
 
-export const BibleDemographicsTable = ({ data }: { data: Bible }) => {
+export const BibleDemographicsTable = (props: BibleModalProps) => {
+  if (!props.data || props.data.data.title === 'God') return null
+  const { data } = props.data
+
+  const Row = ({ title, children }: { title: string; children: any }) => {
+    return (
+      <tr className="border-b bg-black border-gray-700 bg-opacity-25 whitespace-nowrap">
+        <th
+          scope="row"
+          className="px-4 py-4 font-medium whitespace-nowrap text-white"
+        >
+          {title}
+        </th>
+        <td className="px-4 py-4 overflow-clip whitespace-nowrap">
+          {children}
+        </td>
+      </tr>
+    )
+  }
+
   return (
-    <div className="relative overflow-x-auto">
-      <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+    <div className="relative rounded-lg overflow-x-auto">
+      <table className="w-full text-sm text-left text-gray-400">
         <tbody>
-          <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-            <th
-              scope="row"
-              className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
-            >
-              Year Published
-            </th>
-            <td className="px-6 py-4">{data.year}</td>
-          </tr>
-          <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-            <th
-              scope="row"
-              className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
-            >
-              Translation Sources
-            </th>
-            <td className="px-6 py-4">
-              <ParentButtons data={data} />
-            </td>
-          </tr>
-          <tr className="bg-white dark:bg-gray-800">
-            <th
-              scope="row"
-              className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
-            >
-              View for Free Online
-            </th>
-            <td className="px-6 py-4">
-              <LinkButton data={data} />
-            </td>
-          </tr>
+          <Row title="Year Published">{data.year}</Row>
+          <Row title="Translation Sources">
+            <ParentButtons {...props} />
+          </Row>
+          <Row title="View for Free Online">
+            <LinkButton data={data} />
+          </Row>
         </tbody>
       </table>
     </div>
   )
 }
 
-export const ParentButtons = ({ data }: { data: Bible }) => {
+export const ParentButtons = (props: BibleModalProps) => {
+  if (!props.data) return null
+  const { data } = props.data
   return (
     <div className="flex flex-row">
       {data.parents.split(',').map((parent) => {
         const parentNodeRef = getDemographicsById(parent)
         if (!parentNodeRef) return null
-        return <TranslationSourceButton data={parentNodeRef.data} />
+        return <TranslationSourceButton props={props} nodeRef={parentNodeRef} />
       })}
     </div>
   )
 }
 
-export const TranslationSourceButton = ({ data }: { data: Bible }) => {
+export const TranslationSourceButton = ({
+  props,
+  nodeRef,
+}: {
+  props: BibleModalProps
+  nodeRef: BibleNode
+}) => {
+  if (!props.data) return null
+
   return (
     <button
       type="button"
       onClick={() => {
-        window.open(data.link, '_blank')
+        props.navigateToNode(nodeRef)
       }}
-      className="mt-6 text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
+      className=" text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
     >
-      {data.acronym}
+      {nodeRef.data.title}
     </button>
   )
 }
@@ -172,7 +168,7 @@ export const LinkButton = ({ data }: { data: Bible }) => {
       onClick={() => {
         window.open(data.link, '_blank')
       }}
-      className="mt-6 text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
+      className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
     >
       {data.link ? data.link.split('/')[2] : 'Unavailable'}
     </button>
