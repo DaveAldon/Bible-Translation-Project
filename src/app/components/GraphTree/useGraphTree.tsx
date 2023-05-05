@@ -6,6 +6,7 @@ import {
   useEdgesState,
   Connection,
   Edge,
+  useReactFlow,
 } from 'reactflow'
 import 'reactflow/dist/style.css'
 import './index.css'
@@ -20,6 +21,24 @@ const { nodes: initialNodes, edges: initialEdges } = getTranslationData()
 export interface BibleInteractable extends Bible {
   onClickFavorite: (data: Bible) => void
   onClickExpand: (data: Bible) => void
+}
+
+const getFilteredNodes = (initialNodes: BibleNode[], sliderValue: number) => {
+  return initialNodes.filter((node) => parseInt(node.data.year) <= sliderValue)
+}
+const getFilteredEdges = (
+  initialEdges: Edge[],
+  filteredNodes: BibleNode[],
+  sliderValue: number
+) => {
+  return initialEdges.filter((edge) => {
+    const nodeRef = filteredNodes.find(
+      (node: BibleNode) => node.id === edge.source
+    )
+    if (nodeRef) {
+      return parseInt(nodeRef.data.year) <= sliderValue
+    }
+  })
 }
 
 interface UseGraphTreeProps {
@@ -43,18 +62,49 @@ export const useGraphTree = (props: UseGraphTreeProps) => {
     [setSelectedNode]
   )
 
-  React.useEffect(() => {
-    const filteredNodes = initialNodes.filter(
-      (node) => parseInt(node.data.year) <= props.sliderValue
+  const resetNodes = useCallback(() => {
+    const filteredNodes = getFilteredNodes(initialNodes, props.sliderValue)
+    const filteredEdges = getFilteredEdges(
+      initialEdges,
+      filteredNodes,
+      props.sliderValue
     )
-    const filteredEdges = initialEdges.filter((edge) => {
-      const nodeRef = filteredNodes.find(
-        (node: BibleNode) => node.id === edge.source
-      )
-      if (nodeRef) {
-        return parseInt(nodeRef.data.year) <= props.sliderValue
+    const { nodes: layoutedNodes, edges: layoutedEdges } = getLayoutedElements(
+      filteredNodes,
+      filteredEdges
+    )
+    const styledNodes = getNodeStyles(
+      [...filteredNodes],
+      [...filteredNodes],
+      undefined,
+      true
+    ).map((node) => {
+      return {
+        ...node,
+        data: {
+          ...node.data,
+          onClickExpand: () => {
+            setModalVisible(true)
+          },
+          onClickFavorite: () => {
+            onNodeClickEvent(node as BibleNode)
+          },
+        },
       }
     })
+    const styledEdges = getEdgeStyles([...layoutedEdges], [...styledNodes])
+    setNodes([...(styledNodes as any)])
+    setEdges([...styledEdges])
+    setSelectedNode(null)
+  }, [props.sliderValue, selectedNode])
+
+  React.useEffect(() => {
+    const filteredNodes = getFilteredNodes(initialNodes, props.sliderValue)
+    const filteredEdges = getFilteredEdges(
+      initialEdges,
+      filteredNodes,
+      props.sliderValue
+    )
 
     const { nodes: layoutedNodes, edges: layoutedEdges } = getLayoutedElements(
       filteredNodes,
@@ -169,5 +219,6 @@ export const useGraphTree = (props: UseGraphTreeProps) => {
     modalVisible,
     setModalVisible,
     selectedNode,
+    resetNodes,
   }
 }

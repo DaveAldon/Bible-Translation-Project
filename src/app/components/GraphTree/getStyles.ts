@@ -1,21 +1,42 @@
 import { BibleNode } from '../../../../types/tree'
 import { Edge } from 'reactflow'
 
+const edgeStyle = (opacity: number) => {
+  return {
+    stroke: 'url(#edge-gradient)',
+    strokeWidth: 5,
+    strokeOpacity: opacity,
+  }
+}
+
 export const getNodeStyles = (
   nodes: BibleNode[],
   exclusionNodes: BibleNode[],
-  selectedNode?: BibleNode
+  selectedNode?: BibleNode,
+  reset?: boolean
 ) => {
   return nodes.map((node) => {
     let type = 'activeGraphNode'
-    if (nodes.length === exclusionNodes.length) {
-    } else {
-      if (selectedNode && selectedNode.id === node.id) {
-      } else if (
-        exclusionNodes.find((excludedNode) => excludedNode.id === node.id)
-      ) {
+    if (reset) {
+      return {
+        ...node,
+        type,
+      }
+    }
+    if (selectedNode?.data.title === 'God') {
+      if (node.id !== selectedNode.id) {
         type = 'inactiveGraphNode'
+      }
+    } else {
+      if (nodes.length === exclusionNodes.length) {
       } else {
+        if (selectedNode && selectedNode.id === node.id) {
+        } else if (
+          exclusionNodes.find((excludedNode) => excludedNode.id === node.id)
+        ) {
+          type = 'inactiveGraphNode'
+        } else {
+        }
       }
     }
     return {
@@ -33,11 +54,11 @@ export const getEdgeStyles = (edges: Edge[], includedNodes: BibleNode[]) => {
     let color */
 
     let opacity = 1
-
     if (
       includedNodes.length === 2 &&
       includedNodes[0].id === includedNodes[1].id
     ) {
+      opacity = 0.2
       //color = activeColor
     } else {
       const foundSource = includedNodes.find((node) => node.id === edge.source)
@@ -52,9 +73,7 @@ export const getEdgeStyles = (edges: Edge[], includedNodes: BibleNode[]) => {
         ...edge.style,
         /* stroke: color,
         strokeWidth: 5, */
-        stroke: 'url(#edge-gradient)',
-        strokeWidth: 5,
-        strokeOpacity: opacity,
+        ...edgeStyle(opacity),
       },
     }
   })

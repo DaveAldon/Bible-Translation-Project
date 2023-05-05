@@ -2,11 +2,11 @@
 import { Fragment } from 'react'
 import { XMarkIcon } from '@heroicons/react/20/solid'
 import { Dialog, Transition } from '@headlessui/react'
-//import 'react-toastify/dist/ReactToastify.css'
 import { Dispatch, SetStateAction } from 'react'
 import { Bible, BibleNode } from '../../../../types/tree'
 import { getBlurStyle } from '@/app/styles/specialEffects'
 import { getDemographicsById } from '../../util/getDemographic'
+
 interface BibleModalProps {
   isOpen: boolean
   setIsOpen: Dispatch<SetStateAction<boolean>>
@@ -166,7 +166,7 @@ export const LinkButton = ({ data }: { data: Bible }) => {
     <button
       type="button"
       onClick={() => {
-        window.open(data.link, '_blank')
+        data.link ? window.open(data.link, '_blank') : null
       }}
       className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
     >

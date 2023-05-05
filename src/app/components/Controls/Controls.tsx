@@ -1,5 +1,4 @@
 import { Slider, TextField, Typography } from '@mui/material'
-import { hext } from '@davealdon/hext'
 import { getBlurStyle } from '@/app/styles/specialEffects'
 
 const getValueText = (value: number) => {

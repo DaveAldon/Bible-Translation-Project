@@ -6,6 +6,7 @@ import ReactFlow, {
   MiniMap,
   ReactFlowProvider,
   useReactFlow,
+  useStore,
 } from 'reactflow'
 import { useGraphTree } from './useGraphTree'
 import { BibleNode } from '../../../../types/tree'
@@ -28,10 +29,18 @@ const Flow = (props: GraphTreeProps) => {
   const [width, height] = useWindowSize()
   const graphTree = useGraphTree(props)
 
+  const fitView = () => {
+    reactFlowInstance.fitView({ padding: 1 })
+  }
+
+  const widthSelector = (state: { width: any }) => state.width
+  const heightSelector = (state: { height: any }) => state.height
+  const reactFlowWidth = useStore(widthSelector)
+  const reactFlowHeight = useStore(heightSelector)
+
   React.useEffect(() => {
-    reactFlowInstance.fitView({ padding: 1 })
-    reactFlowInstance.fitView({ padding: 1 })
-  }, [props.sliderValue])
+    fitView()
+  }, [reactFlowWidth, reactFlowHeight, reactFlowInstance, props.sliderValue])
 
   if (graphTree.nodes === null || height === 0 || width === 0) {
     return <></>
@@ -58,6 +67,14 @@ const Flow = (props: GraphTreeProps) => {
             graphTree.onNodeClickEvent(node as BibleNode)
           }
         }}
+        onPaneClick={() => {
+          graphTree.resetNodes()
+        }}
+        onInit={() => {
+          setTimeout(() => {
+            fitView()
+          }, 1)
+        }}
       >
         <MiniMap
           style={{
@@ -66,7 +83,7 @@ const Flow = (props: GraphTreeProps) => {
             backgroundColor: hext('#808080', 30),
           }}
         />
-        <Controls />
+        <Controls onFitView={() => fitView()} showInteractive={false} />
         <svg>
           <defs>
             <linearGradient id="edge-gradient">
