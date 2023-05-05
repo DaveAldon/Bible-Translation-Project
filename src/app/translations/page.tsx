@@ -3,6 +3,7 @@
 import React from 'react'
 import { BibleNode } from '../../../types/tree'
 import { useTranslations } from './useTranslations'
+import { getYearText } from '../util/years'
 
 const TranslationComponent = ({ translation }: { translation: BibleNode }) => {
   return (
@@ -14,10 +15,24 @@ const TranslationComponent = ({ translation }: { translation: BibleNode }) => {
           src={translation.data.image}
         />
         <div className="flex-grow">
-          <h2 className="text-white title-font font-medium">
-            {translation.data.title}
-          </h2>
-          <p className="text-gray-500">{translation.data.description}</p>
+          <div className="flex justify-between mb-2">
+            <h2 className="text-white title-font font-medium">
+              {translation.data.title !== 'God'
+                ? `${translation.data.acronym} - `
+                : ''}
+              {translation.data.title}
+            </h2>
+            <em className="text-white mr-4">
+              {translation.data.title !== 'God'
+                ? ` ${getYearText(parseInt(translation.data.year))}`
+                : ''}
+            </em>
+          </div>
+          <p className="text-gray-500">
+            {translation.data.description.split('~').map((paragraph) => {
+              return <p className="mb-4">{paragraph}</p>
+            })}
+          </p>
         </div>
       </div>
     </div>
@@ -30,17 +45,18 @@ const Translations = () => {
   return (
     <div>
       <section className="text-gray-600 body-font">
-        <div className="container px-5 py-24 mx-auto">
-          <div className="flex flex-col text-center w-full mb-20">
+        <div className="md:container px-4 py-4 md:mx-auto">
+          <div className="flex flex-col text-center w-full mb-4 justify-center items-center">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
-              Translations
+              All Translations
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-              Sample text
+              Browse all Bible translations by scrolling through the list, or
+              filtering them by name or acronym via the search bar below.
             </p>
-            <div className="mb-4 w-1/3">
+            <div className="mt-4 w-1/3">
               <input
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
+                className="shadow appearance-none border rounded w-full py-2 px-4 text-white leading-tight focus:outline-none focus:shadow-outline"
                 id="version"
                 type="text"
                 placeholder="Version"
@@ -48,7 +64,7 @@ const Translations = () => {
               />
             </div>
           </div>
-          <div className="grid grid-cols-2">
+          <div className="grid lg:grid-cols-2 md:grid-cols-1 grid-cols-1">
             {translations.map((translation) => (
               <TranslationComponent
                 key={translation.id}

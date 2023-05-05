@@ -10,9 +10,16 @@ export const useTranslations = () => {
   const [translations, setTranslations] = React.useState<BibleNode[]>([])
 
   React.useEffect(() => {
-    const filteredTranslations = translationData.filter((translation) =>
-      translation.data.title.toLowerCase().includes(versionSearch.toLowerCase())
-    )
+    const filteredTranslations = translationData.filter((translation) => {
+      return (
+        translation.data.title
+          .toLowerCase()
+          .includes(versionSearch.toLowerCase()) ||
+        translation.data.acronym
+          .toLowerCase()
+          .includes(versionSearch.toLowerCase())
+      )
+    })
     setTranslations([...filteredTranslations])
   }, [versionSearch])
 

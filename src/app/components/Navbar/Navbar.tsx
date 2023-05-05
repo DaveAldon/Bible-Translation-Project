@@ -32,7 +32,7 @@ function Navbar() {
               className="rounded-lg bg-gray-100 p-2 text-gray-600 lg:hidden"
               type="button"
             >
-              <Bars3Icon className="h-5 w-5" />
+              <Bars3Icon className="h-4 w-4" />
             </Menu.Button>
             <Transition
               as={Fragment}

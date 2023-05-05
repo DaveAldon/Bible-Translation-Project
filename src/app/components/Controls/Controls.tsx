@@ -1,12 +1,6 @@
 import { Slider, TextField, Typography } from '@mui/material'
 import { getBlurStyle } from '@/app/styles/specialEffects'
-
-const getValueText = (value: number) => {
-  if (value < 0) {
-    return `${Math.abs(value)} BC`
-  }
-  return `${value} AD`
-}
+import { getYearText } from '@/app/util/years'
 
 interface ControlProps {
   onChange: (value: number) => void
@@ -48,8 +42,8 @@ export const Controls = (props: ControlProps) => {
 
         <Slider
           aria-label="Restricted values"
-          getAriaValueText={getValueText}
-          valueLabelFormat={getValueText}
+          getAriaValueText={getYearText}
+          valueLabelFormat={getYearText}
           defaultValue={lastElement.value}
           valueLabelDisplay="on"
           step={null}
