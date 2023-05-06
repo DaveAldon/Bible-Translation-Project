@@ -14,6 +14,7 @@ export const useHistory = () => {
   )
   const [marks, setMarks] = React.useState<Mark[]>([])
   const [filterName, setFilterName] = React.useState<string>('')
+  const [fitViewToggle, setFitViewToggle] = React.useState<boolean>(true)
 
   React.useEffect(() => {
     const tempMarks: Mark[] = []
@@ -32,5 +33,13 @@ export const useHistory = () => {
     setSliderValue(value)
   }
 
-  return { sliderValue, marks, onSliderChange, filterName, setFilterName }
+  return {
+    sliderValue,
+    marks,
+    onSliderChange,
+    filterName,
+    setFilterName,
+    fitViewToggle,
+    setFitViewToggle,
+  }
 }

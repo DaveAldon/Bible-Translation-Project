@@ -5,20 +5,25 @@ import { useHistory } from './useHistory'
 import { GraphTree } from '../components/GraphTree/GraphTree'
 
 const History = () => {
-  const { sliderValue, marks, onSliderChange, filterName, setFilterName } =
-    useHistory()
+  const history = useHistory()
 
   return (
     <div className="relative">
       <div className="absolute inset-0 flex z-10 h-fit">
         <Controls
-          marks={marks}
-          onChange={onSliderChange}
-          filterName={filterName}
-          setFilterName={setFilterName}
+          marks={history.marks}
+          onChange={history.onSliderChange}
+          filterName={history.filterName}
+          setFilterName={history.setFilterName}
+          fitViewToggle={history.fitViewToggle}
+          setFitViewToggle={history.setFitViewToggle}
         />
       </div>
-      <GraphTree sliderValue={sliderValue} filterName={filterName} />
+      <GraphTree
+        sliderValue={history.sliderValue}
+        filterName={history.filterName}
+        fitViewToggle={history.fitViewToggle}
+      />
     </div>
   )
 }

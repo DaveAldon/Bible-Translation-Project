@@ -23,6 +23,7 @@ const nodeTypes = {
 interface GraphTreeProps {
   sliderValue: number
   filterName: string
+  fitViewToggle: boolean
 }
 const Flow = (props: GraphTreeProps) => {
   const reactFlowInstance = useReactFlow()
@@ -39,7 +40,10 @@ const Flow = (props: GraphTreeProps) => {
   const reactFlowHeight = useStore(heightSelector)
 
   React.useEffect(() => {
-    fitView()
+    if (!props.fitViewToggle) return
+    setTimeout(() => {
+      fitView()
+    }, 100)
   }, [reactFlowWidth, reactFlowHeight, reactFlowInstance, props.sliderValue])
 
   if (graphTree.nodes === null || height === 0 || width === 0) {

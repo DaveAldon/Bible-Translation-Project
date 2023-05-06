@@ -27,7 +27,7 @@ export const ActiveGraphNode = memo(
         <div className="flex flex-col justify-center align-middle items-center">
           <div className="rounded-full w-20 h-20 flex justify-center items-center bg-gray-100">
             <div
-              className="text-gray-800"
+              className="text-black"
               style={{
                 fontSize: acronymFontSize,
                 fontWeight: 'bold',

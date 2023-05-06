@@ -1,12 +1,15 @@
 import { Slider, TextField, Typography } from '@mui/material'
 import { getBlurStyle } from '@/app/styles/specialEffects'
 import { getYearText } from '@/app/util/years'
+import { Checkbox } from '@nextui-org/react'
 
 interface ControlProps {
   onChange: (value: number) => void
   marks: { value: number; label: string }[]
   filterName: string
   setFilterName: (value: string) => void
+  fitViewToggle: boolean
+  setFitViewToggle: (value: boolean) => void
 }
 
 export const Controls = (props: ControlProps) => {
@@ -20,7 +23,7 @@ export const Controls = (props: ControlProps) => {
     >
       <TextField
         id="outlined-basic"
-        label="Search Translations"
+        label="Search"
         InputLabelProps={{
           style: { color: 'white' },
         }}
@@ -35,7 +38,17 @@ export const Controls = (props: ControlProps) => {
           props.setFilterName(e.target.value)
         }}
       />
-      <div className="w-full">
+      <Checkbox
+        color="gradient"
+        isSelected={props.fitViewToggle}
+        onChange={() => {
+          props.setFitViewToggle(!props.fitViewToggle)
+        }}
+        style={{ width: 150 }}
+      >
+        <p className="text-white text-base">Fit View</p>
+      </Checkbox>
+      <div className="w-full text-white">
         <Typography id="input-slider" gutterBottom>
           Drag the slider to show translations throughout history
         </Typography>
