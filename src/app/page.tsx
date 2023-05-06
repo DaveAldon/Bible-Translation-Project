@@ -29,7 +29,7 @@ export default function Home() {
               <div className="grid grid-cols-2 gap-4"></div>
             </div>
 
-            <div className="lg:max-w-lg lg:w-full w-1/2 mb-20">
+            <div className="lg:max-w-lg lg:w-full w-1/2 mb-20 mr-10">
               <video
                 autoPlay
                 loop
