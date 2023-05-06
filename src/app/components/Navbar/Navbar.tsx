@@ -12,7 +12,7 @@ function Navbar() {
         <div className="flex items-center justify-between gap-4 lg:gap-10">
           <div className="flex lg:w-0 lg:flex-1">
             <Link className="text-2xl font-extrabold text-gray-500" href="/">
-              project
+              The Bible Translation Project
             </Link>
           </div>
 
