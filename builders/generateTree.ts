@@ -13,7 +13,7 @@ export const generateTree = async (): Promise<Tree> => {
   bibles.forEach((bible) => {
     const id = bible.id
     const data = { ...bible, label: bible.title }
-    const node = { id, data, position }
+    const node = { id, data, position, filterStyle: false }
     newNodes.push(node)
 
     if (bible.parents !== '') {
