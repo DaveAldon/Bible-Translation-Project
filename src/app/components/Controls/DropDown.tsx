@@ -6,6 +6,7 @@ interface OrderByValue {
 }
 
 interface DropDownProps {
+  dropDownTitle?: string
   filterName: string
   setFilterName: (value: string) => void
   values: OrderByValue[]
@@ -24,13 +25,14 @@ export const DropDown = (props: DropDownProps) => {
           }}
           flat
         >
-          Order By {props.filterName}
+          {props.dropDownTitle || 'Order By'} {props.filterName}
         </Dropdown.Button>
         <Dropdown.Menu
           css={{
             opacity: 1,
             backgroundColor: 'rgb(17 24 39)',
             color: 'white',
+            $$dropdownMenuWidth: '330px',
           }}
           aria-label="Dynamic Actions"
           onAction={(e) => {

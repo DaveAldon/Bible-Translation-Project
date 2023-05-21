@@ -1,7 +1,7 @@
 export const links = [
   { href: '/', children: 'Home' },
-  { href: '/translations', children: 'Translations' },
-  { href: '/history', children: 'History' },
+  { href: '/history', children: 'Translations' },
+  { href: '/translations', children: 'Research' },
 ]
 
 export enum NavLinks {
