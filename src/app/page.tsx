@@ -1,4 +1,5 @@
 import { CallToActionForm } from './components/CallToActionForm/CallToActionForm'
+import { InfoCard } from './components/InfoCard/InfoCard'
 
 const Header = () => {
   return (
@@ -28,9 +29,9 @@ const Header = () => {
 
 const Content = () => {
   return (
-    <div className="grid grid-cols-2 gap-10 p-10">
-      <div className="flex w-full justify-center">
-        <p className="mb-4 lg:w-3/5 sm:w-full text-gray-400 text-lg">
+    <div className="flex flex-col p-8 pt-4 w-full justify-center items-center">
+      <div className="flex w-full justify-center items-center max-w-xl">
+        <p className="mb-4 w-full text-gray-400 text-lg">
           The Bible Translation Project is an effort to show where your favorite
           translation comes from, what manuscripts were used to create it, and
           why it was made in the first place. Bible translations are often based
@@ -40,14 +41,12 @@ const Content = () => {
           do they exist? Who wrote them?
         </p>
       </div>
-      <div>
-        <div className="flex flex-col w-full items-center justify-center">
-          <p className="mb-4 text-gray-400 text-lg">
-            We believe that these are important questions to ask for three
-            reasons:
-          </p>
-          <ReasonsList />
-        </div>
+      <div className="flex flex-col w-full items-center justify-center max-w-xl">
+        <p className="mb-4 text-white text-lg text-center font-light">
+          We believe that this project and these questions are important to ask
+          for three reasons:
+        </p>
+        <ReasonsList />
       </div>
     </div>
   )
@@ -83,26 +82,11 @@ const ReasonsList = () => {
     },
   ]
 
-  const Reason = (props: { icon: string; reason: string }) => {
-    return (
-      <li className="border-gray-400 flex flex-row">
-        <div className="select-none bg-gray-800 rounded-md flex flex-1 items-center p-4  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
-          <div className="flex flex-col rounded-md w-10 h-10 bg-gray-900 justify-center items-center mr-4">
-            {props.icon}
-          </div>
-          <div className="flex-1 pl-1 mr-16">
-            <div className="font-medium">{props.reason}</div>
-          </div>
-        </div>
-      </li>
-    )
-  }
-
   return (
-    <div className="flex sm:w-full lg:w-2/3 justify-left text-white">
+    <div className="flex w-full justify-left text-white">
       <ul className="flex flex-col gap-2">
-        {reasons.map((reason) => (
-          <Reason icon={reason.icon} reason={reason.reason} />
+        {reasons.map((reason, index) => (
+          <InfoCard key={index} icon={reason.icon} title={reason.reason} />
         ))}
       </ul>
     </div>

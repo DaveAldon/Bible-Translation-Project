@@ -2,8 +2,10 @@
 import React from 'react'
 import { useWindowSize } from '@/app/hooks/useWindowSize'
 import ReactFlow, {
+  ControlButton,
   Controls,
   MiniMap,
+  Panel,
   ReactFlowProvider,
   useReactFlow,
   useStore,
@@ -14,6 +16,7 @@ import { hext } from '@davealdon/hext'
 import { ActiveGraphNode, InactiveGraphNode } from './GraphNode/GraphNode'
 import './node.style.css'
 import { BibleModal } from '../BibleModal/BibleModal'
+import { Category_Colors } from '../../../../types/categories.enum'
 
 const nodeTypes = {
   activeGraphNode: ActiveGraphNode,
@@ -81,13 +84,31 @@ const Flow = (props: GraphTreeProps) => {
         }}
       >
         <MiniMap
+          zoomable
+          pannable
+          nodeColor={(node) => {
+            return Category_Colors[
+              node.data.category as keyof typeof Category_Colors
+            ]
+          }}
           style={{
             backdropFilter: 'blur(10px)',
             WebkitBackdropFilter: 'blur(10px)',
             backgroundColor: hext('#808080', 30),
           }}
         />
-        <Controls onFitView={() => fitView()} showInteractive={false} />
+        <Controls onFitView={() => fitView()} showInteractive={false}>
+          <ControlButton
+            style={{
+              width: '100%',
+              borderTopRightRadius: 5,
+            }}
+            onClick={() => console.log('another action')}
+            title="another action"
+          >
+            <div>How does this work?</div>
+          </ControlButton>
+        </Controls>
         <svg>
           <defs>
             <linearGradient id="edge-gradient">
