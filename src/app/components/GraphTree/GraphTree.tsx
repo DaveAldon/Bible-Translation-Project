@@ -5,7 +5,6 @@ import ReactFlow, {
   ControlButton,
   Controls,
   MiniMap,
-  Panel,
   ReactFlowProvider,
   useReactFlow,
   useStore,
@@ -15,8 +14,10 @@ import { BibleNode } from '../../../../types/tree'
 import { hext } from '@davealdon/hext'
 import { ActiveGraphNode, InactiveGraphNode } from './GraphNode/GraphNode'
 import './node.style.css'
-import { BibleModal } from '../BibleModal/BibleModal'
 import { Category_Colors } from '../../../../types/categories.enum'
+import { InfoModal } from '../InfoModal/InfoModal'
+import { LockClosedIcon, LockOpenIcon } from '@heroicons/react/20/solid'
+import { Tooltip as ReactTooltip } from 'react-tooltip'
 
 const nodeTypes = {
   activeGraphNode: ActiveGraphNode,
@@ -27,6 +28,8 @@ interface GraphTreeProps {
   sliderValue: number
   filterName: string
   fitViewToggle: boolean
+  setFitViewToggle: (value: boolean) => void
+  showTooltips: boolean
 }
 const Flow = (props: GraphTreeProps) => {
   const reactFlowInstance = useReactFlow()
@@ -55,12 +58,15 @@ const Flow = (props: GraphTreeProps) => {
 
   return (
     <>
-      <BibleModal
+      <InfoModal
         isOpen={graphTree.modalVisible}
-        setIsOpen={() => {}}
+        setIsOpen={() => graphTree.setModalVisible(true)}
         closeModal={() => graphTree.setModalVisible(false)}
-        data={graphTree.selectedNode}
+        data={graphTree.modalNode}
         navigateToNode={(node: BibleNode) => graphTree.onNodeClickEvent(node)}
+        activatePath={(node: BibleNode) => graphTree.activatePath(node)}
+        resetPaths={() => graphTree.resetNodes()}
+        showTooltips={props.showTooltips}
       />
       <ReactFlow
         nodes={graphTree.nodes}
@@ -97,16 +103,25 @@ const Flow = (props: GraphTreeProps) => {
             backgroundColor: hext('#808080', 30),
           }}
         />
+
         <Controls onFitView={() => fitView()} showInteractive={false}>
           <ControlButton
-            style={{
-              width: '100%',
-              borderTopRightRadius: 5,
-            }}
-            onClick={() => console.log('another action')}
-            title="another action"
+            data-tooltip-id="lock-button-tooltip"
+            data-tooltip-content="Locks/Unlocks the translation view so that they don't automatically fit to the screen"
+            onClick={() => props.setFitViewToggle(!props.fitViewToggle)}
+            title="lock fit view"
           >
-            <div>How does this work?</div>
+            {props.fitViewToggle ? (
+              <LockOpenIcon className="h-5 w-5" />
+            ) : (
+              <LockClosedIcon className="h-5 w-5" />
+            )}
+            <ReactTooltip
+              id="lock-button-tooltip"
+              place="right"
+              variant="error"
+              isOpen={props.showTooltips}
+            />
           </ControlButton>
         </Controls>
         <svg>

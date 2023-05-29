@@ -17,11 +17,6 @@ import { getEdgeStyles, getNodeStyles } from './getStyles'
 
 const { nodes: initialNodes, edges: initialEdges } = getTranslationData()
 
-export interface BibleInteractable extends Bible {
-  onClickFavorite: (data: Bible) => void
-  onClickExpand: (data: Bible) => void
-}
-
 const getFilteredNodes = (initialNodes: BibleNode[], sliderValue: number) => {
   return initialNodes.filter((node) => parseInt(node.data.year) <= sliderValue)
 }
@@ -46,20 +41,21 @@ interface UseGraphTreeProps {
 }
 export const useGraphTree = (props: UseGraphTreeProps) => {
   const [selectedNode, setSelectedNode] = React.useState<BibleNode | null>(null)
-  const [nodes, setNodes, _onNodesChange] = useNodesState<BibleInteractable[]>(
-    []
-  )
+  const [nodes, setNodes, _onNodesChange] = useNodesState<Bible[]>([])
   const [edges, setEdges, _onEdgesChange] = useEdgesState<Edge[]>([])
   const [modalVisible, setModalVisible] = React.useState(false)
+  const [modalNode, setModalNode] = React.useState<BibleNode | null>(null)
   const options = { hideAttribution: true }
 
-  const onNodeClickEvent = useCallback(
-    (node: BibleNode) => {
-      setSelectedNode(node as BibleNode)
-      //setModalVisible(true)
-    },
-    [setSelectedNode]
-  )
+  const activatePath = useCallback((node: BibleNode) => {
+    setSelectedNode({ ...node })
+  }, [])
+
+  const onNodeClickEvent = useCallback((node: BibleNode) => {
+    setSelectedNode({ ...node })
+    setModalNode(node as BibleNode)
+    setModalVisible(true)
+  }, [])
 
   const resetNodes = useCallback(() => {
     const filteredNodes = getFilteredNodes(initialNodes, props.sliderValue)
@@ -73,7 +69,7 @@ export const useGraphTree = (props: UseGraphTreeProps) => {
       filteredEdges
     )
     const styledNodes = getNodeStyles(
-      [...filteredNodes],
+      [...layoutedNodes],
       [...filteredNodes],
       undefined,
       true
@@ -82,12 +78,6 @@ export const useGraphTree = (props: UseGraphTreeProps) => {
         ...node,
         data: {
           ...node.data,
-          onClickExpand: () => {
-            setModalVisible(true)
-          },
-          onClickFavorite: () => {
-            onNodeClickEvent(node as BibleNode)
-          },
         },
       }
     })
@@ -144,12 +134,6 @@ export const useGraphTree = (props: UseGraphTreeProps) => {
           ...node,
           data: {
             ...node.data,
-            onClickExpand: () => {
-              setModalVisible(true)
-            },
-            onClickFavorite: () => {
-              onNodeClickEvent(node as BibleNode)
-            },
             //filterStyle: true,
           },
           style: {
@@ -166,12 +150,6 @@ export const useGraphTree = (props: UseGraphTreeProps) => {
           ...node,
           data: {
             ...node.data,
-            onClickExpand: () => {
-              setModalVisible(true)
-            },
-            onClickFavorite: () => {
-              onNodeClickEvent(node as BibleNode)
-            },
           },
         }
       }
@@ -219,5 +197,7 @@ export const useGraphTree = (props: UseGraphTreeProps) => {
     setModalVisible,
     selectedNode,
     resetNodes,
+    modalNode,
+    activatePath,
   }
 }

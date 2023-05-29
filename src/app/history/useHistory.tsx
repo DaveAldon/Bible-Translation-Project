@@ -5,6 +5,7 @@ import { BibleNode } from '../../../types/tree'
 
 export const useHistory = () => {
   const translationData = getTranslationData()
+  const [showTooltips, setShowTooltips] = React.useState<boolean>(true)
   const [sliderValue, setSliderValue] = React.useState(
     Math.max(
       ...translationData.nodes.map((node: BibleNode) =>
@@ -41,5 +42,7 @@ export const useHistory = () => {
     setFilterName,
     fitViewToggle,
     setFitViewToggle,
+    showTooltips,
+    setShowTooltips,
   }
 }

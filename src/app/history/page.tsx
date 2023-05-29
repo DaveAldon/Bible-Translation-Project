@@ -15,15 +15,11 @@ const History = () => {
           onChange={history.onSliderChange}
           filterName={history.filterName}
           setFilterName={history.setFilterName}
-          fitViewToggle={history.fitViewToggle}
-          setFitViewToggle={history.setFitViewToggle}
+          showTooltips={history.showTooltips}
+          setShowTooltips={history.setShowTooltips}
         />
       </div>
-      <GraphTree
-        sliderValue={history.sliderValue}
-        filterName={history.filterName}
-        fitViewToggle={history.fitViewToggle}
-      />
+      <GraphTree {...history} />
     </div>
   )
 }
