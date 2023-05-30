@@ -65,7 +65,7 @@ export const Controls = (props: ControlProps) => {
         </Typography>
         <ReactTooltip
           id="year-slider-tooltip"
-          offset={50}
+          offset={0}
           place="top"
           variant="error"
           isOpen={props.showTooltips}
