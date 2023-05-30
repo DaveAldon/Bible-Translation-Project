@@ -29,11 +29,15 @@ const TranslationComponent = ({ translation }: { translation: BibleNode }) => {
                 : ''}
             </em>
           </div>
-          <p className="text-gray-500">
-            {translation.data.description.split('~').map((paragraph) => {
-              return <p className="mb-4">{paragraph}</p>
+          <div className="text-gray-500">
+            {translation.data.description.split('~').map((paragraph, index) => {
+              return (
+                <p key={index} className="mb-4">
+                  {paragraph}
+                </p>
+              )
             })}
-          </p>
+          </div>
         </div>
       </div>
     </div>
@@ -75,11 +79,8 @@ const Translations = () => {
             </div>
           </div>
           <div className="grid lg:grid-cols-2 md:grid-cols-1 grid-cols-1">
-            {translationsInstance.translations.map((translation) => (
-              <TranslationComponent
-                key={translation.id}
-                translation={translation}
-              />
+            {translationsInstance.translations.map((translation, index) => (
+              <TranslationComponent key={index} translation={translation} />
             ))}
           </div>
         </div>

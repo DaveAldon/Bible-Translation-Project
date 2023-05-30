@@ -55,22 +55,21 @@ export const Controls = (props: ControlProps) => {
         }}
       />
       <div className="w-full text-white">
-        <Typography id="input-slider" gutterBottom>
-          <p
-            data-tooltip-id="year-slider-tooltip"
-            data-tooltip-content="Change the value along the slider to show translations that existed at that time"
-          >
-            Year Range
-          </p>
-          <ReactTooltip
-            id="year-slider-tooltip"
-            offset={50}
-            place="top"
-            variant="error"
-            isOpen={props.showTooltips}
-          />
+        <Typography
+          id="input-slider"
+          data-tooltip-id="year-slider-tooltip"
+          data-tooltip-content="Change the value along the slider to show translations that existed at that time"
+          gutterBottom
+        >
+          Year Range
         </Typography>
-
+        <ReactTooltip
+          id="year-slider-tooltip"
+          offset={50}
+          place="top"
+          variant="error"
+          isOpen={props.showTooltips}
+        />
         <Slider
           aria-label="Restricted values"
           getAriaValueText={getYearText}

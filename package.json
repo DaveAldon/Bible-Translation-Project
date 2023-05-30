@@ -28,7 +28,7 @@
     "elkjs": "^0.8.2",
     "framer-motion": "^10.12.16",
     "googleapis": "^114.0.0",
-    "next": "13.2.4",
+    "next": "13.4.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-sizeme": "^3.0.2",
