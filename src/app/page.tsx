@@ -41,12 +41,22 @@ const Content = () => {
           do they exist? Who wrote them?
         </p>
       </div>
-      <div className="flex flex-col w-full items-center justify-center max-w-xl">
-        <p className="mb-4 text-white text-lg text-center font-light">
+      <div className="flex flex-col w-full items-center justify-center max-w-xl text-white">
+        <p className="mb-4 text-lg text-center font-light">
           We believe that this project and these questions are important to ask
           for three reasons:
         </p>
         <ReasonsList />
+        <p className="mb-4 mt-4 text-lg text-center font-light">
+          You can read more about these reasons on our{' '}
+          <a
+            href="/about"
+            className="font-medium text-blue-600 underline dark:text-blue-500 hover:no-underline"
+          >
+            About
+          </a>{' '}
+          page.
+        </p>
       </div>
     </div>
   )
