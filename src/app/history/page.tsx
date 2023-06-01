@@ -10,14 +10,7 @@ const History = () => {
   return (
     <div className="relative">
       <div className="absolute inset-0 flex z-10 h-fit">
-        <Controls
-          marks={history.marks}
-          onChange={history.onSliderChange}
-          filterName={history.filterName}
-          setFilterName={history.setFilterName}
-          showTooltips={history.showTooltips}
-          setShowTooltips={history.setShowTooltips}
-        />
+        <Controls {...history} />
       </div>
       <GraphTree {...history} />
     </div>

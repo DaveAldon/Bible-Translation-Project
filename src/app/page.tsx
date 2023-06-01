@@ -1,3 +1,4 @@
+import { BookOpenIcon } from '@heroicons/react/20/solid'
 import { CallToActionForm } from './components/CallToActionForm/CallToActionForm'
 import { InfoCard } from './components/InfoCard/InfoCard'
 
@@ -17,10 +18,9 @@ const Header = () => {
       >
         <source src="/assets/videos/hebrew_video.m4v" type="video/mp4" />
       </video>
-      <div className="absolute top-0 right-0 w-2/3 h-full flex items-center justify-center p-20">
-        <h1 className="text-5xl font-semibold text-white text-right">
-          We are making the source and history of Bible translations easy to
-          understand
+      <div className="absolute top-0 w-full h-full flex items-center justify-center p-20">
+        <h1 className="text-5xl font-semibold text-white text-center">
+          Understand and find the origins of your favorite Bible translations
         </h1>
       </div>
     </div>
@@ -47,14 +47,16 @@ const Content = () => {
           for three reasons:
         </p>
         <ReasonsList />
-        <p className="mb-4 mt-4 text-lg text-center font-light">
+        <p className="flex flex-row gap-2 justify-center items-center mb-4 mt-4 text-lg text-center font-light">
           You can read more about these reasons on our{' '}
           <a
-            href="/about"
-            className="font-medium text-blue-600 underline dark:text-blue-500 hover:no-underline"
+            type="button"
+            href={'/about'}
+            className="w-fit flex flex-row gap-2 justify-center items-center whitespace-nowrap border focus:outline-none focus:ring-4 font-medium rounded-lg text-sm p-2 bg-gray-800 text-white border-gray-600 hover:bg-gray-700 hover:border-gray-600 focus:ring-gray-700"
           >
-            About
-          </a>{' '}
+            <BookOpenIcon className="h-6 w-6" />
+            <b>About</b>
+          </a>
           page.
         </p>
       </div>

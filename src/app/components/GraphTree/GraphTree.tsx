@@ -16,7 +16,11 @@ import { ActiveGraphNode, InactiveGraphNode } from './GraphNode/GraphNode'
 import './node.style.css'
 import { Category_Colors } from '../../../../types/categories.enum'
 import { InfoModal } from '../InfoModal/InfoModal'
-import { LockClosedIcon, LockOpenIcon } from '@heroicons/react/20/solid'
+import {
+  LockClosedIcon,
+  LockOpenIcon,
+  QuestionMarkCircleIcon,
+} from '@heroicons/react/20/solid'
 import { Tooltip as ReactTooltip } from 'react-tooltip'
 
 const nodeTypes = {
@@ -30,6 +34,7 @@ interface GraphTreeProps {
   fitViewToggle: boolean
   setFitViewToggle: (value: boolean) => void
   showTooltips: boolean
+  setShowTooltips: (value: boolean) => void
 }
 const Flow = (props: GraphTreeProps) => {
   const reactFlowInstance = useReactFlow()
@@ -121,14 +126,24 @@ const Flow = (props: GraphTreeProps) => {
             ) : (
               <LockClosedIcon className="h-5 w-5" />
             )}
-            <ReactTooltip
-              id="lock-button-tooltip"
-              place="right"
-              variant="error"
-              isOpen={props.showTooltips}
-            />
+          </ControlButton>
+          <ControlButton
+            onClick={() => props.setShowTooltips(!props.showTooltips)}
+            title="Help"
+          >
+            {props.showTooltips ? (
+              <QuestionMarkCircleIcon className="h-5 w-5 bg-red-400" />
+            ) : (
+              <QuestionMarkCircleIcon className="h-5 w-5" />
+            )}
           </ControlButton>
         </Controls>
+        <ReactTooltip
+          id="lock-button-tooltip"
+          place="right"
+          variant="error"
+          isOpen={props.showTooltips}
+        />
         <svg>
           <defs>
             <linearGradient id="edge-gradient">

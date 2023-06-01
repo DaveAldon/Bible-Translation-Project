@@ -1,7 +1,7 @@
 export const links = [
   { href: '/', children: 'Home' },
-  { href: '/history', children: 'Translations' },
-  { href: '/translations', children: 'Research' },
+  { href: '/history', children: 'Timeline' },
+  { href: '/translations', children: 'Translations' },
   { href: '/about', children: 'About' },
 ]
 

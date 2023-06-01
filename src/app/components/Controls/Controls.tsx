@@ -2,15 +2,13 @@ import { Slider, TextField, Typography } from '@mui/material'
 import { getBlurStyle } from '@/app/styles/specialEffects'
 import { getYearText } from '@/app/util/years'
 import { Tooltip as ReactTooltip } from 'react-tooltip'
-import { QuestionMarkCircleIcon } from '@heroicons/react/20/solid'
 
 interface ControlProps {
-  onChange: (value: number) => void
+  onSliderChange: (value: number) => void
   marks: { value: number; label: string }[]
   filterName: string
   setFilterName: (value: string) => void
   showTooltips: boolean
-  setShowTooltips: (value: boolean) => void
 }
 export const Controls = (props: ControlProps) => {
   const firstElement = props.marks[0]
@@ -21,20 +19,6 @@ export const Controls = (props: ControlProps) => {
       className="flex flex-row gap-4 w-full bg-gray-800 px-2 py-2 pr-12 justify-center items-center"
       style={getBlurStyle()}
     >
-      <button
-        data-tooltip-id="help-button-tooltip"
-        data-tooltip-content="Hide or show these tooltips"
-        type="button"
-        onClick={() => {
-          props.setShowTooltips(!props.showTooltips)
-        }}
-        className="whitespace-nowrap w-[200px] border focus:outline-none focus:ring-4 font-medium rounded-lg text-sm p-2 bg-gray-800 text-white border-gray-600 hover:bg-gray-700 hover:border-gray-600 focus:ring-gray-700"
-      >
-        <div className="flex flex-row justify-center items-center font-bold">
-          <QuestionMarkCircleIcon className="h-10 w-10 mr-2" />
-          <p>How does this work?</p>
-        </div>
-      </button>
       <TextField
         data-tooltip-id="search-tooltip"
         data-tooltip-content="Enter the name of a translation to highlight it"
@@ -61,7 +45,7 @@ export const Controls = (props: ControlProps) => {
           data-tooltip-content="Change the value along the slider to show translations that existed at that time"
           gutterBottom
         >
-          Year Range
+          Timeline
         </Typography>
         <ReactTooltip
           id="year-slider-tooltip"
@@ -81,7 +65,7 @@ export const Controls = (props: ControlProps) => {
           min={firstElement.value}
           max={lastElement.value}
           onChange={(_e, value) => {
-            props.onChange(value as number)
+            props.onSliderChange(value as number)
           }}
         />
       </div>
@@ -89,12 +73,6 @@ export const Controls = (props: ControlProps) => {
       <ReactTooltip
         id="search-tooltip"
         place="bottom"
-        variant="error"
-        isOpen={props.showTooltips}
-      />
-      <ReactTooltip
-        id="help-button-tooltip"
-        place="top"
         variant="error"
         isOpen={props.showTooltips}
       />
