@@ -61,7 +61,10 @@ const Flow = (props: GraphTreeProps) => {
       <InfoModal
         isOpen={graphTree.modalVisible}
         setIsOpen={() => graphTree.setModalVisible(true)}
-        closeModal={() => graphTree.setModalVisible(false)}
+        closeModal={() => {
+          graphTree.resetNodes()
+          graphTree.setModalVisible(false)
+        }}
         data={graphTree.modalNode}
         navigateToNode={(node: BibleNode) => graphTree.onNodeClickEvent(node)}
         activatePath={(node: BibleNode) => graphTree.activatePath(node)}
