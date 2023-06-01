@@ -1,17 +1,22 @@
 import React, { memo } from 'react'
 import { Handle, NodeProps, Position } from 'reactflow'
-import { Category_Colors } from '../../../../../types/categories.enum'
 import { hext } from '@davealdon/hext'
 import { getYearText } from '@/app/util/years'
 import { Bible } from '../../../../../types/tree'
+import { getColorFromSpectrum } from '../../../../../types/spectrums.enum'
 
 const GraphNode = ({ data, active }: { data: Bible; active: boolean }) => {
   let acronymFontSize = '2rem'
   if (data.acronym.length === 4) acronymFontSize = '1.5rem'
   if (data.acronym.length === 5) acronymFontSize = '1.25rem'
-  if (data.acronym.length === 6) acronymFontSize = '1rem'
+  if (data.acronym.length >= 6) acronymFontSize = '1rem'
 
-  const outline = Category_Colors[data.category as keyof typeof Category_Colors]
+  const outline =
+    data.title === 'God'
+      ? '#FFFFFF'
+      : getColorFromSpectrum(parseInt(data.spectrum))
+  /* const outline =
+    Category_Colors[data.category as keyof typeof Category_Colors] || '#000000' */
 
   return (
     <div
@@ -21,10 +26,12 @@ const GraphNode = ({ data, active }: { data: Bible; active: boolean }) => {
         border: `2px solid ${outline}`,
         boxShadow: `0 0 10px ${hext(outline, 50)}`,
         opacity: active ? 1 : 0.1,
+        height: data.title === 'God' ? '102px' : '200px',
+        width: data.title === 'God' ? '120px' : '175px',
       }}
     >
       <div className="flex flex-col justify-center align-middle items-center">
-        <div className="rounded-full w-20 h-20 flex justify-center items-center bg-gray-100">
+        <div className="rounded-full w-20 h-20 flex justify-center items-center bg-gray-100 mb-2">
           <div
             className="text-black"
             style={{
@@ -36,7 +43,7 @@ const GraphNode = ({ data, active }: { data: Bible; active: boolean }) => {
           </div>
         </div>
         {data.title !== 'God' && (
-          <div className="flex justify-center items-center">
+          <div className="flex justify-center items-center text-center h-[75px]">
             <div className="text-white">{data.title}</div>
           </div>
         )}

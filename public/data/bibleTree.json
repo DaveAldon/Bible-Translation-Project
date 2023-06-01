@@ -5,7 +5,9 @@
       "data": {
         "id": "95db0c3a-172e-4e94-b0b3-ef5c0ff609a8",
         "title": "New International Version",
-        "parents": "4705a210-9018-47df-a1bd-e7eb2bddbd68",
+        "parents": "4705a210-9018-47df-a1bd-e7eb2bddbd68,88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+        "spectrum": "200",
+        "denomination": "Evangelical",
         "description": "The NIV is a contemporary English based translation, created from the critical editions of the original Hebrew, Aramaic, and Greek texts. Howard Long believed that the King James Version was frustrating and used too much archaic language. So he petitioned the Christian Reformed Church, along with his pastor Peter DeJong, to investigate the issue in 1957. In 1967, a team of 15 scholars from Evangelical Christan denomications took on research which would lead to the creation of the NIV's New Testament in 1973, and then the full Bible in 1978.",
         "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Bible_-_New_International_Version_2011_-_Blue.jpg/220px-Bible_-_New_International_Version_2011_-_Blue.jpg",
         "year": "1978",
@@ -29,7 +31,9 @@
       "data": {
         "id": "ca58f32f-5a82-4fb7-90b2-3e27f0c82b76",
         "title": "NAB Revised Edition",
-        "parents": "e2ff24d2-69d7-4cc6-a089-60586fe2f500",
+        "parents": "e2ff24d2-69d7-4cc6-a089-60586fe2f500,88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+        "spectrum": "200",
+        "denomination": "Catholic",
         "description": "The NABRE is an English, Catholic translation of the Bible. It is a major update to the New American Bible (NAB), whic hwas originally published in 1970. The NABRE is approved for private use and study by Catholics, however it is not approved for Catholic liturgical use.",
         "image": "https://upload.wikimedia.org/wikipedia/commons/d/d9/BIG_NABRE.jpg",
         "year": "2011",
@@ -53,6 +57,8 @@
         "id": "e2ff24d2-69d7-4cc6-a089-60586fe2f500",
         "title": "New American Bible",
         "parents": "4705a210-9018-47df-a1bd-e7eb2bddbd68",
+        "spectrum": "200",
+        "denomination": "Catholic",
         "description": "The NAB is an English tralnsation of the Bible published in 1970. While it has been revised over time, the first edition is approved by the Episcopal Church in the United States. It was translated from Hebrew, Greek, and Aramaic, instead of the Vulgate, which previous Catholic translations had been. It incorporated the newly discovered Dead Sea Scrolls, and the Masada manuscript.",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NAB_cover.png/200px-NAB_cover.png",
         "year": "1978",
@@ -73,7 +79,9 @@
       "data": {
         "id": "a09706d0-f3d7-479f-9622-7a400f5f8751",
         "title": "Christian Standard Bible",
-        "parents": "8a114fc1-2806-48c4-b751-4b087ca23be1",
+        "parents": "8a114fc1-2806-48c4-b751-4b087ca23be1,88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+        "spectrum": "200",
+        "denomination": "Lifeway",
         "description": "The Christian Standard Bible is a contemporary English translation of the Bible. The text was derived from the Holman Christian Standard Bible, and is based on the Bibnlia Hebraica Stuttgartensia for the Old Testament, and the Testamentum Graece and United Bible Societies for the New Testament.",
         "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/CSB_Pew_Bible_%28Hardcover%2C_Black%29%2C_Mar_2017.png/200px-CSB_Pew_Bible_%28Hardcover%2C_Black%29%2C_Mar_2017.png",
         "year": "2017",
@@ -94,7 +102,9 @@
       "data": {
         "id": "8a114fc1-2806-48c4-b751-4b087ca23be1",
         "title": "Holman Christian Standard Bible",
-        "parents": "4705a210-9018-47df-a1bd-e7eb2bddbd68",
+        "parents": "4705a210-9018-47df-a1bd-e7eb2bddbd68,88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+        "spectrum": "200",
+        "denomination": "Lifeway",
         "description": "The Holman Christian Standard Bible is a modern English translation of the Bible. It was originally going to be based on the same sources for the King James Version, but Arthur Farstad, who was in charge of the project, died and it was passed to Edwin Blum. The source of the text was then changed to Koine Greek based manuscripts, including the Novum Testamentum Graece, Biblia Hebraica Stuttgartensia, and Septuagint.",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/The_Holman_Christian_Standard_Bible.jpg/220px-The_Holman_Christian_Standard_Bible.jpg",
         "year": "2004",
@@ -115,7 +125,9 @@
       "data": {
         "id": "048ff88b-1d02-45cd-a2c8-5788de6672e7",
         "title": "New Living Translation",
-        "parents": "31d057f4-3bb6-41ca-8f44-8bc77432ed6d",
+        "parents": "31d057f4-3bb6-41ca-8f44-8bc77432ed6d,88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+        "spectrum": "200",
+        "denomination": "Evangelical",
         "description": "The New Living Translation is a contemporary English translation of the Bible. It comes from the critical editions of the Hebrew, Aramaic, and Greek texts, including the Biblia Hebraica Stuttgartensia, Greek New Testament, and Novum Testamentum Graece. Translators came from many different Christian denominations were sourced to produce this translation.",
         "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/New_Living_Translation_logo_%282021_refresh_simple%29.png",
         "year": "1996",
@@ -136,7 +148,9 @@
       "data": {
         "id": "31d057f4-3bb6-41ca-8f44-8bc77432ed6d",
         "title": "The Living Bible",
-        "parents": "e2d6a466-850f-4f76-a388-97c7c8786d3e",
+        "parents": "e2d6a466-850f-4f76-a388-97c7c8786d3e,e2d6a466-850f-4f76-a388-97c7c8786d3e",
+        "spectrum": "100",
+        "denomination": "Kenneth Taylor",
         "description": "The Living Bible is a paraphrased English Bible. The American Standard Version was the basis of this text. It was created to make the text more accessible for children and families, when compared to the King James Version, or the Revised Standard Version. It is written \"thought for thought\" instead of translating directly or with original author intent.",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Living_Bible_%28cropped%29.jpg/225px-Living_Bible_%28cropped%29.jpg",
         "year": "1971",
@@ -158,7 +172,9 @@
       "data": {
         "id": "1cb9b7ce-41b3-4f15-af8b-b15011bf4054",
         "title": "New American Standard Bible",
-        "parents": "e2d6a466-850f-4f76-a388-97c7c8786d3e",
+        "parents": "e2d6a466-850f-4f76-a388-97c7c8786d3e,88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+        "spectrum": "300",
+        "denomination": "Evangelical",
         "description": "The New American Standard Bible is a contemporary English based translation. It is based on critical eidtions of Hebrew, Aramaic, and Greek texts, including the Biblia Hebraica Stuttgartensia, Biblia Hebraica Quinta, and the Novum Testamentum Graece. It is considered one of the most literally translated into English from these manuscripts.",
         "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/New_American_Standard_Bible_cover.jpg/220px-New_American_Standard_Bible_cover.jpg",
         "year": "1971",
@@ -179,7 +195,9 @@
       "data": {
         "id": "d7091086-012d-4110-8093-af880e3a037d",
         "title": "English Standard Version",
-        "parents": "2e534f4f-e6f1-47ff-a2a3-a8e63749210a",
+        "parents": "2e534f4f-e6f1-47ff-a2a3-a8e63749210a,88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+        "spectrum": "300",
+        "denomination": "Evangelical",
         "description": "The English Standard Version is a contemporary English based translation. It uses critical editions of Hebrew, Aramaic, and Greek texts, including Biblia Hebraica Stuttgartensia, Greek New Testament, Nobum Testamentum Graece, Septuagint, and the Latin Vulgate. It attempts to be a more literal translation, while still incorporating original author intent.",
         "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9d/ESV_Pew_Bible_%28Hardcover%2C_Black%29%2C_Oct_2018.png/200px-ESV_Pew_Bible_%28Hardcover%2C_Black%29%2C_Oct_2018.png",
         "year": "2001",
@@ -203,7 +221,9 @@
       "data": {
         "id": "8824e11c-2407-413e-bf13-3a5ae377511b",
         "title": "NRSV Updated Edition",
-        "parents": "2e404672-afdd-4fba-b4ac-9dc26d12ce67",
+        "parents": "2e404672-afdd-4fba-b4ac-9dc26d12ce67,88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,05aa246b-cc90-477b-92fe-bbe8a8cc826e",
+        "spectrum": "300",
+        "denomination": "Protestant",
         "description": "The New Revised Standard Version Updated Edition is a major revision of its textual basis, the New Revised Standard Version. It was created to incoporate textual criticism since the 1989 publication.",
         "image": "",
         "year": "2021",
@@ -224,7 +244,9 @@
       "data": {
         "id": "0658057b-1f9e-4bd8-98d0-dc00f7a0291d",
         "title": "New JPS Tanakh",
-        "parents": "06c3e4ec-b804-4158-82ed-32f4494164b2",
+        "parents": "06c3e4ec-b804-4158-82ed-32f4494164b2,88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+        "spectrum": "300",
+        "denomination": "Jewish",
         "description": "The New Jewish Publication Society of America Tanakh is a Jewish translation of the Masoretic Text of the Hebrew Bible into English. It is based on revised publications of the Tanakh's subdivisions, including the Torah, and Five Megillot. The NJPS is effectively the primary translation for all English-speaking Judaism outside of Orthodox Judaism. It is not based on the JPS Tanakh, which has an entirely different translation basis.",
         "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/JPS_Tanakh.jpg/230px-JPS_Tanakh.jpg",
         "year": "1985",
@@ -244,7 +266,9 @@
       "data": {
         "id": "fde9d264-32f8-4b2c-8220-426cbdc2680f",
         "title": "New King James Version",
-        "parents": "790488e0-67e9-4918-b2ab-d1301bd32f78",
+        "parents": "790488e0-67e9-4918-b2ab-d1301bd32f78,88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,91569ca2-781d-460e-b523-071150aa70d7",
+        "spectrum": "300",
+        "denomination": "Protestant",
         "description": "The New King James Version is a translation of the Bible in contemporary English. It is based on the Biblia Hebraica Stuttgartensia, and the Textus Receptus. The objective of this translation was to update the vocabulary and grammar of the 1769 text of the King James Version.",
         "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fd/NKJV_Pew_Bible_%28Hardcover%2C_Black%29%2C_Jan_2018.png/200px-NKJV_Pew_Bible_%28Hardcover%2C_Black%29%2C_Jan_2018.png",
         "year": "1982",
@@ -266,6 +290,8 @@
         "id": "06c3e4ec-b804-4158-82ed-32f4494164b2",
         "title": "JPS Tanakh",
         "parents": "1f277743-7f9d-4595-b43c-75cdc29d2416",
+        "spectrum": "300",
+        "denomination": "Jewish",
         "description": "The Jewish Publication Society of America Version was the first Bible translation of the Tanakh into English by a committe of Jews. It is based on the Revised Version and American Standard Version.",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/JPS_1917.png/220px-JPS_1917.png",
         "year": "1917",
@@ -286,7 +312,9 @@
       "data": {
         "id": "e2d6a466-850f-4f76-a388-97c7c8786d3e",
         "title": "American Standard Version",
-        "parents": "5d235c14-0f72-4829-ba87-8a972d66519e",
+        "parents": "5d235c14-0f72-4829-ba87-8a972d66519e,88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,b9cdba59-0489-4b85-b2e0-ac32f59cb51c",
+        "spectrum": "300",
+        "denomination": "Protestant",
         "description": "The American Standard Version is a translation of the Bible into English. The work on this translation began in 1870 in order to revise the 1611 text of the King James Bible. It is based on the Westcott and Hort, Masoretic Text, and the Septuagint.",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/ASV_Star_Bible.jpg/220px-ASV_Star_Bible.jpg",
         "year": "1901",
@@ -307,7 +335,9 @@
       "data": {
         "id": "5d235c14-0f72-4829-ba87-8a972d66519e",
         "title": "English Revised Version",
-        "parents": "4705a210-9018-47df-a1bd-e7eb2bddbd68,790488e0-67e9-4918-b2ab-d1301bd32f78",
+        "parents": "4705a210-9018-47df-a1bd-e7eb2bddbd68,790488e0-67e9-4918-b2ab-d1301bd32f78,88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,91569ca2-781d-460e-b523-071150aa70d7",
+        "spectrum": "300",
+        "denomination": "Anglican",
         "description": "The English Revised Version is a British revision of the King James Version. It was commissioned by the convocation of Canterbury in order to adapt the King James Version into a more present state of the English language.",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Revised_Version_Bible_01.JPG/220px-Revised_Version_Bible_01.JPG",
         "year": "1885",
@@ -327,7 +357,9 @@
       "data": {
         "id": "790488e0-67e9-4918-b2ab-d1301bd32f78",
         "title": "King James Version",
-        "parents": "798f009f-3fc7-4206-9fbf-cf3ad053648c,9216939c-6211-4838-b3f8-c581a82cc521",
+        "parents": "798f009f-3fc7-4206-9fbf-cf3ad053648c,9216939c-6211-4838-b3f8-c581a82cc521,88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,91569ca2-781d-460e-b523-071150aa70d7",
+        "spectrum": "300",
+        "denomination": "Anglican",
         "description": "The King James Version is an Early Modern English translation of the Bible for the Church of England. It was the third translation of the Bible into English approvbed by the English Church authorities, the first being the Great Bible, and the second being the Bishops' Bible. It is based on the Masoretic Text, Septuagint, Textus Receptus, and the Latin Vulgate.",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/King-James-Version-Bible-first-edition-title-page-1611.png/200px-King-James-Version-Bible-first-edition-title-page-1611.png",
         "year": "1611",
@@ -349,6 +381,8 @@
         "id": "4705a210-9018-47df-a1bd-e7eb2bddbd68",
         "title": "Critical Text",
         "parents": "1f277743-7f9d-4595-b43c-75cdc29d2416,2ba05602-c7fe-4044-8a38-8461dc86cff1",
+        "spectrum": "300",
+        "denomination": "",
         "description": "The Novum Testamentum Graece (The New Testament in Greek) is a critical edition of the New Testament in its original Koine Greek, forming the basis of most modern Bible translations and biblical criticism. It is also known as the Nestle–Aland edition after its most influential editors, Eberhard Nestle and Kurt Aland. The text, edited by the Institute for New Testament Textual Research, is currently in its 28th edition, abbreviated NA28.",
         "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/50/Novum_Testamentum_Graece_%28Nestle-Aland%29%2C_28th_edition.jpg/220px-Novum_Testamentum_Graece_%28Nestle-Aland%29%2C_28th_edition.jpg",
         "year": "1500",
@@ -369,6 +403,8 @@
         "id": "86949ef1-fa84-4c35-8bc1-3b2f684cfd13",
         "title": "Douay-Rheims Bible",
         "parents": "27edb113-5f24-4ca6-ad20-fa5cbe9c124a",
+        "spectrum": "300",
+        "denomination": "Catholic",
         "description": "The Douay–Rheims Bible is a translation of the Bible from the Latin Vulgate into English. The New Testament was published in Reims, France, in 1582, and the Old Testament was published in two parts at the University of Douai in 1609 and 1610. The purpose of the translation was to uphold the Catholic tradition in the face of the Protestant Reformation, as a part of the Counter-Reformation. It is based entirely on the Latin Vulgate.",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/1609_Doway_Old_Testament.pdf/page1-220px-1609_Doway_Old_Testament.pdf.jpg",
         "year": "1582",
@@ -389,7 +425,9 @@
       "data": {
         "id": "798f009f-3fc7-4206-9fbf-cf3ad053648c",
         "title": "Geneva Bible",
-        "parents": "91569ca2-781d-460e-b523-071150aa70d7",
+        "parents": "91569ca2-781d-460e-b523-071150aa70d7,88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,91569ca2-781d-460e-b523-071150aa70d7",
+        "spectrum": "300",
+        "denomination": "Anglican",
         "description": "The Geneva Bible is a translation of the Bible into English. It was the primary Bible of the 16th century Protestants. It was also one of the Bibles taken to America on the Mayflower. It is also significant because it was the result of the Bible being mechanically printed and mass-produced for the first time for the general public. This translation was derived from the Tyndale Bible, and is based on the Textus Receptus.",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/GenevaBible.JPG/220px-GenevaBible.JPG",
         "year": "1560",
@@ -411,6 +449,8 @@
         "id": "9216939c-6211-4838-b3f8-c581a82cc521",
         "title": "Bishops Bible",
         "parents": "e5479cde-e2eb-4fd5-9eb4-98d06bcd27d6,91569ca2-781d-460e-b523-071150aa70d7",
+        "spectrum": "300",
+        "denomination": "",
         "description": "The Bishops' Bible is an English translation of the Bible. The Great Bible at the time was the only version legally authorized for Anglican worship, and was based on the Latin Vulgate. Therefore, the Bishop's Bible was created to use the original Hebrew, Aramiac, and Greek texts. Its source is the Textus Receptus.",
         "image": "https://textusreceptusbibles.com/Content/images/Bishops.png",
         "year": "1568",
@@ -432,6 +472,8 @@
         "id": "e5479cde-e2eb-4fd5-9eb4-98d06bcd27d6",
         "title": "The Great Bible",
         "parents": "08451ffe-6f6b-45f0-9f0a-4abac2a61da5",
+        "spectrum": "300",
+        "denomination": "",
         "description": "The Great Bible was the first authorized translation of the Bible into English, authorized by King Henry VIII of England. Its purpose was to be read aloud in church services. It is based heavily on the Tyndale Bible, with objectionable portions revised. The remaining portions of the Bible missing from the Tyndale Bible were translated from the Latin Vulgate, German translations, and the Textus Receptus.",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/GreatbibleI.jpg/220px-GreatbibleI.jpg",
         "year": "1539",
@@ -453,7 +495,9 @@
       "data": {
         "id": "08451ffe-6f6b-45f0-9f0a-4abac2a61da5",
         "title": "Tyndale Bible",
-        "parents": "27edb113-5f24-4ca6-ad20-fa5cbe9c124a",
+        "parents": "27edb113-5f24-4ca6-ad20-fa5cbe9c124a,88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+        "spectrum": "300",
+        "denomination": "Protestant",
         "description": "The Tyndale Bible was one of first English translations of the Bible working directly from Hebrew and Greekl texts. It was written by William Tyndale, however he did not complete the entire Bible. Tyndale translated the New Testament, the Pentateuch, and the historical books of the Old Testament. It also used the Latin Vulgate as a reference.",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Tyndale_Bible_-_Gospel_of_John.jpg/220px-Tyndale_Bible_-_Gospel_of_John.jpg",
         "year": "1526",
@@ -476,6 +520,8 @@
         "id": "e09bc697-31ec-42a4-bb82-63357ed0d791",
         "title": "Wycliffe Bible",
         "parents": "27edb113-5f24-4ca6-ad20-fa5cbe9c124a",
+        "spectrum": "300",
+        "denomination": "",
         "description": "The Wycliffe Bible is a group of Bible translations into Middle English, that were made under direction of John Wycliffe. While not many people at the time could read, John's intent was to translate the Bible in a way that could help anyone \"know best Christ's sentence.\" It is based on the Latin Vulgate.",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wycliffe_John_Gospel.jpg/220px-Wycliffe_John_Gospel.jpg",
         "year": "1390",
@@ -498,6 +544,8 @@
         "id": "91569ca2-781d-460e-b523-071150aa70d7",
         "title": "Textus Receptus",
         "parents": "1f277743-7f9d-4595-b43c-75cdc29d2416,2ba05602-c7fe-4044-8a38-8461dc86cff1",
+        "spectrum": "300",
+        "denomination": "",
         "description": "The Textus Receptus refers to the succession of printed editions of the Greek New Testament from Erasmus's Novum Instrumentum omne (1516) to the 1633 Elzevir edition. It was the most commonly used text type for Protestant denominations.",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/ErasmusText_LastPage_Rev22_8_21.jpg/180px-ErasmusText_LastPage_Rev22_8_21.jpg",
         "year": "1519",
@@ -518,6 +566,8 @@
         "id": "27edb113-5f24-4ca6-ad20-fa5cbe9c124a",
         "title": "Vulgate",
         "parents": "1f277743-7f9d-4595-b43c-75cdc29d2416,2ba05602-c7fe-4044-8a38-8461dc86cff1",
+        "spectrum": "300",
+        "denomination": "",
         "description": "The Vulgate is a Latin translation of the Bible. Created by Jerome and commissioned by Pope Damasus I in 382, it served to revise the Vetus Latina Gospels used by the Roman Catholic Church. Jerome expanded this to include most of the books of the Bible. This translation was sourced from the Vetus Latina for the New Testament, the Greek Hexapla Septuagint for Psalms, Daniel from the Greek Theodotion, and rest from the Hebrew and Aramaic Jewish Bibles.",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Cod._Sangallensis_63_%28277%29.jpg/220px-Cod._Sangallensis_63_%28277%29.jpg",
         "year": "400",
@@ -539,7 +589,9 @@
       "data": {
         "id": "2e534f4f-e6f1-47ff-a2a3-a8e63749210a",
         "title": "Revised Standard Version",
-        "parents": "e2d6a466-850f-4f76-a388-97c7c8786d3e",
+        "parents": "e2d6a466-850f-4f76-a388-97c7c8786d3e,88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+        "spectrum": "300",
+        "denomination": "Protestant",
         "description": "The Revised Standard Version is an English translation of the Bible. It is a revision of the American Standard Version, and was intended to be a readable and literally accurate modern English translation. The RSV was the first translation of the Bible to use the Dead Sea Scrolls of Isaiah.",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/The_Revised_Standard_Version.jpg/220px-The_Revised_Standard_Version.jpg",
         "year": "1952",
@@ -560,7 +612,9 @@
       "data": {
         "id": "2e404672-afdd-4fba-b4ac-9dc26d12ce67",
         "title": "New Revised Standard Version",
-        "parents": "2e534f4f-e6f1-47ff-a2a3-a8e63749210a",
+        "parents": "2e534f4f-e6f1-47ff-a2a3-a8e63749210a,88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+        "spectrum": "300",
+        "denomination": "Protestant",
         "description": "The New Revised Standard Version is a translation of the Bible into contemporary English. It was sourced from the Revised Standard Version, and uses the Biblia Hebraica Stuttgartensia, Septuagint, and the Greek New Testmanet.",
         "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/57/NRSV_Bible_%26_Apocrypha.gif/220px-NRSV_Bible_%26_Apocrypha.gif",
         "year": "1989",
@@ -582,6 +636,8 @@
         "id": "a70221c3-1fed-4e98-bc32-a5780cbdfa1b",
         "title": "God",
         "parents": "",
+        "spectrum": "",
+        "denomination": "",
         "description": "While there are many denominations and Bible translations separating Christianity into a lot of areas, there is one fundamental belief that connects everything together. This is the belief that God is the ultimate author of the Bible, not humanity. As translations continue to develop to keep the Bible accessible to evolving languages, God remains as the originator. This belief comes from the Bible itself:~\"In the beginning was the Word, and the Word was with God, and the Word was God.\" - John 1:1",
         "image": "https://images.pexels.com/photos/2549050/pexels-photo-2549050.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         "year": "-1500",
@@ -602,6 +658,8 @@
         "id": "1f277743-7f9d-4595-b43c-75cdc29d2416",
         "title": "The Old Testament",
         "parents": "a70221c3-1fed-4e98-bc32-a5780cbdfa1b",
+        "spectrum": "300",
+        "denomination": "",
         "description": "The Old Testament is the first division of the major biblical canon. It is comprised of many books of prophecy, wisdom, and genealogical/historical recordings that all point towards the promise of the Messaiah, Jesus.",
         "image": "https://images.pexels.com/photos/159679/bible-job-reading-christianity-159679.jpeg?auto=compress&cs=tinysrgb&w=800",
         "year": "-450",
@@ -623,6 +681,8 @@
         "id": "2ba05602-c7fe-4044-8a38-8461dc86cff1",
         "title": "The New Testament",
         "parents": "a70221c3-1fed-4e98-bc32-a5780cbdfa1b",
+        "spectrum": "300",
+        "denomination": "",
         "description": "The New Testament is the second division of the major biblical canon. It is comprised of eye-witness accounts of Jesus from his followers, letters to disciples and Churches throughout their early development, and prophecy of the Messaiah's final return.",
         "image": "https://images.pexels.com/photos/250609/pexels-photo-250609.jpeg?auto=compress&cs=tinysrgb&w=800",
         "year": "90",
@@ -637,6 +697,1544 @@
         "y": 0
       },
       "filterStyle": false
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "data": {
+        "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+        "title": "Masoretic Text",
+        "parents": "1f277743-7f9d-4595-b43c-75cdc29d2416,2ba05602-c7fe-4044-8a38-8461dc86cff1",
+        "spectrum": "300",
+        "denomination": "",
+        "description": "",
+        "image": "",
+        "year": "1100",
+        "acronym": "MT",
+        "category": "",
+        "filter": "Translation",
+        "label": "Masoretic Text"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+      "data": {
+        "id": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+        "title": "Nestle-Aland",
+        "parents": "1f277743-7f9d-4595-b43c-75cdc29d2416,2ba05602-c7fe-4044-8a38-8461dc86cff1",
+        "spectrum": "300",
+        "denomination": "",
+        "description": "",
+        "image": "",
+        "year": "1898",
+        "acronym": "NA",
+        "category": "",
+        "filter": "Translation",
+        "label": "Nestle-Aland"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "ac929a3d-f3e5-4c3b-97d2-9fcb8e129e40",
+      "data": {
+        "id": "ac929a3d-f3e5-4c3b-97d2-9fcb8e129e40",
+        "title": "Septuagint",
+        "parents": "1f277743-7f9d-4595-b43c-75cdc29d2416,2ba05602-c7fe-4044-8a38-8461dc86cff1",
+        "spectrum": "300",
+        "denomination": "",
+        "description": "",
+        "image": "",
+        "year": "-247",
+        "acronym": "LXX",
+        "category": "",
+        "filter": "Translation",
+        "label": "Septuagint"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "91bb2590-9499-4365-9342-c9780419bc48",
+      "data": {
+        "id": "91bb2590-9499-4365-9342-c9780419bc48",
+        "title": "Byzantine",
+        "parents": "1f277743-7f9d-4595-b43c-75cdc29d2416,2ba05602-c7fe-4044-8a38-8461dc86cff1",
+        "spectrum": "300",
+        "denomination": "",
+        "description": "",
+        "image": "",
+        "year": "1000",
+        "acronym": "B",
+        "category": "",
+        "filter": "Translation",
+        "label": "Byzantine"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "977b3203-e7b3-4d3e-9955-284d8d89b5c4",
+      "data": {
+        "id": "977b3203-e7b3-4d3e-9955-284d8d89b5c4",
+        "title": "Göttingen Septuagint",
+        "parents": "1f277743-7f9d-4595-b43c-75cdc29d2416,2ba05602-c7fe-4044-8a38-8461dc86cff1",
+        "spectrum": "300",
+        "denomination": "",
+        "description": "",
+        "image": "",
+        "year": "1931",
+        "acronym": "GS",
+        "category": "",
+        "filter": "Translation",
+        "label": "Göttingen Septuagint"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "b1e872ef-1f00-4cf0-8ef3-7f5ff2b7bf76",
+      "data": {
+        "id": "b1e872ef-1f00-4cf0-8ef3-7f5ff2b7bf76",
+        "title": "SBL Greek New Testament",
+        "parents": "1f277743-7f9d-4595-b43c-75cdc29d2416,2ba05602-c7fe-4044-8a38-8461dc86cff1",
+        "spectrum": "300",
+        "denomination": "",
+        "description": "",
+        "image": "",
+        "year": "2010",
+        "acronym": "SBLGNT",
+        "category": "",
+        "filter": "Translation",
+        "label": "SBL Greek New Testament"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "4987e838-2d0f-4dd7-96f0-7ba51f77d17e",
+      "data": {
+        "id": "4987e838-2d0f-4dd7-96f0-7ba51f77d17e",
+        "title": "Patriarchal Greek NT",
+        "parents": "1f277743-7f9d-4595-b43c-75cdc29d2416,2ba05602-c7fe-4044-8a38-8461dc86cff1",
+        "spectrum": "300",
+        "denomination": "",
+        "description": "",
+        "image": "",
+        "year": "1904",
+        "acronym": "PGNT",
+        "category": "",
+        "filter": "Translation",
+        "label": "Patriarchal Greek NT"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "b9cdba59-0489-4b85-b2e0-ac32f59cb51c",
+      "data": {
+        "id": "b9cdba59-0489-4b85-b2e0-ac32f59cb51c",
+        "title": "Westcott-Hort",
+        "parents": "1f277743-7f9d-4595-b43c-75cdc29d2416,2ba05602-c7fe-4044-8a38-8461dc86cff1",
+        "spectrum": "300",
+        "denomination": "",
+        "description": "",
+        "image": "",
+        "year": "1881",
+        "acronym": "WH",
+        "category": "",
+        "filter": "Translation",
+        "label": "Westcott-Hort"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "d23f8890-3351-4e15-9d20-b1ae81b80d80",
+      "data": {
+        "id": "d23f8890-3351-4e15-9d20-b1ae81b80d80",
+        "title": "R.V.G. Tasker",
+        "parents": "1f277743-7f9d-4595-b43c-75cdc29d2416,2ba05602-c7fe-4044-8a38-8461dc86cff1",
+        "spectrum": "300",
+        "denomination": "",
+        "description": "",
+        "image": "",
+        "year": "1946",
+        "acronym": "RVGT",
+        "category": "",
+        "filter": "Translation",
+        "label": "R.V.G. Tasker"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "3a03229c-60e8-47aa-99c1-328e50455609",
+      "data": {
+        "id": "3a03229c-60e8-47aa-99c1-328e50455609",
+        "title": "Nestle-Aland 27",
+        "parents": "1f277743-7f9d-4595-b43c-75cdc29d2416,2ba05602-c7fe-4044-8a38-8461dc86cff1",
+        "spectrum": "300",
+        "denomination": "",
+        "description": "",
+        "image": "",
+        "year": "1993",
+        "acronym": "NA27",
+        "category": "",
+        "filter": "Translation",
+        "label": "Nestle-Aland 27"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "05aa246b-cc90-477b-92fe-bbe8a8cc826e",
+      "data": {
+        "id": "05aa246b-cc90-477b-92fe-bbe8a8cc826e",
+        "title": "United Bible Society",
+        "parents": "1f277743-7f9d-4595-b43c-75cdc29d2416,2ba05602-c7fe-4044-8a38-8461dc86cff1",
+        "spectrum": "300",
+        "denomination": "",
+        "description": "",
+        "image": "",
+        "year": "2019",
+        "acronym": "UBS",
+        "label": "United Bible Society"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "8a9df75a-431e-4eb6-b0b0-3f037ea96379",
+      "data": {
+        "id": "8a9df75a-431e-4eb6-b0b0-3f037ea96379",
+        "title": "Legacy Standard Bible",
+        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+        "spectrum": "300",
+        "denomination": "Evangelical",
+        "description": "",
+        "image": "",
+        "year": "2022",
+        "acronym": "LSB",
+        "category": "",
+        "filter": "Translation",
+        "label": "Legacy Standard Bible"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "a3f3bf55-0fcc-4dc6-941e-7a2109de7809",
+      "data": {
+        "id": "a3f3bf55-0fcc-4dc6-941e-7a2109de7809",
+        "title": "New American Standard Bible, 2020 Update",
+        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+        "spectrum": "300",
+        "denomination": "Evangelical",
+        "description": "",
+        "image": "",
+        "year": "2020",
+        "acronym": "NASB2020",
+        "category": "",
+        "filter": "Translation",
+        "label": "New American Standard Bible, 2020 Update"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "24adf2a1-c038-451a-9be8-c8755c7f2957",
+      "data": {
+        "id": "24adf2a1-c038-451a-9be8-c8755c7f2957",
+        "title": "Lexham English Septuagint, 2nd Ed.",
+        "parents": "ac929a3d-f3e5-4c3b-97d2-9fcb8e129e40",
+        "spectrum": "300",
+        "denomination": "Protestant",
+        "description": "",
+        "image": "",
+        "year": "2020",
+        "acronym": "LES2",
+        "category": "",
+        "filter": "Translation",
+        "label": "Lexham English Septuagint, 2nd Ed."
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "15672529-e6dd-4593-8798-c513b01ffe8d",
+      "data": {
+        "id": "15672529-e6dd-4593-8798-c513b01ffe8d",
+        "title": "World English Bible",
+        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,91bb2590-9499-4365-9342-c9780419bc48,e2d6a466-850f-4f76-a388-97c7c8786d3e",
+        "spectrum": "300",
+        "denomination": "Evangelical",
+        "description": "",
+        "image": "",
+        "year": "2020",
+        "acronym": "WEB",
+        "category": "",
+        "filter": "Translation",
+        "label": "World English Bible"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "03b1f366-b89e-447f-8ec4-11a06a3ff8b4",
+      "data": {
+        "id": "03b1f366-b89e-447f-8ec4-11a06a3ff8b4",
+        "title": "World Messianic Bible",
+        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,91bb2590-9499-4365-9342-c9780419bc48,e2d6a466-850f-4f76-a388-97c7c8786d3e",
+        "spectrum": "300",
+        "denomination": "Messianic",
+        "description": "",
+        "image": "",
+        "year": "2020",
+        "acronym": "WMB",
+        "category": "",
+        "filter": "Translation",
+        "label": "World Messianic Bible"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "39d6a397-e316-4ca6-a19b-6ee90e018cdc",
+      "data": {
+        "id": "39d6a397-e316-4ca6-a19b-6ee90e018cdc",
+        "title": "The Augustine Bible",
+        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,7cf04dbd-d53d-4839-beaf-ce288c99cb2d,977b3203-e7b3-4d3e-9955-284d8d89b5c4",
+        "spectrum": "300",
+        "denomination": "Catholic",
+        "description": "",
+        "image": "",
+        "year": "2017",
+        "acronym": "ESV-CE",
+        "category": "",
+        "filter": "Translation",
+        "label": "The Augustine Bible"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "62595c9e-2874-4549-b95f-33f0ecb523f9",
+      "data": {
+        "id": "62595c9e-2874-4549-b95f-33f0ecb523f9",
+        "title": "Modern English Version",
+        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,91569ca2-781d-460e-b523-071150aa70d7",
+        "spectrum": "300",
+        "denomination": "Ecumenical",
+        "description": "",
+        "image": "",
+        "year": "2014",
+        "acronym": "MEV",
+        "category": "",
+        "filter": "Translation",
+        "label": "Modern English Version"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "37a8da1d-aaf5-4431-ab06-20941a1d41b7",
+      "data": {
+        "id": "37a8da1d-aaf5-4431-ab06-20941a1d41b7",
+        "title": "Lexham English Bible",
+        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,b1e872ef-1f00-4cf0-8ef3-7f5ff2b7bf76",
+        "spectrum": "300",
+        "denomination": "Protestant",
+        "description": "",
+        "image": "",
+        "year": "2012",
+        "acronym": "LEB",
+        "category": "",
+        "filter": "Translation",
+        "label": "Lexham English Bible"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "e792167f-5126-4469-bc54-c9bd596c1ca5",
+      "data": {
+        "id": "e792167f-5126-4469-bc54-c9bd596c1ca5",
+        "title": "Lexham English Septuagint",
+        "parents": "ac929a3d-f3e5-4c3b-97d2-9fcb8e129e40",
+        "spectrum": "300",
+        "denomination": "Protestant",
+        "description": "",
+        "image": "",
+        "year": "2012",
+        "acronym": "LES2",
+        "category": "",
+        "filter": "Translation",
+        "label": "Lexham English Septuagint"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "f9a80337-8b53-4b89-8f1e-7189928ed0fc",
+      "data": {
+        "id": "f9a80337-8b53-4b89-8f1e-7189928ed0fc",
+        "title": "Eastern/Greek Orthodox NT",
+        "parents": "4987e838-2d0f-4dd7-96f0-7ba51f77d17e",
+        "spectrum": "300",
+        "denomination": "Orthodox",
+        "description": "",
+        "image": "",
+        "year": "2011",
+        "acronym": "EOB:NT",
+        "category": "",
+        "filter": "Translation",
+        "label": "Eastern/Greek Orthodox NT"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "546b17af-0620-41a5-988c-e173a54c29cd",
+      "data": {
+        "id": "546b17af-0620-41a5-988c-e173a54c29cd",
+        "title": "New Cambridge Paragraph with Apocrypha",
+        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,91569ca2-781d-460e-b523-071150aa70d7",
+        "spectrum": "300",
+        "denomination": "Anglican",
+        "description": "",
+        "image": "",
+        "year": "2011",
+        "acronym": "NCPB",
+        "category": "",
+        "filter": "Translation",
+        "label": "New Cambridge Paragraph with Apocrypha"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "a9207ea7-4e7e-487b-af1b-d252f1f57119",
+      "data": {
+        "id": "a9207ea7-4e7e-487b-af1b-d252f1f57119",
+        "title": "New English Translation of the Septuagint",
+        "parents": "ac929a3d-f3e5-4c3b-97d2-9fcb8e129e40",
+        "spectrum": "300",
+        "denomination": "Protestant",
+        "description": "",
+        "image": "",
+        "year": "2007",
+        "acronym": "NETS",
+        "category": "",
+        "filter": "Translation",
+        "label": "New English Translation of the Septuagint"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "2cc7b37d-efc9-4a02-8b4a-6dcbe630263e",
+      "data": {
+        "id": "2cc7b37d-efc9-4a02-8b4a-6dcbe630263e",
+        "title": "Revised Standard Version 2nd Catholic Edition",
+        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,3a03229c-60e8-47aa-99c1-328e50455609",
+        "spectrum": "300",
+        "denomination": "Catholic",
+        "description": "",
+        "image": "",
+        "year": "2006",
+        "acronym": "RSV2CE",
+        "category": "",
+        "filter": "Translation",
+        "label": "Revised Standard Version 2nd Catholic Edition"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "1f9e0f27-5b9c-4b09-99a3-fb38092f86a2",
+      "data": {
+        "id": "1f9e0f27-5b9c-4b09-99a3-fb38092f86a2",
+        "title": "New American Standard Bible 1995",
+        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+        "spectrum": "300",
+        "denomination": "Evangelical",
+        "description": "",
+        "image": "",
+        "year": "1995",
+        "acronym": "NASB95",
+        "category": "",
+        "filter": "Translation",
+        "label": "New American Standard Bible 1995"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "b94a86cd-54d2-47a9-a391-6090d79cdf19",
+      "data": {
+        "id": "b94a86cd-54d2-47a9-a391-6090d79cdf19",
+        "title": "New Revised Standard Version Catholic",
+        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,3a03229c-60e8-47aa-99c1-328e50455609",
+        "spectrum": "300",
+        "denomination": "Catholic",
+        "description": "",
+        "image": "",
+        "year": "1993",
+        "acronym": "NRSVCE",
+        "category": "",
+        "filter": "Translation",
+        "label": "New Revised Standard Version Catholic"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "799582ce-4a45-44d1-a38b-e18fd48d456c",
+      "data": {
+        "id": "799582ce-4a45-44d1-a38b-e18fd48d456c",
+        "title": "The Amplified Bible",
+        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,91569ca2-781d-460e-b523-071150aa70d7",
+        "spectrum": "300",
+        "denomination": "Protestant",
+        "description": "",
+        "image": "",
+        "year": "1987",
+        "acronym": "AMP",
+        "category": "",
+        "filter": "Translation",
+        "label": "The Amplified Bible"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "0c591fec-12f2-4fc3-a14e-096af3a696c1",
+      "data": {
+        "id": "0c591fec-12f2-4fc3-a14e-096af3a696c1",
+        "title": "Revised Standard Version Catholic Edition",
+        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+        "spectrum": "300",
+        "denomination": "Catholic",
+        "description": "",
+        "image": "",
+        "year": "1966",
+        "acronym": "RSVCE",
+        "category": "",
+        "filter": "Translation",
+        "label": "Revised Standard Version Catholic Edition"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "531e199e-f3a2-4cf5-873e-8535b1cf4c8b",
+      "data": {
+        "id": "531e199e-f3a2-4cf5-873e-8535b1cf4c8b",
+        "title": "The New Testament: An Expanded Translation",
+        "parents": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+        "spectrum": "300",
+        "denomination": "Evangelical",
+        "description": "",
+        "image": "",
+        "year": "1961",
+        "acronym": "TNTAET",
+        "category": "",
+        "filter": "Translation",
+        "label": "The New Testament: An Expanded Translation"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "a8a7b43f-fbc8-4f79-a1af-e005c0063a38",
+      "data": {
+        "id": "a8a7b43f-fbc8-4f79-a1af-e005c0063a38",
+        "title": "Tanakh: The Holy Scriptures",
+        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+        "spectrum": "300",
+        "denomination": "Jewish",
+        "description": "",
+        "image": "",
+        "year": "1917",
+        "acronym": "1917",
+        "category": "",
+        "filter": "Translation",
+        "label": "Tanakh: The Holy Scriptures"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "505979c9-35a0-4d99-a831-26c1fafd7336",
+      "data": {
+        "id": "505979c9-35a0-4d99-a831-26c1fafd7336",
+        "title": "Young’s Literal Translation",
+        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,91569ca2-781d-460e-b523-071150aa70d7",
+        "spectrum": "300",
+        "denomination": "Protestant",
+        "description": "",
+        "image": "",
+        "year": "1898",
+        "acronym": "YLT",
+        "category": "",
+        "filter": "Translation",
+        "label": "Young’s Literal Translation"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "e6c481cf-c097-4236-b295-694511b531b4",
+      "data": {
+        "id": "e6c481cf-c097-4236-b295-694511b531b4",
+        "title": "1890 Darby Bible",
+        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,91569ca2-781d-460e-b523-071150aa70d7",
+        "spectrum": "300",
+        "denomination": "Brethren",
+        "description": "",
+        "image": "",
+        "year": "1890",
+        "acronym": "DBY",
+        "category": "",
+        "filter": "Translation",
+        "label": "1890 Darby Bible"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "686436a7-0e4a-4a66-a1b5-e6dcc44c9b80",
+      "data": {
+        "id": "686436a7-0e4a-4a66-a1b5-e6dcc44c9b80",
+        "title": "Cambridge Paragraph Authorized Version",
+        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,91569ca2-781d-460e-b523-071150aa70d7",
+        "spectrum": "300",
+        "denomination": "Anglican",
+        "description": "",
+        "image": "",
+        "year": "1873",
+        "acronym": "CPAV",
+        "category": "",
+        "filter": "Translation",
+        "label": "Cambridge Paragraph Authorized Version"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "f2e38380-b00a-4c73-a239-fc095f5c7794",
+      "data": {
+        "id": "f2e38380-b00a-4c73-a239-fc095f5c7794",
+        "title": "Authorized Version",
+        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,91569ca2-781d-460e-b523-071150aa70d7",
+        "spectrum": "300",
+        "denomination": "Anglican",
+        "description": "",
+        "image": "",
+        "year": "1769",
+        "acronym": "AV",
+        "category": "",
+        "filter": "Translation",
+        "label": "Authorized Version"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "cc1bcbfe-cddb-4680-ba0b-e874170d83f9",
+      "data": {
+        "id": "cc1bcbfe-cddb-4680-ba0b-e874170d83f9",
+        "title": "Coverdale Bible",
+        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,27edb113-5f24-4ca6-ad20-fa5cbe9c124a",
+        "spectrum": "300",
+        "denomination": "Protestant",
+        "description": "",
+        "image": "",
+        "year": "1535",
+        "acronym": "CB",
+        "category": "",
+        "filter": "Translation",
+        "label": "Coverdale Bible"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "fcf683c6-4760-47af-bc2d-75a142e98df7",
+      "data": {
+        "id": "fcf683c6-4760-47af-bc2d-75a142e98df7",
+        "title": "Evangelical Heritage Version",
+        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+        "spectrum": "200",
+        "denomination": "Lutheran",
+        "description": "",
+        "image": "",
+        "year": "2019",
+        "acronym": "EHV",
+        "category": "",
+        "filter": "Translation",
+        "label": "Evangelical Heritage Version"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "eddfffba-8148-4837-adf0-021848372564",
+      "data": {
+        "id": "eddfffba-8148-4837-adf0-021848372564",
+        "title": "New English Translation, 2nd Ed.",
+        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+        "spectrum": "200",
+        "denomination": "Evangelical",
+        "description": "",
+        "image": "",
+        "year": "2019",
+        "acronym": "NET2",
+        "category": "",
+        "filter": "Translation",
+        "label": "New English Translation, 2nd Ed."
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "b6372c7f-40b3-4380-9092-65fd2757c8d1",
+      "data": {
+        "id": "b6372c7f-40b3-4380-9092-65fd2757c8d1",
+        "title": "The Bible for Everyone",
+        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+        "spectrum": "200",
+        "denomination": "Evangelical",
+        "description": "",
+        "image": "",
+        "year": "2018",
+        "acronym": "TBfE",
+        "category": "",
+        "filter": "Translation",
+        "label": "The Bible for Everyone"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "2c4ac06c-6d29-4f46-a900-c0bb0c2c0c7d",
+      "data": {
+        "id": "2c4ac06c-6d29-4f46-a900-c0bb0c2c0c7d",
+        "title": "Tree of Life Version",
+        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,3a03229c-60e8-47aa-99c1-328e50455609",
+        "spectrum": "200",
+        "denomination": "Messianic",
+        "description": "",
+        "image": "",
+        "year": "2015",
+        "acronym": "TLV",
+        "category": "",
+        "filter": "Translation",
+        "label": "Tree of Life Version"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "cb2d4468-6fa7-45ff-9b2b-dbe77eca0106",
+      "data": {
+        "id": "cb2d4468-6fa7-45ff-9b2b-dbe77eca0106",
+        "title": "Common English Bible",
+        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+        "spectrum": "200",
+        "denomination": "Alliance",
+        "description": "",
+        "image": "",
+        "year": "2011",
+        "acronym": "CEB",
+        "category": "",
+        "filter": "Translation",
+        "label": "Common English Bible"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "d90d4316-1639-4095-b367-0b0fa9960c55",
+      "data": {
+        "id": "d90d4316-1639-4095-b367-0b0fa9960c55",
+        "title": "International Standard Version",
+        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+        "spectrum": "200",
+        "denomination": "Evangelical",
+        "description": "",
+        "image": "",
+        "year": "2011",
+        "acronym": "ISV",
+        "category": "",
+        "filter": "Translation",
+        "label": "International Standard Version"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "137d61e1-ff4c-448d-84cc-ff9e203dc4bf",
+      "data": {
+        "id": "137d61e1-ff4c-448d-84cc-ff9e203dc4bf",
+        "title": "New International Version – Anglicised",
+        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+        "spectrum": "200",
+        "denomination": "Evangelical",
+        "description": "",
+        "image": "",
+        "year": "2011",
+        "acronym": "NIV-A",
+        "category": "",
+        "filter": "Translation",
+        "label": "New International Version – Anglicised"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "868ffa78-94ef-440e-95a3-fe470dea483e",
+      "data": {
+        "id": "868ffa78-94ef-440e-95a3-fe470dea483e",
+        "title": "New English Translation",
+        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+        "spectrum": "200",
+        "denomination": "Evangelical",
+        "description": "",
+        "image": "",
+        "year": "2006",
+        "acronym": "NET",
+        "category": "",
+        "filter": "Translation",
+        "label": "New English Translation"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "8fe10169-202a-4dd8-8531-749238bd559a",
+      "data": {
+        "id": "8fe10169-202a-4dd8-8531-749238bd559a",
+        "title": "New Century Version",
+        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+        "spectrum": "200",
+        "denomination": "Protestant",
+        "description": "",
+        "image": "",
+        "year": "2005",
+        "acronym": "NCV",
+        "category": "",
+        "filter": "Translation",
+        "label": "New Century Version"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "fcb82be3-c188-4c17-aa00-cf2dded9cd2c",
+      "data": {
+        "id": "fcb82be3-c188-4c17-aa00-cf2dded9cd2c",
+        "title": "Today’s New International Version",
+        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+        "spectrum": "200",
+        "denomination": "Evangelical",
+        "description": "",
+        "image": "",
+        "year": "2005",
+        "acronym": "TNIV",
+        "category": "",
+        "filter": "Translation",
+        "label": "Today’s New International Version"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "239bb6db-43aa-45b4-b465-f9a4f95391b9",
+      "data": {
+        "id": "239bb6db-43aa-45b4-b465-f9a4f95391b9",
+        "title": "Easy-to-Read Version",
+        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,3a03229c-60e8-47aa-99c1-328e50455609",
+        "spectrum": "200",
+        "denomination": "Deaf",
+        "description": "",
+        "image": "",
+        "year": "2004",
+        "acronym": "ETRV",
+        "category": "",
+        "filter": "Translation",
+        "label": "Easy-to-Read Version"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "80422b9e-d155-41ad-8f5a-ff08318550e6",
+      "data": {
+        "id": "80422b9e-d155-41ad-8f5a-ff08318550e6",
+        "title": "International Standard Version NT",
+        "parents": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+        "spectrum": "200",
+        "denomination": "Evangelical",
+        "description": "",
+        "image": "",
+        "year": "2000",
+        "acronym": "ISV-NT",
+        "category": "",
+        "filter": "Translation",
+        "label": "International Standard Version NT"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "42893ebf-5033-4960-9bde-2344fe1043a2",
+      "data": {
+        "id": "42893ebf-5033-4960-9bde-2344fe1043a2",
+        "title": "New International Reader’s Version",
+        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+        "spectrum": "200",
+        "denomination": "Evangelical",
+        "description": "",
+        "image": "",
+        "year": "1998",
+        "acronym": "NIrV",
+        "category": "",
+        "filter": "Translation",
+        "label": "New International Reader’s Version"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "4ca82e75-be6f-4fec-bf6c-3b8dce44e5a9",
+      "data": {
+        "id": "4ca82e75-be6f-4fec-bf6c-3b8dce44e5a9",
+        "title": "New International Version Inclusive",
+        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+        "spectrum": "200",
+        "denomination": "Evangelical",
+        "description": "",
+        "image": "",
+        "year": "1996",
+        "acronym": "NIVI",
+        "category": "",
+        "filter": "Translation",
+        "label": "New International Version Inclusive"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "530264cc-464e-47d5-b8c2-e20a914ec455",
+      "data": {
+        "id": "530264cc-464e-47d5-b8c2-e20a914ec455",
+        "title": "Complete Jewish Bible",
+        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+        "spectrum": "200",
+        "denomination": "Messianic",
+        "description": "",
+        "image": "",
+        "year": "1998",
+        "acronym": "CJB",
+        "category": "",
+        "filter": "Translation",
+        "label": "Complete Jewish Bible"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "0f63eb1d-550a-4ca6-b556-c89d685e7f39",
+      "data": {
+        "id": "0f63eb1d-550a-4ca6-b556-c89d685e7f39",
+        "title": "Jewish New Testament",
+        "parents": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+        "spectrum": "200",
+        "denomination": "Messianic",
+        "description": "",
+        "image": "",
+        "year": "1997",
+        "acronym": "JNT",
+        "category": "",
+        "filter": "Translation",
+        "label": "Jewish New Testament"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "eb6b9559-2669-400a-9af9-453790a470e9",
+      "data": {
+        "id": "eb6b9559-2669-400a-9af9-453790a470e9",
+        "title": "Revised English Bible with Apocrypha",
+        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,3a03229c-60e8-47aa-99c1-328e50455609",
+        "spectrum": "200",
+        "denomination": "Protestant",
+        "description": "",
+        "image": "",
+        "year": "1996",
+        "acronym": "REB",
+        "category": "",
+        "filter": "Translation",
+        "label": "Revised English Bible with Apocrypha"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "93f7094b-4385-484a-b616-6f00c21b06c1",
+      "data": {
+        "id": "93f7094b-4385-484a-b616-6f00c21b06c1",
+        "title": "Contemporary English Version",
+        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,05aa246b-cc90-477b-92fe-bbe8a8cc826e",
+        "spectrum": "200",
+        "denomination": "American Bible Society",
+        "description": "",
+        "image": "",
+        "year": "1995",
+        "acronym": "CEV",
+        "category": "",
+        "filter": "Translation",
+        "label": "Contemporary English Version"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "4bbf2823-1c80-4e8f-b68f-481422e09d4b",
+      "data": {
+        "id": "4bbf2823-1c80-4e8f-b68f-481422e09d4b",
+        "title": "God’s Word Translation",
+        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,3a03229c-60e8-47aa-99c1-328e50455609",
+        "spectrum": "200",
+        "denomination": "Lutheran",
+        "description": "",
+        "image": "",
+        "year": "1995",
+        "acronym": "GW, GWT",
+        "category": "",
+        "filter": "Translation",
+        "label": "God’s Word Translation"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "f37e98ea-4a0a-48b1-b7f8-4d49a4c043bb",
+      "data": {
+        "id": "f37e98ea-4a0a-48b1-b7f8-4d49a4c043bb",
+        "title": "Good News Bible, Today’s English Version",
+        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+        "spectrum": "200",
+        "denomination": "Protestant",
+        "description": "",
+        "image": "",
+        "year": "1992",
+        "acronym": "GNB,TEV",
+        "category": "",
+        "filter": "Translation",
+        "label": "Good News Bible, Today’s English Version"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "8d2876ca-e725-47d9-9993-51fcbf8f303b",
+      "data": {
+        "id": "8d2876ca-e725-47d9-9993-51fcbf8f303b",
+        "title": "Good News Translation with Apocrypha",
+        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+        "spectrum": "200",
+        "denomination": "Protestant",
+        "description": "",
+        "image": "",
+        "year": "1992",
+        "acronym": "GNTa",
+        "category": "",
+        "filter": "Translation",
+        "label": "Good News Translation with Apocrypha"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "6d54191b-1534-4a02-a068-f567d2a28af6",
+      "data": {
+        "id": "6d54191b-1534-4a02-a068-f567d2a28af6",
+        "title": "Easy to Read Version",
+        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,3a03229c-60e8-47aa-99c1-328e50455609",
+        "spectrum": "200",
+        "denomination": "Deaf",
+        "description": "",
+        "image": "",
+        "year": "1987",
+        "acronym": "ERV",
+        "category": "",
+        "filter": "Translation",
+        "label": "Easy to Read Version"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "9b35846e-0805-41da-8a31-1fb67d66abff",
+      "data": {
+        "id": "9b35846e-0805-41da-8a31-1fb67d66abff",
+        "title": "International Children’s Bible",
+        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+        "spectrum": "200",
+        "denomination": "Protestant",
+        "description": "",
+        "image": "",
+        "year": "1986",
+        "acronym": "ICB",
+        "category": "",
+        "filter": "Translation",
+        "label": "International Children’s Bible"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "666e8eab-2f21-4cf1-ad6b-47b6604ca8d0",
+      "data": {
+        "id": "666e8eab-2f21-4cf1-ad6b-47b6604ca8d0",
+        "title": "New Jerusalem Bible",
+        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+        "spectrum": "200",
+        "denomination": "Catholic",
+        "description": "",
+        "image": "",
+        "year": "1985",
+        "acronym": "NJB",
+        "category": "",
+        "filter": "Translation",
+        "label": "New Jerusalem Bible"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "21e1efc4-2c7f-4323-bf79-ceb79f2820a0",
+      "data": {
+        "id": "21e1efc4-2c7f-4323-bf79-ceb79f2820a0",
+        "title": "New International Version",
+        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+        "spectrum": "200",
+        "denomination": "Evangelical",
+        "description": "",
+        "image": "",
+        "year": "1984",
+        "acronym": "NIV84",
+        "category": "",
+        "filter": "Translation",
+        "label": "New International Version"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "ac3b0f52-64c4-4586-a845-2bdc5607a0a7",
+      "data": {
+        "id": "ac3b0f52-64c4-4586-a845-2bdc5607a0a7",
+        "title": "New International Version – Anglicised",
+        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+        "spectrum": "200",
+        "denomination": "Evangelical",
+        "description": "",
+        "image": "",
+        "year": "1984",
+        "acronym": "NIV84-A",
+        "category": "",
+        "filter": "Translation",
+        "label": "New International Version – Anglicised"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "74497f4e-af0f-4d0b-b287-17e6ef2e3ee0",
+      "data": {
+        "id": "74497f4e-af0f-4d0b-b287-17e6ef2e3ee0",
+        "title": "New English Bible with Apocrypha",
+        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+        "spectrum": "200",
+        "denomination": "Protestant",
+        "description": "",
+        "image": "",
+        "year": "1970",
+        "acronym": "NEB",
+        "category": "",
+        "filter": "Translation",
+        "label": "New English Bible with Apocrypha"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "e501faff-c584-4f6a-8a7a-14c0ba1c8413",
+      "data": {
+        "id": "e501faff-c584-4f6a-8a7a-14c0ba1c8413",
+        "title": "Emphasized Bible, Rotherdam",
+        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,b9cdba59-0489-4b85-b2e0-ac32f59cb51c",
+        "spectrum": "200",
+        "denomination": "Evangelical",
+        "description": "",
+        "image": "",
+        "year": "1959",
+        "acronym": "EBR",
+        "category": "",
+        "filter": "Translation",
+        "label": "Emphasized Bible, Rotherdam"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "4cf1a7f1-2816-4810-9d01-52feeed0278a",
+      "data": {
+        "id": "4cf1a7f1-2816-4810-9d01-52feeed0278a",
+        "title": "Emphasized Bible, Rotherdam",
+        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,b9cdba59-0489-4b85-b2e0-ac32f59cb51c",
+        "spectrum": "200",
+        "denomination": "Evangelical",
+        "description": "",
+        "image": "",
+        "year": "1959",
+        "acronym": "EBR",
+        "category": "",
+        "filter": "Translation",
+        "label": "Emphasized Bible, Rotherdam"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "ed96557a-d76b-4f09-a9af-8bcdc0945c98",
+      "data": {
+        "id": "ed96557a-d76b-4f09-a9af-8bcdc0945c98",
+        "title": "The Passion Translation",
+        "parents": "3a03229c-60e8-47aa-99c1-328e50455609",
+        "spectrum": "100",
+        "denomination": "BroadStreet",
+        "description": "",
+        "image": "",
+        "year": "2017",
+        "acronym": "TPT",
+        "category": "",
+        "filter": "Translation",
+        "label": "The Passion Translation"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "d033f23c-01c2-4ef8-b6d5-3e026a560402",
+      "data": {
+        "id": "d033f23c-01c2-4ef8-b6d5-3e026a560402",
+        "title": "The Voice",
+        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+        "spectrum": "100",
+        "denomination": "Ecclesia",
+        "description": "",
+        "image": "",
+        "year": "2012",
+        "acronym": "TV",
+        "category": "",
+        "filter": "Translation",
+        "label": "The Voice"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "7018e75a-c0d0-4efc-b4e6-ccf6b0da4c6b",
+      "data": {
+        "id": "7018e75a-c0d0-4efc-b4e6-ccf6b0da4c6b",
+        "title": "The Message",
+        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+        "spectrum": "100",
+        "denomination": "Presbyterian",
+        "description": "",
+        "image": "",
+        "year": "2005",
+        "acronym": "MSG",
+        "category": "",
+        "filter": "Translation",
+        "label": "The Message"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "5334e052-9d89-41b8-89a2-6aac7c27e394",
+      "data": {
+        "id": "5334e052-9d89-41b8-89a2-6aac7c27e394",
+        "title": "Cotton Patch Gospel",
+        "parents": "2ba05602-c7fe-4044-8a38-8461dc86cff1",
+        "spectrum": "100",
+        "denomination": "Koinonia",
+        "description": "",
+        "image": "",
+        "year": "1992",
+        "acronym": "CPG",
+        "category": "",
+        "filter": "Translation",
+        "label": "Cotton Patch Gospel"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "9095a8cd-4ea3-4d75-a7e0-16602fb9ef45",
+      "data": {
+        "id": "9095a8cd-4ea3-4d75-a7e0-16602fb9ef45",
+        "title": "J.B. Phillips NT in Modern English",
+        "parents": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+        "spectrum": "100",
+        "denomination": "Evangelical",
+        "description": "",
+        "image": "",
+        "year": "1958",
+        "acronym": "Phillips",
+        "category": "",
+        "filter": "Translation",
+        "label": "J.B. Phillips NT in Modern English"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
+    },
+    {
+      "id": "6a5aff40-8642-44c0-9b26-6a0cf2ea71bb",
+      "data": {
+        "id": "6a5aff40-8642-44c0-9b26-6a0cf2ea71bb",
+        "title": "Liberal Translation of the New Testament",
+        "parents": "2ba05602-c7fe-4044-8a38-8461dc86cff1",
+        "spectrum": "100",
+        "denomination": "Elegance",
+        "description": "",
+        "image": "",
+        "year": "1768",
+        "acronym": "Harwood",
+        "category": "",
+        "filter": "Translation",
+        "label": "Liberal Translation of the New Testament"
+      },
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "filterStyle": false
     }
   ],
   "edges": [
@@ -644,246 +2242,1159 @@
       "id": "4705a210-9018-47df-a1bd-e7eb2bddbd68~95db0c3a-172e-4e94-b0b3-ef5c0ff609a8",
       "source": "4705a210-9018-47df-a1bd-e7eb2bddbd68",
       "target": "95db0c3a-172e-4e94-b0b3-ef5c0ff609a8",
-      "edgeType": "smoothstep",
-      "animated": true
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~95db0c3a-172e-4e94-b0b3-ef5c0ff609a8",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "95db0c3a-172e-4e94-b0b3-ef5c0ff609a8",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d~95db0c3a-172e-4e94-b0b3-ef5c0ff609a8",
+      "source": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+      "target": "95db0c3a-172e-4e94-b0b3-ef5c0ff609a8",
+      "edgeType": "smoothstep"
     },
     {
       "id": "e2ff24d2-69d7-4cc6-a089-60586fe2f500~ca58f32f-5a82-4fb7-90b2-3e27f0c82b76",
       "source": "e2ff24d2-69d7-4cc6-a089-60586fe2f500",
       "target": "ca58f32f-5a82-4fb7-90b2-3e27f0c82b76",
-      "edgeType": "smoothstep",
-      "animated": true
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~ca58f32f-5a82-4fb7-90b2-3e27f0c82b76",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "ca58f32f-5a82-4fb7-90b2-3e27f0c82b76",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d~ca58f32f-5a82-4fb7-90b2-3e27f0c82b76",
+      "source": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+      "target": "ca58f32f-5a82-4fb7-90b2-3e27f0c82b76",
+      "edgeType": "smoothstep"
     },
     {
       "id": "4705a210-9018-47df-a1bd-e7eb2bddbd68~e2ff24d2-69d7-4cc6-a089-60586fe2f500",
       "source": "4705a210-9018-47df-a1bd-e7eb2bddbd68",
       "target": "e2ff24d2-69d7-4cc6-a089-60586fe2f500",
-      "edgeType": "smoothstep",
-      "animated": true
+      "edgeType": "smoothstep"
     },
     {
       "id": "8a114fc1-2806-48c4-b751-4b087ca23be1~a09706d0-f3d7-479f-9622-7a400f5f8751",
       "source": "8a114fc1-2806-48c4-b751-4b087ca23be1",
       "target": "a09706d0-f3d7-479f-9622-7a400f5f8751",
-      "edgeType": "smoothstep",
-      "animated": true
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~a09706d0-f3d7-479f-9622-7a400f5f8751",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "a09706d0-f3d7-479f-9622-7a400f5f8751",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d~a09706d0-f3d7-479f-9622-7a400f5f8751",
+      "source": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+      "target": "a09706d0-f3d7-479f-9622-7a400f5f8751",
+      "edgeType": "smoothstep"
     },
     {
       "id": "4705a210-9018-47df-a1bd-e7eb2bddbd68~8a114fc1-2806-48c4-b751-4b087ca23be1",
       "source": "4705a210-9018-47df-a1bd-e7eb2bddbd68",
       "target": "8a114fc1-2806-48c4-b751-4b087ca23be1",
-      "edgeType": "smoothstep",
-      "animated": true
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~8a114fc1-2806-48c4-b751-4b087ca23be1",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "8a114fc1-2806-48c4-b751-4b087ca23be1",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d~8a114fc1-2806-48c4-b751-4b087ca23be1",
+      "source": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+      "target": "8a114fc1-2806-48c4-b751-4b087ca23be1",
+      "edgeType": "smoothstep"
     },
     {
       "id": "31d057f4-3bb6-41ca-8f44-8bc77432ed6d~048ff88b-1d02-45cd-a2c8-5788de6672e7",
       "source": "31d057f4-3bb6-41ca-8f44-8bc77432ed6d",
       "target": "048ff88b-1d02-45cd-a2c8-5788de6672e7",
-      "edgeType": "smoothstep",
-      "animated": true
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~048ff88b-1d02-45cd-a2c8-5788de6672e7",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "048ff88b-1d02-45cd-a2c8-5788de6672e7",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d~048ff88b-1d02-45cd-a2c8-5788de6672e7",
+      "source": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+      "target": "048ff88b-1d02-45cd-a2c8-5788de6672e7",
+      "edgeType": "smoothstep"
     },
     {
       "id": "e2d6a466-850f-4f76-a388-97c7c8786d3e~31d057f4-3bb6-41ca-8f44-8bc77432ed6d",
       "source": "e2d6a466-850f-4f76-a388-97c7c8786d3e",
       "target": "31d057f4-3bb6-41ca-8f44-8bc77432ed6d",
-      "edgeType": "smoothstep",
-      "animated": true
+      "edgeType": "smoothstep"
     },
     {
       "id": "e2d6a466-850f-4f76-a388-97c7c8786d3e~1cb9b7ce-41b3-4f15-af8b-b15011bf4054",
       "source": "e2d6a466-850f-4f76-a388-97c7c8786d3e",
       "target": "1cb9b7ce-41b3-4f15-af8b-b15011bf4054",
-      "edgeType": "smoothstep",
-      "animated": true
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~1cb9b7ce-41b3-4f15-af8b-b15011bf4054",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "1cb9b7ce-41b3-4f15-af8b-b15011bf4054",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d~1cb9b7ce-41b3-4f15-af8b-b15011bf4054",
+      "source": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+      "target": "1cb9b7ce-41b3-4f15-af8b-b15011bf4054",
+      "edgeType": "smoothstep"
     },
     {
       "id": "2e534f4f-e6f1-47ff-a2a3-a8e63749210a~d7091086-012d-4110-8093-af880e3a037d",
       "source": "2e534f4f-e6f1-47ff-a2a3-a8e63749210a",
       "target": "d7091086-012d-4110-8093-af880e3a037d",
-      "edgeType": "smoothstep",
-      "animated": true
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~d7091086-012d-4110-8093-af880e3a037d",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "d7091086-012d-4110-8093-af880e3a037d",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d~d7091086-012d-4110-8093-af880e3a037d",
+      "source": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+      "target": "d7091086-012d-4110-8093-af880e3a037d",
+      "edgeType": "smoothstep"
     },
     {
       "id": "2e404672-afdd-4fba-b4ac-9dc26d12ce67~8824e11c-2407-413e-bf13-3a5ae377511b",
       "source": "2e404672-afdd-4fba-b4ac-9dc26d12ce67",
       "target": "8824e11c-2407-413e-bf13-3a5ae377511b",
-      "edgeType": "smoothstep",
-      "animated": true
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~8824e11c-2407-413e-bf13-3a5ae377511b",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "8824e11c-2407-413e-bf13-3a5ae377511b",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "05aa246b-cc90-477b-92fe-bbe8a8cc826e~8824e11c-2407-413e-bf13-3a5ae377511b",
+      "source": "05aa246b-cc90-477b-92fe-bbe8a8cc826e",
+      "target": "8824e11c-2407-413e-bf13-3a5ae377511b",
+      "edgeType": "smoothstep"
     },
     {
       "id": "06c3e4ec-b804-4158-82ed-32f4494164b2~0658057b-1f9e-4bd8-98d0-dc00f7a0291d",
       "source": "06c3e4ec-b804-4158-82ed-32f4494164b2",
       "target": "0658057b-1f9e-4bd8-98d0-dc00f7a0291d",
-      "edgeType": "smoothstep",
-      "animated": true
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~0658057b-1f9e-4bd8-98d0-dc00f7a0291d",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "0658057b-1f9e-4bd8-98d0-dc00f7a0291d",
+      "edgeType": "smoothstep"
     },
     {
       "id": "790488e0-67e9-4918-b2ab-d1301bd32f78~fde9d264-32f8-4b2c-8220-426cbdc2680f",
       "source": "790488e0-67e9-4918-b2ab-d1301bd32f78",
       "target": "fde9d264-32f8-4b2c-8220-426cbdc2680f",
-      "edgeType": "smoothstep",
-      "animated": true
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~fde9d264-32f8-4b2c-8220-426cbdc2680f",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "fde9d264-32f8-4b2c-8220-426cbdc2680f",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "91569ca2-781d-460e-b523-071150aa70d7~fde9d264-32f8-4b2c-8220-426cbdc2680f",
+      "source": "91569ca2-781d-460e-b523-071150aa70d7",
+      "target": "fde9d264-32f8-4b2c-8220-426cbdc2680f",
+      "edgeType": "smoothstep"
     },
     {
       "id": "1f277743-7f9d-4595-b43c-75cdc29d2416~06c3e4ec-b804-4158-82ed-32f4494164b2",
       "source": "1f277743-7f9d-4595-b43c-75cdc29d2416",
       "target": "06c3e4ec-b804-4158-82ed-32f4494164b2",
-      "edgeType": "smoothstep",
-      "animated": true
+      "edgeType": "smoothstep"
     },
     {
       "id": "5d235c14-0f72-4829-ba87-8a972d66519e~e2d6a466-850f-4f76-a388-97c7c8786d3e",
       "source": "5d235c14-0f72-4829-ba87-8a972d66519e",
       "target": "e2d6a466-850f-4f76-a388-97c7c8786d3e",
-      "edgeType": "smoothstep",
-      "animated": true
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~e2d6a466-850f-4f76-a388-97c7c8786d3e",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "e2d6a466-850f-4f76-a388-97c7c8786d3e",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "b9cdba59-0489-4b85-b2e0-ac32f59cb51c~e2d6a466-850f-4f76-a388-97c7c8786d3e",
+      "source": "b9cdba59-0489-4b85-b2e0-ac32f59cb51c",
+      "target": "e2d6a466-850f-4f76-a388-97c7c8786d3e",
+      "edgeType": "smoothstep"
     },
     {
       "id": "4705a210-9018-47df-a1bd-e7eb2bddbd68~5d235c14-0f72-4829-ba87-8a972d66519e",
       "source": "4705a210-9018-47df-a1bd-e7eb2bddbd68",
       "target": "5d235c14-0f72-4829-ba87-8a972d66519e",
-      "edgeType": "smoothstep",
-      "animated": true
+      "edgeType": "smoothstep"
     },
     {
       "id": "790488e0-67e9-4918-b2ab-d1301bd32f78~5d235c14-0f72-4829-ba87-8a972d66519e",
       "source": "790488e0-67e9-4918-b2ab-d1301bd32f78",
       "target": "5d235c14-0f72-4829-ba87-8a972d66519e",
-      "edgeType": "smoothstep",
-      "animated": true
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~5d235c14-0f72-4829-ba87-8a972d66519e",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "5d235c14-0f72-4829-ba87-8a972d66519e",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "91569ca2-781d-460e-b523-071150aa70d7~5d235c14-0f72-4829-ba87-8a972d66519e",
+      "source": "91569ca2-781d-460e-b523-071150aa70d7",
+      "target": "5d235c14-0f72-4829-ba87-8a972d66519e",
+      "edgeType": "smoothstep"
     },
     {
       "id": "798f009f-3fc7-4206-9fbf-cf3ad053648c~790488e0-67e9-4918-b2ab-d1301bd32f78",
       "source": "798f009f-3fc7-4206-9fbf-cf3ad053648c",
       "target": "790488e0-67e9-4918-b2ab-d1301bd32f78",
-      "edgeType": "smoothstep",
-      "animated": true
+      "edgeType": "smoothstep"
     },
     {
       "id": "9216939c-6211-4838-b3f8-c581a82cc521~790488e0-67e9-4918-b2ab-d1301bd32f78",
       "source": "9216939c-6211-4838-b3f8-c581a82cc521",
       "target": "790488e0-67e9-4918-b2ab-d1301bd32f78",
-      "edgeType": "smoothstep",
-      "animated": true
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~790488e0-67e9-4918-b2ab-d1301bd32f78",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "790488e0-67e9-4918-b2ab-d1301bd32f78",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "91569ca2-781d-460e-b523-071150aa70d7~790488e0-67e9-4918-b2ab-d1301bd32f78",
+      "source": "91569ca2-781d-460e-b523-071150aa70d7",
+      "target": "790488e0-67e9-4918-b2ab-d1301bd32f78",
+      "edgeType": "smoothstep"
     },
     {
       "id": "1f277743-7f9d-4595-b43c-75cdc29d2416~4705a210-9018-47df-a1bd-e7eb2bddbd68",
       "source": "1f277743-7f9d-4595-b43c-75cdc29d2416",
       "target": "4705a210-9018-47df-a1bd-e7eb2bddbd68",
-      "edgeType": "smoothstep",
-      "animated": true
+      "edgeType": "smoothstep"
     },
     {
       "id": "2ba05602-c7fe-4044-8a38-8461dc86cff1~4705a210-9018-47df-a1bd-e7eb2bddbd68",
       "source": "2ba05602-c7fe-4044-8a38-8461dc86cff1",
       "target": "4705a210-9018-47df-a1bd-e7eb2bddbd68",
-      "edgeType": "smoothstep",
-      "animated": true
+      "edgeType": "smoothstep"
     },
     {
       "id": "27edb113-5f24-4ca6-ad20-fa5cbe9c124a~86949ef1-fa84-4c35-8bc1-3b2f684cfd13",
       "source": "27edb113-5f24-4ca6-ad20-fa5cbe9c124a",
       "target": "86949ef1-fa84-4c35-8bc1-3b2f684cfd13",
-      "edgeType": "smoothstep",
-      "animated": true
+      "edgeType": "smoothstep"
     },
     {
       "id": "91569ca2-781d-460e-b523-071150aa70d7~798f009f-3fc7-4206-9fbf-cf3ad053648c",
       "source": "91569ca2-781d-460e-b523-071150aa70d7",
       "target": "798f009f-3fc7-4206-9fbf-cf3ad053648c",
-      "edgeType": "smoothstep",
-      "animated": true
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~798f009f-3fc7-4206-9fbf-cf3ad053648c",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "798f009f-3fc7-4206-9fbf-cf3ad053648c",
+      "edgeType": "smoothstep"
     },
     {
       "id": "e5479cde-e2eb-4fd5-9eb4-98d06bcd27d6~9216939c-6211-4838-b3f8-c581a82cc521",
       "source": "e5479cde-e2eb-4fd5-9eb4-98d06bcd27d6",
       "target": "9216939c-6211-4838-b3f8-c581a82cc521",
-      "edgeType": "smoothstep",
-      "animated": true
+      "edgeType": "smoothstep"
     },
     {
       "id": "91569ca2-781d-460e-b523-071150aa70d7~9216939c-6211-4838-b3f8-c581a82cc521",
       "source": "91569ca2-781d-460e-b523-071150aa70d7",
       "target": "9216939c-6211-4838-b3f8-c581a82cc521",
-      "edgeType": "smoothstep",
-      "animated": true
+      "edgeType": "smoothstep"
     },
     {
       "id": "08451ffe-6f6b-45f0-9f0a-4abac2a61da5~e5479cde-e2eb-4fd5-9eb4-98d06bcd27d6",
       "source": "08451ffe-6f6b-45f0-9f0a-4abac2a61da5",
       "target": "e5479cde-e2eb-4fd5-9eb4-98d06bcd27d6",
-      "edgeType": "smoothstep",
-      "animated": true
+      "edgeType": "smoothstep"
     },
     {
       "id": "27edb113-5f24-4ca6-ad20-fa5cbe9c124a~08451ffe-6f6b-45f0-9f0a-4abac2a61da5",
       "source": "27edb113-5f24-4ca6-ad20-fa5cbe9c124a",
       "target": "08451ffe-6f6b-45f0-9f0a-4abac2a61da5",
-      "edgeType": "smoothstep",
-      "animated": true
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~08451ffe-6f6b-45f0-9f0a-4abac2a61da5",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "08451ffe-6f6b-45f0-9f0a-4abac2a61da5",
+      "edgeType": "smoothstep"
     },
     {
       "id": "27edb113-5f24-4ca6-ad20-fa5cbe9c124a~e09bc697-31ec-42a4-bb82-63357ed0d791",
       "source": "27edb113-5f24-4ca6-ad20-fa5cbe9c124a",
       "target": "e09bc697-31ec-42a4-bb82-63357ed0d791",
-      "edgeType": "smoothstep",
-      "animated": true
+      "edgeType": "smoothstep"
     },
     {
       "id": "1f277743-7f9d-4595-b43c-75cdc29d2416~91569ca2-781d-460e-b523-071150aa70d7",
       "source": "1f277743-7f9d-4595-b43c-75cdc29d2416",
       "target": "91569ca2-781d-460e-b523-071150aa70d7",
-      "edgeType": "smoothstep",
-      "animated": true
+      "edgeType": "smoothstep"
     },
     {
       "id": "2ba05602-c7fe-4044-8a38-8461dc86cff1~91569ca2-781d-460e-b523-071150aa70d7",
       "source": "2ba05602-c7fe-4044-8a38-8461dc86cff1",
       "target": "91569ca2-781d-460e-b523-071150aa70d7",
-      "edgeType": "smoothstep",
-      "animated": true
+      "edgeType": "smoothstep"
     },
     {
       "id": "1f277743-7f9d-4595-b43c-75cdc29d2416~27edb113-5f24-4ca6-ad20-fa5cbe9c124a",
       "source": "1f277743-7f9d-4595-b43c-75cdc29d2416",
       "target": "27edb113-5f24-4ca6-ad20-fa5cbe9c124a",
-      "edgeType": "smoothstep",
-      "animated": true
+      "edgeType": "smoothstep"
     },
     {
       "id": "2ba05602-c7fe-4044-8a38-8461dc86cff1~27edb113-5f24-4ca6-ad20-fa5cbe9c124a",
       "source": "2ba05602-c7fe-4044-8a38-8461dc86cff1",
       "target": "27edb113-5f24-4ca6-ad20-fa5cbe9c124a",
-      "edgeType": "smoothstep",
-      "animated": true
+      "edgeType": "smoothstep"
     },
     {
       "id": "e2d6a466-850f-4f76-a388-97c7c8786d3e~2e534f4f-e6f1-47ff-a2a3-a8e63749210a",
       "source": "e2d6a466-850f-4f76-a388-97c7c8786d3e",
       "target": "2e534f4f-e6f1-47ff-a2a3-a8e63749210a",
-      "edgeType": "smoothstep",
-      "animated": true
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~2e534f4f-e6f1-47ff-a2a3-a8e63749210a",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "2e534f4f-e6f1-47ff-a2a3-a8e63749210a",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d~2e534f4f-e6f1-47ff-a2a3-a8e63749210a",
+      "source": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+      "target": "2e534f4f-e6f1-47ff-a2a3-a8e63749210a",
+      "edgeType": "smoothstep"
     },
     {
       "id": "2e534f4f-e6f1-47ff-a2a3-a8e63749210a~2e404672-afdd-4fba-b4ac-9dc26d12ce67",
       "source": "2e534f4f-e6f1-47ff-a2a3-a8e63749210a",
       "target": "2e404672-afdd-4fba-b4ac-9dc26d12ce67",
-      "edgeType": "smoothstep",
-      "animated": true
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~2e404672-afdd-4fba-b4ac-9dc26d12ce67",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "2e404672-afdd-4fba-b4ac-9dc26d12ce67",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d~2e404672-afdd-4fba-b4ac-9dc26d12ce67",
+      "source": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+      "target": "2e404672-afdd-4fba-b4ac-9dc26d12ce67",
+      "edgeType": "smoothstep"
     },
     {
       "id": "a70221c3-1fed-4e98-bc32-a5780cbdfa1b~1f277743-7f9d-4595-b43c-75cdc29d2416",
       "source": "a70221c3-1fed-4e98-bc32-a5780cbdfa1b",
       "target": "1f277743-7f9d-4595-b43c-75cdc29d2416",
-      "edgeType": "smoothstep",
-      "animated": true
+      "edgeType": "smoothstep"
     },
     {
       "id": "a70221c3-1fed-4e98-bc32-a5780cbdfa1b~2ba05602-c7fe-4044-8a38-8461dc86cff1",
       "source": "a70221c3-1fed-4e98-bc32-a5780cbdfa1b",
       "target": "2ba05602-c7fe-4044-8a38-8461dc86cff1",
-      "edgeType": "smoothstep",
-      "animated": true
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "1f277743-7f9d-4595-b43c-75cdc29d2416~88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "source": "1f277743-7f9d-4595-b43c-75cdc29d2416",
+      "target": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "2ba05602-c7fe-4044-8a38-8461dc86cff1~88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "source": "2ba05602-c7fe-4044-8a38-8461dc86cff1",
+      "target": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "1f277743-7f9d-4595-b43c-75cdc29d2416~7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+      "source": "1f277743-7f9d-4595-b43c-75cdc29d2416",
+      "target": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "2ba05602-c7fe-4044-8a38-8461dc86cff1~7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+      "source": "2ba05602-c7fe-4044-8a38-8461dc86cff1",
+      "target": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "1f277743-7f9d-4595-b43c-75cdc29d2416~ac929a3d-f3e5-4c3b-97d2-9fcb8e129e40",
+      "source": "1f277743-7f9d-4595-b43c-75cdc29d2416",
+      "target": "ac929a3d-f3e5-4c3b-97d2-9fcb8e129e40",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "2ba05602-c7fe-4044-8a38-8461dc86cff1~ac929a3d-f3e5-4c3b-97d2-9fcb8e129e40",
+      "source": "2ba05602-c7fe-4044-8a38-8461dc86cff1",
+      "target": "ac929a3d-f3e5-4c3b-97d2-9fcb8e129e40",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "1f277743-7f9d-4595-b43c-75cdc29d2416~91bb2590-9499-4365-9342-c9780419bc48",
+      "source": "1f277743-7f9d-4595-b43c-75cdc29d2416",
+      "target": "91bb2590-9499-4365-9342-c9780419bc48",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "2ba05602-c7fe-4044-8a38-8461dc86cff1~91bb2590-9499-4365-9342-c9780419bc48",
+      "source": "2ba05602-c7fe-4044-8a38-8461dc86cff1",
+      "target": "91bb2590-9499-4365-9342-c9780419bc48",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "1f277743-7f9d-4595-b43c-75cdc29d2416~977b3203-e7b3-4d3e-9955-284d8d89b5c4",
+      "source": "1f277743-7f9d-4595-b43c-75cdc29d2416",
+      "target": "977b3203-e7b3-4d3e-9955-284d8d89b5c4",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "2ba05602-c7fe-4044-8a38-8461dc86cff1~977b3203-e7b3-4d3e-9955-284d8d89b5c4",
+      "source": "2ba05602-c7fe-4044-8a38-8461dc86cff1",
+      "target": "977b3203-e7b3-4d3e-9955-284d8d89b5c4",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "1f277743-7f9d-4595-b43c-75cdc29d2416~b1e872ef-1f00-4cf0-8ef3-7f5ff2b7bf76",
+      "source": "1f277743-7f9d-4595-b43c-75cdc29d2416",
+      "target": "b1e872ef-1f00-4cf0-8ef3-7f5ff2b7bf76",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "2ba05602-c7fe-4044-8a38-8461dc86cff1~b1e872ef-1f00-4cf0-8ef3-7f5ff2b7bf76",
+      "source": "2ba05602-c7fe-4044-8a38-8461dc86cff1",
+      "target": "b1e872ef-1f00-4cf0-8ef3-7f5ff2b7bf76",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "1f277743-7f9d-4595-b43c-75cdc29d2416~4987e838-2d0f-4dd7-96f0-7ba51f77d17e",
+      "source": "1f277743-7f9d-4595-b43c-75cdc29d2416",
+      "target": "4987e838-2d0f-4dd7-96f0-7ba51f77d17e",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "2ba05602-c7fe-4044-8a38-8461dc86cff1~4987e838-2d0f-4dd7-96f0-7ba51f77d17e",
+      "source": "2ba05602-c7fe-4044-8a38-8461dc86cff1",
+      "target": "4987e838-2d0f-4dd7-96f0-7ba51f77d17e",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "1f277743-7f9d-4595-b43c-75cdc29d2416~b9cdba59-0489-4b85-b2e0-ac32f59cb51c",
+      "source": "1f277743-7f9d-4595-b43c-75cdc29d2416",
+      "target": "b9cdba59-0489-4b85-b2e0-ac32f59cb51c",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "2ba05602-c7fe-4044-8a38-8461dc86cff1~b9cdba59-0489-4b85-b2e0-ac32f59cb51c",
+      "source": "2ba05602-c7fe-4044-8a38-8461dc86cff1",
+      "target": "b9cdba59-0489-4b85-b2e0-ac32f59cb51c",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "1f277743-7f9d-4595-b43c-75cdc29d2416~d23f8890-3351-4e15-9d20-b1ae81b80d80",
+      "source": "1f277743-7f9d-4595-b43c-75cdc29d2416",
+      "target": "d23f8890-3351-4e15-9d20-b1ae81b80d80",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "2ba05602-c7fe-4044-8a38-8461dc86cff1~d23f8890-3351-4e15-9d20-b1ae81b80d80",
+      "source": "2ba05602-c7fe-4044-8a38-8461dc86cff1",
+      "target": "d23f8890-3351-4e15-9d20-b1ae81b80d80",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "1f277743-7f9d-4595-b43c-75cdc29d2416~3a03229c-60e8-47aa-99c1-328e50455609",
+      "source": "1f277743-7f9d-4595-b43c-75cdc29d2416",
+      "target": "3a03229c-60e8-47aa-99c1-328e50455609",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "2ba05602-c7fe-4044-8a38-8461dc86cff1~3a03229c-60e8-47aa-99c1-328e50455609",
+      "source": "2ba05602-c7fe-4044-8a38-8461dc86cff1",
+      "target": "3a03229c-60e8-47aa-99c1-328e50455609",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "1f277743-7f9d-4595-b43c-75cdc29d2416~05aa246b-cc90-477b-92fe-bbe8a8cc826e",
+      "source": "1f277743-7f9d-4595-b43c-75cdc29d2416",
+      "target": "05aa246b-cc90-477b-92fe-bbe8a8cc826e",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "2ba05602-c7fe-4044-8a38-8461dc86cff1~05aa246b-cc90-477b-92fe-bbe8a8cc826e",
+      "source": "2ba05602-c7fe-4044-8a38-8461dc86cff1",
+      "target": "05aa246b-cc90-477b-92fe-bbe8a8cc826e",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~8a9df75a-431e-4eb6-b0b0-3f037ea96379",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "8a9df75a-431e-4eb6-b0b0-3f037ea96379",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d~8a9df75a-431e-4eb6-b0b0-3f037ea96379",
+      "source": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+      "target": "8a9df75a-431e-4eb6-b0b0-3f037ea96379",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~a3f3bf55-0fcc-4dc6-941e-7a2109de7809",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "a3f3bf55-0fcc-4dc6-941e-7a2109de7809",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d~a3f3bf55-0fcc-4dc6-941e-7a2109de7809",
+      "source": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+      "target": "a3f3bf55-0fcc-4dc6-941e-7a2109de7809",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "ac929a3d-f3e5-4c3b-97d2-9fcb8e129e40~24adf2a1-c038-451a-9be8-c8755c7f2957",
+      "source": "ac929a3d-f3e5-4c3b-97d2-9fcb8e129e40",
+      "target": "24adf2a1-c038-451a-9be8-c8755c7f2957",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~15672529-e6dd-4593-8798-c513b01ffe8d",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "15672529-e6dd-4593-8798-c513b01ffe8d",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "91bb2590-9499-4365-9342-c9780419bc48~15672529-e6dd-4593-8798-c513b01ffe8d",
+      "source": "91bb2590-9499-4365-9342-c9780419bc48",
+      "target": "15672529-e6dd-4593-8798-c513b01ffe8d",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "e2d6a466-850f-4f76-a388-97c7c8786d3e~15672529-e6dd-4593-8798-c513b01ffe8d",
+      "source": "e2d6a466-850f-4f76-a388-97c7c8786d3e",
+      "target": "15672529-e6dd-4593-8798-c513b01ffe8d",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~03b1f366-b89e-447f-8ec4-11a06a3ff8b4",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "03b1f366-b89e-447f-8ec4-11a06a3ff8b4",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "91bb2590-9499-4365-9342-c9780419bc48~03b1f366-b89e-447f-8ec4-11a06a3ff8b4",
+      "source": "91bb2590-9499-4365-9342-c9780419bc48",
+      "target": "03b1f366-b89e-447f-8ec4-11a06a3ff8b4",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "e2d6a466-850f-4f76-a388-97c7c8786d3e~03b1f366-b89e-447f-8ec4-11a06a3ff8b4",
+      "source": "e2d6a466-850f-4f76-a388-97c7c8786d3e",
+      "target": "03b1f366-b89e-447f-8ec4-11a06a3ff8b4",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~39d6a397-e316-4ca6-a19b-6ee90e018cdc",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "39d6a397-e316-4ca6-a19b-6ee90e018cdc",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d~39d6a397-e316-4ca6-a19b-6ee90e018cdc",
+      "source": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+      "target": "39d6a397-e316-4ca6-a19b-6ee90e018cdc",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "977b3203-e7b3-4d3e-9955-284d8d89b5c4~39d6a397-e316-4ca6-a19b-6ee90e018cdc",
+      "source": "977b3203-e7b3-4d3e-9955-284d8d89b5c4",
+      "target": "39d6a397-e316-4ca6-a19b-6ee90e018cdc",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~62595c9e-2874-4549-b95f-33f0ecb523f9",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "62595c9e-2874-4549-b95f-33f0ecb523f9",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "91569ca2-781d-460e-b523-071150aa70d7~62595c9e-2874-4549-b95f-33f0ecb523f9",
+      "source": "91569ca2-781d-460e-b523-071150aa70d7",
+      "target": "62595c9e-2874-4549-b95f-33f0ecb523f9",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~37a8da1d-aaf5-4431-ab06-20941a1d41b7",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "37a8da1d-aaf5-4431-ab06-20941a1d41b7",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "b1e872ef-1f00-4cf0-8ef3-7f5ff2b7bf76~37a8da1d-aaf5-4431-ab06-20941a1d41b7",
+      "source": "b1e872ef-1f00-4cf0-8ef3-7f5ff2b7bf76",
+      "target": "37a8da1d-aaf5-4431-ab06-20941a1d41b7",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "ac929a3d-f3e5-4c3b-97d2-9fcb8e129e40~e792167f-5126-4469-bc54-c9bd596c1ca5",
+      "source": "ac929a3d-f3e5-4c3b-97d2-9fcb8e129e40",
+      "target": "e792167f-5126-4469-bc54-c9bd596c1ca5",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "4987e838-2d0f-4dd7-96f0-7ba51f77d17e~f9a80337-8b53-4b89-8f1e-7189928ed0fc",
+      "source": "4987e838-2d0f-4dd7-96f0-7ba51f77d17e",
+      "target": "f9a80337-8b53-4b89-8f1e-7189928ed0fc",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~546b17af-0620-41a5-988c-e173a54c29cd",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "546b17af-0620-41a5-988c-e173a54c29cd",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "91569ca2-781d-460e-b523-071150aa70d7~546b17af-0620-41a5-988c-e173a54c29cd",
+      "source": "91569ca2-781d-460e-b523-071150aa70d7",
+      "target": "546b17af-0620-41a5-988c-e173a54c29cd",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "ac929a3d-f3e5-4c3b-97d2-9fcb8e129e40~a9207ea7-4e7e-487b-af1b-d252f1f57119",
+      "source": "ac929a3d-f3e5-4c3b-97d2-9fcb8e129e40",
+      "target": "a9207ea7-4e7e-487b-af1b-d252f1f57119",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~2cc7b37d-efc9-4a02-8b4a-6dcbe630263e",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "2cc7b37d-efc9-4a02-8b4a-6dcbe630263e",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "3a03229c-60e8-47aa-99c1-328e50455609~2cc7b37d-efc9-4a02-8b4a-6dcbe630263e",
+      "source": "3a03229c-60e8-47aa-99c1-328e50455609",
+      "target": "2cc7b37d-efc9-4a02-8b4a-6dcbe630263e",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~1f9e0f27-5b9c-4b09-99a3-fb38092f86a2",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "1f9e0f27-5b9c-4b09-99a3-fb38092f86a2",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d~1f9e0f27-5b9c-4b09-99a3-fb38092f86a2",
+      "source": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+      "target": "1f9e0f27-5b9c-4b09-99a3-fb38092f86a2",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~b94a86cd-54d2-47a9-a391-6090d79cdf19",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "b94a86cd-54d2-47a9-a391-6090d79cdf19",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "3a03229c-60e8-47aa-99c1-328e50455609~b94a86cd-54d2-47a9-a391-6090d79cdf19",
+      "source": "3a03229c-60e8-47aa-99c1-328e50455609",
+      "target": "b94a86cd-54d2-47a9-a391-6090d79cdf19",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~799582ce-4a45-44d1-a38b-e18fd48d456c",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "799582ce-4a45-44d1-a38b-e18fd48d456c",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "91569ca2-781d-460e-b523-071150aa70d7~799582ce-4a45-44d1-a38b-e18fd48d456c",
+      "source": "91569ca2-781d-460e-b523-071150aa70d7",
+      "target": "799582ce-4a45-44d1-a38b-e18fd48d456c",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~0c591fec-12f2-4fc3-a14e-096af3a696c1",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "0c591fec-12f2-4fc3-a14e-096af3a696c1",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d~0c591fec-12f2-4fc3-a14e-096af3a696c1",
+      "source": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+      "target": "0c591fec-12f2-4fc3-a14e-096af3a696c1",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d~531e199e-f3a2-4cf5-873e-8535b1cf4c8b",
+      "source": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+      "target": "531e199e-f3a2-4cf5-873e-8535b1cf4c8b",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~a8a7b43f-fbc8-4f79-a1af-e005c0063a38",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "a8a7b43f-fbc8-4f79-a1af-e005c0063a38",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~505979c9-35a0-4d99-a831-26c1fafd7336",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "505979c9-35a0-4d99-a831-26c1fafd7336",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "91569ca2-781d-460e-b523-071150aa70d7~505979c9-35a0-4d99-a831-26c1fafd7336",
+      "source": "91569ca2-781d-460e-b523-071150aa70d7",
+      "target": "505979c9-35a0-4d99-a831-26c1fafd7336",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~e6c481cf-c097-4236-b295-694511b531b4",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "e6c481cf-c097-4236-b295-694511b531b4",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "91569ca2-781d-460e-b523-071150aa70d7~e6c481cf-c097-4236-b295-694511b531b4",
+      "source": "91569ca2-781d-460e-b523-071150aa70d7",
+      "target": "e6c481cf-c097-4236-b295-694511b531b4",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~686436a7-0e4a-4a66-a1b5-e6dcc44c9b80",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "686436a7-0e4a-4a66-a1b5-e6dcc44c9b80",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "91569ca2-781d-460e-b523-071150aa70d7~686436a7-0e4a-4a66-a1b5-e6dcc44c9b80",
+      "source": "91569ca2-781d-460e-b523-071150aa70d7",
+      "target": "686436a7-0e4a-4a66-a1b5-e6dcc44c9b80",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~f2e38380-b00a-4c73-a239-fc095f5c7794",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "f2e38380-b00a-4c73-a239-fc095f5c7794",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "91569ca2-781d-460e-b523-071150aa70d7~f2e38380-b00a-4c73-a239-fc095f5c7794",
+      "source": "91569ca2-781d-460e-b523-071150aa70d7",
+      "target": "f2e38380-b00a-4c73-a239-fc095f5c7794",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~cc1bcbfe-cddb-4680-ba0b-e874170d83f9",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "cc1bcbfe-cddb-4680-ba0b-e874170d83f9",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "27edb113-5f24-4ca6-ad20-fa5cbe9c124a~cc1bcbfe-cddb-4680-ba0b-e874170d83f9",
+      "source": "27edb113-5f24-4ca6-ad20-fa5cbe9c124a",
+      "target": "cc1bcbfe-cddb-4680-ba0b-e874170d83f9",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~fcf683c6-4760-47af-bc2d-75a142e98df7",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "fcf683c6-4760-47af-bc2d-75a142e98df7",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~eddfffba-8148-4837-adf0-021848372564",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "eddfffba-8148-4837-adf0-021848372564",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d~eddfffba-8148-4837-adf0-021848372564",
+      "source": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+      "target": "eddfffba-8148-4837-adf0-021848372564",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~b6372c7f-40b3-4380-9092-65fd2757c8d1",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "b6372c7f-40b3-4380-9092-65fd2757c8d1",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~2c4ac06c-6d29-4f46-a900-c0bb0c2c0c7d",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "2c4ac06c-6d29-4f46-a900-c0bb0c2c0c7d",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "3a03229c-60e8-47aa-99c1-328e50455609~2c4ac06c-6d29-4f46-a900-c0bb0c2c0c7d",
+      "source": "3a03229c-60e8-47aa-99c1-328e50455609",
+      "target": "2c4ac06c-6d29-4f46-a900-c0bb0c2c0c7d",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~cb2d4468-6fa7-45ff-9b2b-dbe77eca0106",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "cb2d4468-6fa7-45ff-9b2b-dbe77eca0106",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d~cb2d4468-6fa7-45ff-9b2b-dbe77eca0106",
+      "source": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+      "target": "cb2d4468-6fa7-45ff-9b2b-dbe77eca0106",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~d90d4316-1639-4095-b367-0b0fa9960c55",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "d90d4316-1639-4095-b367-0b0fa9960c55",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d~d90d4316-1639-4095-b367-0b0fa9960c55",
+      "source": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+      "target": "d90d4316-1639-4095-b367-0b0fa9960c55",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~137d61e1-ff4c-448d-84cc-ff9e203dc4bf",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "137d61e1-ff4c-448d-84cc-ff9e203dc4bf",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d~137d61e1-ff4c-448d-84cc-ff9e203dc4bf",
+      "source": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+      "target": "137d61e1-ff4c-448d-84cc-ff9e203dc4bf",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~868ffa78-94ef-440e-95a3-fe470dea483e",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "868ffa78-94ef-440e-95a3-fe470dea483e",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d~868ffa78-94ef-440e-95a3-fe470dea483e",
+      "source": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+      "target": "868ffa78-94ef-440e-95a3-fe470dea483e",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~8fe10169-202a-4dd8-8531-749238bd559a",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "8fe10169-202a-4dd8-8531-749238bd559a",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d~8fe10169-202a-4dd8-8531-749238bd559a",
+      "source": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+      "target": "8fe10169-202a-4dd8-8531-749238bd559a",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~fcb82be3-c188-4c17-aa00-cf2dded9cd2c",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "fcb82be3-c188-4c17-aa00-cf2dded9cd2c",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d~fcb82be3-c188-4c17-aa00-cf2dded9cd2c",
+      "source": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+      "target": "fcb82be3-c188-4c17-aa00-cf2dded9cd2c",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~239bb6db-43aa-45b4-b465-f9a4f95391b9",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "239bb6db-43aa-45b4-b465-f9a4f95391b9",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "3a03229c-60e8-47aa-99c1-328e50455609~239bb6db-43aa-45b4-b465-f9a4f95391b9",
+      "source": "3a03229c-60e8-47aa-99c1-328e50455609",
+      "target": "239bb6db-43aa-45b4-b465-f9a4f95391b9",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d~80422b9e-d155-41ad-8f5a-ff08318550e6",
+      "source": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+      "target": "80422b9e-d155-41ad-8f5a-ff08318550e6",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~42893ebf-5033-4960-9bde-2344fe1043a2",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "42893ebf-5033-4960-9bde-2344fe1043a2",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d~42893ebf-5033-4960-9bde-2344fe1043a2",
+      "source": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+      "target": "42893ebf-5033-4960-9bde-2344fe1043a2",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~4ca82e75-be6f-4fec-bf6c-3b8dce44e5a9",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "4ca82e75-be6f-4fec-bf6c-3b8dce44e5a9",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d~4ca82e75-be6f-4fec-bf6c-3b8dce44e5a9",
+      "source": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+      "target": "4ca82e75-be6f-4fec-bf6c-3b8dce44e5a9",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~530264cc-464e-47d5-b8c2-e20a914ec455",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "530264cc-464e-47d5-b8c2-e20a914ec455",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d~530264cc-464e-47d5-b8c2-e20a914ec455",
+      "source": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+      "target": "530264cc-464e-47d5-b8c2-e20a914ec455",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d~0f63eb1d-550a-4ca6-b556-c89d685e7f39",
+      "source": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+      "target": "0f63eb1d-550a-4ca6-b556-c89d685e7f39",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~eb6b9559-2669-400a-9af9-453790a470e9",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "eb6b9559-2669-400a-9af9-453790a470e9",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "3a03229c-60e8-47aa-99c1-328e50455609~eb6b9559-2669-400a-9af9-453790a470e9",
+      "source": "3a03229c-60e8-47aa-99c1-328e50455609",
+      "target": "eb6b9559-2669-400a-9af9-453790a470e9",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~93f7094b-4385-484a-b616-6f00c21b06c1",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "93f7094b-4385-484a-b616-6f00c21b06c1",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "05aa246b-cc90-477b-92fe-bbe8a8cc826e~93f7094b-4385-484a-b616-6f00c21b06c1",
+      "source": "05aa246b-cc90-477b-92fe-bbe8a8cc826e",
+      "target": "93f7094b-4385-484a-b616-6f00c21b06c1",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~4bbf2823-1c80-4e8f-b68f-481422e09d4b",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "4bbf2823-1c80-4e8f-b68f-481422e09d4b",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "3a03229c-60e8-47aa-99c1-328e50455609~4bbf2823-1c80-4e8f-b68f-481422e09d4b",
+      "source": "3a03229c-60e8-47aa-99c1-328e50455609",
+      "target": "4bbf2823-1c80-4e8f-b68f-481422e09d4b",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~f37e98ea-4a0a-48b1-b7f8-4d49a4c043bb",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "f37e98ea-4a0a-48b1-b7f8-4d49a4c043bb",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d~f37e98ea-4a0a-48b1-b7f8-4d49a4c043bb",
+      "source": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+      "target": "f37e98ea-4a0a-48b1-b7f8-4d49a4c043bb",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~8d2876ca-e725-47d9-9993-51fcbf8f303b",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "8d2876ca-e725-47d9-9993-51fcbf8f303b",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d~8d2876ca-e725-47d9-9993-51fcbf8f303b",
+      "source": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+      "target": "8d2876ca-e725-47d9-9993-51fcbf8f303b",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~6d54191b-1534-4a02-a068-f567d2a28af6",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "6d54191b-1534-4a02-a068-f567d2a28af6",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "3a03229c-60e8-47aa-99c1-328e50455609~6d54191b-1534-4a02-a068-f567d2a28af6",
+      "source": "3a03229c-60e8-47aa-99c1-328e50455609",
+      "target": "6d54191b-1534-4a02-a068-f567d2a28af6",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~9b35846e-0805-41da-8a31-1fb67d66abff",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "9b35846e-0805-41da-8a31-1fb67d66abff",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d~9b35846e-0805-41da-8a31-1fb67d66abff",
+      "source": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+      "target": "9b35846e-0805-41da-8a31-1fb67d66abff",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~666e8eab-2f21-4cf1-ad6b-47b6604ca8d0",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "666e8eab-2f21-4cf1-ad6b-47b6604ca8d0",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~21e1efc4-2c7f-4323-bf79-ceb79f2820a0",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "21e1efc4-2c7f-4323-bf79-ceb79f2820a0",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d~21e1efc4-2c7f-4323-bf79-ceb79f2820a0",
+      "source": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+      "target": "21e1efc4-2c7f-4323-bf79-ceb79f2820a0",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~ac3b0f52-64c4-4586-a845-2bdc5607a0a7",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "ac3b0f52-64c4-4586-a845-2bdc5607a0a7",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d~ac3b0f52-64c4-4586-a845-2bdc5607a0a7",
+      "source": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+      "target": "ac3b0f52-64c4-4586-a845-2bdc5607a0a7",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~74497f4e-af0f-4d0b-b287-17e6ef2e3ee0",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "74497f4e-af0f-4d0b-b287-17e6ef2e3ee0",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~e501faff-c584-4f6a-8a7a-14c0ba1c8413",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "e501faff-c584-4f6a-8a7a-14c0ba1c8413",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "b9cdba59-0489-4b85-b2e0-ac32f59cb51c~e501faff-c584-4f6a-8a7a-14c0ba1c8413",
+      "source": "b9cdba59-0489-4b85-b2e0-ac32f59cb51c",
+      "target": "e501faff-c584-4f6a-8a7a-14c0ba1c8413",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~4cf1a7f1-2816-4810-9d01-52feeed0278a",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "4cf1a7f1-2816-4810-9d01-52feeed0278a",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "b9cdba59-0489-4b85-b2e0-ac32f59cb51c~4cf1a7f1-2816-4810-9d01-52feeed0278a",
+      "source": "b9cdba59-0489-4b85-b2e0-ac32f59cb51c",
+      "target": "4cf1a7f1-2816-4810-9d01-52feeed0278a",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "3a03229c-60e8-47aa-99c1-328e50455609~ed96557a-d76b-4f09-a9af-8bcdc0945c98",
+      "source": "3a03229c-60e8-47aa-99c1-328e50455609",
+      "target": "ed96557a-d76b-4f09-a9af-8bcdc0945c98",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~d033f23c-01c2-4ef8-b6d5-3e026a560402",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "d033f23c-01c2-4ef8-b6d5-3e026a560402",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d~d033f23c-01c2-4ef8-b6d5-3e026a560402",
+      "source": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+      "target": "d033f23c-01c2-4ef8-b6d5-3e026a560402",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~7018e75a-c0d0-4efc-b4e6-ccf6b0da4c6b",
+      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
+      "target": "7018e75a-c0d0-4efc-b4e6-ccf6b0da4c6b",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d~7018e75a-c0d0-4efc-b4e6-ccf6b0da4c6b",
+      "source": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+      "target": "7018e75a-c0d0-4efc-b4e6-ccf6b0da4c6b",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "2ba05602-c7fe-4044-8a38-8461dc86cff1~5334e052-9d89-41b8-89a2-6aac7c27e394",
+      "source": "2ba05602-c7fe-4044-8a38-8461dc86cff1",
+      "target": "5334e052-9d89-41b8-89a2-6aac7c27e394",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d~9095a8cd-4ea3-4d75-a7e0-16602fb9ef45",
+      "source": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+      "target": "9095a8cd-4ea3-4d75-a7e0-16602fb9ef45",
+      "edgeType": "smoothstep"
+    },
+    {
+      "id": "2ba05602-c7fe-4044-8a38-8461dc86cff1~6a5aff40-8642-44c0-9b26-6a0cf2ea71bb",
+      "source": "2ba05602-c7fe-4044-8a38-8461dc86cff1",
+      "target": "6a5aff40-8642-44c0-9b26-6a0cf2ea71bb",
+      "edgeType": "smoothstep"
     }
   ]
 }

@@ -74,19 +74,19 @@ const Flow = (props: GraphTreeProps) => {
         proOptions={graphTree.options}
         nodesDraggable={false}
         nodeTypes={nodeTypes}
-        minZoom={0.2}
+        minZoom={0.06}
         onNodeClick={(_event, node) => {
           if (graphTree.selectedNode?.id !== node.id) {
             graphTree.onNodeClickEvent(node as BibleNode)
           }
         }}
-        onPaneClick={() => {
-          graphTree.resetNodes()
+        onPaneClick={async () => {
+          await graphTree.resetNodes()
         }}
         onInit={() => {
           setTimeout(() => {
             fitView()
-          }, 1)
+          }, 100)
         }}
       >
         <MiniMap

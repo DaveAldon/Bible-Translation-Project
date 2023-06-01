@@ -1,39 +1,19 @@
 import React, { useCallback } from 'react'
-import {
-  addEdge,
-  ConnectionLineType,
-  useNodesState,
-  useEdgesState,
-  Connection,
-  Edge,
-} from 'reactflow'
+import { useNodesState, useEdgesState, Edge } from 'reactflow'
 import 'reactflow/dist/style.css'
 import './index.css'
-import { getTranslationData } from '@/app/util/getTranslationData'
-import { getLayoutedElements } from './getLayoutedElements'
 import { Bible, BibleNode } from '../../../../types/tree'
 import { getNodesOnPath, getReverseNodesOnPath } from '@/app/util/nodePaths'
 import { getEdgeStyles, getNodeStyles } from './getStyles'
+import { createGraphLayout } from './GraphUtilities/getElkLayoutedElements'
+import {
+  getFilteredEdges,
+  getFilteredGraph,
+  getFilteredNodes,
+} from './GraphUtilities/graphFilters'
+import { getTranslationData } from '@/app/util/getTranslationData'
 
-const { nodes: initialNodes, edges: initialEdges } = getTranslationData()
-
-const getFilteredNodes = (initialNodes: BibleNode[], sliderValue: number) => {
-  return initialNodes.filter((node) => parseInt(node.data.year) <= sliderValue)
-}
-const getFilteredEdges = (
-  initialEdges: Edge[],
-  filteredNodes: BibleNode[],
-  sliderValue: number
-) => {
-  return initialEdges.filter((edge) => {
-    const nodeRef = filteredNodes.find(
-      (node: BibleNode) => node.id === edge.source
-    )
-    if (nodeRef) {
-      return parseInt(nodeRef.data.year) <= sliderValue
-    }
-  })
-}
+const { nodes: _initialNodes, edges: initialEdges } = getTranslationData()
 
 interface UseGraphTreeProps {
   sliderValue: number
@@ -47,6 +27,11 @@ export const useGraphTree = (props: UseGraphTreeProps) => {
   const [modalNode, setModalNode] = React.useState<BibleNode | null>(null)
   const options = { hideAttribution: true }
 
+  const updateNodes = useCallback(async () => {
+    const filteredGraph = getFilteredGraph(props.sliderValue)
+    return await createGraphLayout(filteredGraph)
+  }, [props.sliderValue])
+
   const activatePath = useCallback((node: BibleNode) => {
     setSelectedNode({ ...node })
   }, [])
@@ -57,19 +42,12 @@ export const useGraphTree = (props: UseGraphTreeProps) => {
     setModalVisible(true)
   }, [])
 
-  const resetNodes = useCallback(() => {
-    const filteredNodes = getFilteredNodes(initialNodes, props.sliderValue)
-    const filteredEdges = getFilteredEdges(
-      initialEdges,
-      filteredNodes,
-      props.sliderValue
-    )
-    const { nodes: layoutedNodes, edges: layoutedEdges } = getLayoutedElements(
-      filteredNodes,
-      filteredEdges
-    )
+  const resetNodes = useCallback(async () => {
+    const elkNodes = await updateNodes()
+    const filteredNodes = getFilteredNodes(props.sliderValue)
+
     const styledNodes = getNodeStyles(
-      [...layoutedNodes],
+      [...elkNodes],
       [...filteredNodes],
       undefined,
       true
@@ -81,116 +59,93 @@ export const useGraphTree = (props: UseGraphTreeProps) => {
         },
       }
     })
-    const styledEdges = getEdgeStyles([...layoutedEdges], [...styledNodes])
-    setNodes([...(styledNodes as any)])
+    const styledEdges = getEdgeStyles([...initialEdges], [...styledNodes])
+    setNodes([...styledNodes])
     setEdges([...styledEdges])
     setSelectedNode(null)
   }, [props.sliderValue, selectedNode])
 
   React.useEffect(() => {
-    const filteredNodes = getFilteredNodes(initialNodes, props.sliderValue)
-    const filteredEdges = getFilteredEdges(
-      initialEdges,
-      filteredNodes,
-      props.sliderValue
-    )
+    ;(async () => {
+      await new Promise((resolve) => setTimeout(resolve, 100))
+      await resetNodes()
+    })()
+  }, [])
 
-    const { nodes: layoutedNodes, edges: layoutedEdges } = getLayoutedElements(
-      filteredNodes,
-      filteredEdges
-    )
+  React.useEffect(() => {
+    ;(async () => {
+      const elkNodes = await updateNodes()
 
-    const nodesOnPath = selectedNode
-      ? getNodesOnPath({
-          node: selectedNode,
-          nodes: [...layoutedNodes],
-        })
-      : layoutedNodes
+      const nodesOnPath = selectedNode
+        ? getNodesOnPath({
+            node: selectedNode,
+            nodes: [...elkNodes],
+          })
+        : elkNodes
 
-    const reverseNodesOnPath = selectedNode
-      ? getReverseNodesOnPath({
-          nodes: layoutedNodes,
-          nodesOnPath: [...nodesOnPath],
-        })
-      : layoutedNodes
+      const reverseNodesOnPath = selectedNode
+        ? getReverseNodesOnPath({
+            nodes: elkNodes,
+            nodesOnPath: [...nodesOnPath],
+          })
+        : elkNodes
 
-    const styledNodes = getNodeStyles(
-      [...filteredNodes],
-      reverseNodesOnPath,
-      selectedNode || undefined
-    )
+      const styledNodes = getNodeStyles(
+        elkNodes,
+        reverseNodesOnPath,
+        selectedNode || undefined
+      )
 
-    const filterStyles = styledNodes.map((node) => {
-      if (
-        props.filterName !== '' &&
-        (node.data.title
-          .toLowerCase()
-          .includes(props.filterName.toLowerCase()) ||
-          node.data.acronym
+      const filterStyles = styledNodes.map((node) => {
+        if (
+          props.filterName !== '' &&
+          (node.data.title
             .toLowerCase()
-            .includes(props.filterName.toLowerCase()))
-      ) {
-        return {
-          ...node,
-          data: {
-            ...node.data,
-            //filterStyle: true,
-          },
-          style: {
-            ...node.style,
-            borderColor: 'white',
-            borderRadius: 10,
-            padding: 5,
-            border: `5px solid white`,
-            boxShadow: `0 0 50px white`,
-          },
+            .includes(props.filterName.toLowerCase()) ||
+            node.data.acronym
+              .toLowerCase()
+              .includes(props.filterName.toLowerCase()))
+        ) {
+          return {
+            ...node,
+            data: {
+              ...node.data,
+              //filterStyle: true,
+            },
+            style: {
+              ...node.style,
+              borderColor: 'white',
+              borderRadius: 10,
+              padding: 5,
+              border: `5px solid white`,
+              boxShadow: `0 0 50px white`,
+            },
+          }
+        } else {
+          return {
+            ...node,
+            data: {
+              ...node.data,
+            },
+          }
         }
-      } else {
-        return {
-          ...node,
-          data: {
-            ...node.data,
-          },
-        }
-      }
-    })
+      })
 
-    const styledEdges = getEdgeStyles(
-      [...layoutedEdges],
-      [...nodesOnPath, ...(selectedNode ? [selectedNode] : [])]
-    )
+      const selectedNodesOnPath = [
+        ...nodesOnPath,
+        ...(selectedNode ? [selectedNode] : []),
+      ]
 
-    setNodes([...(filterStyles as any)])
-    setEdges([...styledEdges])
+      const styledEdges = getEdgeStyles(edges, selectedNodesOnPath)
+
+      setNodes([...filterStyles])
+      setEdges([...styledEdges])
+    })()
   }, [props.sliderValue, selectedNode, props.filterName])
-
-  const onConnect = useCallback(
-    (params: Edge | Connection) =>
-      setEdges((eds) =>
-        addEdge(
-          { ...params, type: ConnectionLineType.SmoothStep, animated: true },
-          eds
-        )
-      ),
-    []
-  )
-
-  const onLayout = useCallback(
-    (direction: string | undefined) => {
-      const { nodes: layoutedNodes, edges: layoutedEdges } =
-        getLayoutedElements(nodes, edges, direction)
-
-      setNodes([...layoutedNodes])
-      setEdges([...layoutedEdges])
-    },
-    [nodes, edges]
-  )
 
   return {
     nodes,
     edges,
-    onConnect,
-    onLayout,
     options,
     onNodeClickEvent,
     modalVisible,

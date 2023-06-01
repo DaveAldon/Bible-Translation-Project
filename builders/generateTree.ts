@@ -12,22 +12,26 @@ export const generateTree = async (): Promise<Tree> => {
 
   bibles.forEach((bible) => {
     const id = bible.id
-    const data = { ...bible, label: bible.title }
+    const data = {
+      ...bible,
+      label: bible.title,
+      parents: bible.parents.replaceAll(' ', ''),
+    }
     const node = { id, data, position, filterStyle: false }
     newNodes.push(node)
 
     if (bible.parents !== '') {
       const parents = bible.parents.split(',')
       parents.forEach((parent) => {
-        const source = parent
+        const source = parent.replaceAll(' ', '')
         const target = bible.id
         const edge = {
           id: `${source}~${target}`,
           source,
           target,
           edgeType,
-          animated: true,
         }
+        if (newEdges.find((e) => e.id === edge.id)) return
         newEdges.push(edge)
       })
     }

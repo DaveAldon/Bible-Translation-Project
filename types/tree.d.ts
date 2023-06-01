@@ -4,6 +4,8 @@ export interface Bible {
   id: string
   title: string
   parents: string
+  spectrum: string
+  denomination: string
   description: string
   image: string
   year: string

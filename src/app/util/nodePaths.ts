@@ -1,8 +1,9 @@
 import { BibleNode } from '../../../types/tree'
+import { Node } from 'react-flow-renderer'
 
 interface ReverseNodesOnPathProps {
-  nodes: BibleNode[]
-  nodesOnPath: BibleNode[]
+  nodes: Node[]
+  nodesOnPath: Node[]
 }
 
 export const getReverseNodesOnPath = (props: ReverseNodesOnPathProps) => {
@@ -10,17 +11,17 @@ export const getReverseNodesOnPath = (props: ReverseNodesOnPathProps) => {
 }
 
 interface NodesOnPathProps {
-  nodes: BibleNode[]
+  nodes: Node[]
   node: BibleNode
 }
-export const getNodesOnPath = (props: NodesOnPathProps): BibleNode[] => {
-  const nodesOnPath: BibleNode[] = []
-  const getParents = (node: BibleNode) => {
+export const getNodesOnPath = (props: NodesOnPathProps): Node[] => {
+  const nodesOnPath: Node[] = []
+  const getParents = (node: Node) => {
     if (node.data.title === 'God') {
       nodesOnPath.push(node)
       return
     }
-    const parents = node.data.parents.split(',')
+    const parents: string[] = node.data.parents.split(',')
     if (parents.length > 0) {
       parents.forEach((parent) => {
         const parentRef = props.nodes.find((node) => node.id === parent)

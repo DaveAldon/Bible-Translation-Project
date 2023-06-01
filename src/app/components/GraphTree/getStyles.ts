@@ -1,5 +1,5 @@
 import { BibleNode } from '../../../../types/tree'
-import { Edge } from 'reactflow'
+import { Node, Edge } from 'react-flow-renderer'
 
 const edgeStyle = (opacity: number) => {
   return {
@@ -10,8 +10,8 @@ const edgeStyle = (opacity: number) => {
 }
 
 export const getNodeStyles = (
-  nodes: BibleNode[],
-  exclusionNodes: BibleNode[],
+  nodes: Node[],
+  exclusionNodes: Node[],
   selectedNode?: BibleNode,
   reset?: boolean
 ) => {
@@ -46,7 +46,7 @@ export const getNodeStyles = (
   })
 }
 
-export const getEdgeStyles = (edges: Edge[], includedNodes: BibleNode[]) => {
+export const getEdgeStyles = (edges: Edge[], includedNodes: Node[]) => {
   return edges.map((edge) => {
     /* const base = '#FFFFFF'
     const activeColor = hext(base, 60)
