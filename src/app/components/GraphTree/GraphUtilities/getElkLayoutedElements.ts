@@ -12,7 +12,7 @@ const elk = new Elk({
     'org.eclipse.elk.layered.layering.strategy': 'NETWORK_SIMPLEX',
     'org.eclipse.elk.layered.nodePlacement.strategy': 'NETWORK_SIMPLEX',
     //'org.eclipse.elk.layered.nodePlacement.favorStraightEdges': 'true',
-    'elk.layered.mergeEdges': 'false',
+    //'elk.layered.mergeEdges': 'true',
     'elk.hierarchyHandling': 'INCLUDE_CHILDREN',
     'elk.edgeRouting': 'SPLINES',
     'org.eclipse.elk.contentAlignment': 'V_CENTER',

@@ -3,7 +3,6 @@ import { getTree } from './tree'
 import { BibleNode, Tree } from '../types/tree'
 
 const position = { x: 0, y: 0 }
-const edgeType = 'smoothstep'
 
 export const generateTree = async (): Promise<Tree> => {
   const { bibles } = await getTree()
@@ -29,7 +28,6 @@ export const generateTree = async (): Promise<Tree> => {
           id: `${source}~${target}`,
           source,
           target,
-          edgeType,
         }
         if (newEdges.find((e) => e.id === edge.id)) return
         newEdges.push(edge)

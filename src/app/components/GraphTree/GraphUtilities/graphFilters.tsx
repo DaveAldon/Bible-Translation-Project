@@ -25,7 +25,6 @@ export const getFilteredEdges = (filteredNodes: Node[]): Edge[] => {
     if (doNodesExist(edge.id)) {
       return {
         ...edge,
-        animated: true,
       }
     }
   })

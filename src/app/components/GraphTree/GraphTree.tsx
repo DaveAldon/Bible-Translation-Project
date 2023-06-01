@@ -71,6 +71,8 @@ const Flow = (props: GraphTreeProps) => {
       <ReactFlow
         nodes={graphTree.nodes}
         edges={graphTree.edges}
+        edgesFocusable={false}
+        draggable={false}
         proOptions={graphTree.options}
         nodesDraggable={false}
         nodeTypes={nodeTypes}

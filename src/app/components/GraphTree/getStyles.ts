@@ -46,7 +46,7 @@ export const getNodeStyles = (
   })
 }
 
-export const getEdgeStyles = (edges: Edge[], includedNodes: Node[]) => {
+export const getEdgeStyles = (edges: Edge[], includedNodes: Node[]): Edge[] => {
   return edges.map((edge) => {
     /* const base = '#FFFFFF'
     const activeColor = hext(base, 60)
@@ -74,7 +74,11 @@ export const getEdgeStyles = (edges: Edge[], includedNodes: Node[]) => {
         /* stroke: color,
         strokeWidth: 5, */
         ...edgeStyle(opacity),
+        pointerEvents: 'none',
       },
+      animated: false,
+      interactionWidth: 0,
+      edgeType: 'smoothstep',
     }
   })
 }

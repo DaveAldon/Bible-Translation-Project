@@ -7,7 +7,6 @@ import { getNodesOnPath, getReverseNodesOnPath } from '@/app/util/nodePaths'
 import { getEdgeStyles, getNodeStyles } from './getStyles'
 import { createGraphLayout } from './GraphUtilities/getElkLayoutedElements'
 import {
-  getFilteredEdges,
   getFilteredGraph,
   getFilteredNodes,
 } from './GraphUtilities/graphFilters'
