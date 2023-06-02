@@ -3,7 +3,7 @@ import { Handle, NodeProps, Position } from 'reactflow'
 import { hext } from '@davealdon/hext'
 import { getYearText } from '@/app/util/years'
 import { Bible } from '../../../../../types/tree'
-import { getColorFromSpectrum } from '../../../../../types/spectrums.enum'
+import { getColorFromSpectrum } from '../../../util/spectrums'
 
 const GraphNode = ({ data, active }: { data: Bible; active: boolean }) => {
   let acronymFontSize = '2rem'
@@ -15,8 +15,6 @@ const GraphNode = ({ data, active }: { data: Bible; active: boolean }) => {
     data.title === 'God'
       ? '#FFFFFF'
       : getColorFromSpectrum(parseInt(data.spectrum))
-  /* const outline =
-    Category_Colors[data.category as keyof typeof Category_Colors] || '#000000' */
 
   return (
     <div

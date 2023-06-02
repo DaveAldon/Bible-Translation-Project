@@ -22,6 +22,7 @@ import {
   QuestionMarkCircleIcon,
 } from '@heroicons/react/20/solid'
 import { Tooltip as ReactTooltip } from 'react-tooltip'
+import { getColorFromSpectrum } from '@/app/util/spectrums'
 
 const nodeTypes = {
   activeGraphNode: ActiveGraphNode,
@@ -103,15 +104,19 @@ const Flow = (props: GraphTreeProps) => {
           zoomable
           pannable
           nodeColor={(node) => {
-            return Category_Colors[
-              node.data.category as keyof typeof Category_Colors
-            ]
+            return node.data.title === 'God'
+              ? '#FFFFFF'
+              : getColorFromSpectrum(parseInt(node.data.spectrum))
           }}
           style={{
             backdropFilter: 'blur(10px)',
             WebkitBackdropFilter: 'blur(10px)',
             backgroundColor: hext('#808080', 30),
+            borderRadius: '10px',
+            overflow: 'hidden',
           }}
+          ariaLabel="Mini Map"
+          maskColor={hext('#808080', 30)}
         />
 
         <Controls onFitView={() => fitView()} showInteractive={false}>

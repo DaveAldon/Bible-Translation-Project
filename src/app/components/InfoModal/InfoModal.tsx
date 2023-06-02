@@ -5,6 +5,7 @@ import { Dispatch, SetStateAction } from 'react'
 import { getDemographicsById } from '@/app/util/getDemographic'
 import { getYearText } from '@/app/util/years'
 import { Tooltip as ReactTooltip } from 'react-tooltip'
+import { SpectrumInfo } from '../SpectrumInfo/SpectrumInfo'
 
 export const BibleDemographicsTable = (props: BibleModalProps) => {
   if (!props.data || props.data.data.title === 'God') return null
@@ -29,9 +30,12 @@ export const BibleDemographicsTable = (props: BibleModalProps) => {
   return (
     <div className="relative rounded-lg overflow-x-auto">
       <div className="flex whitespace-nowrap items-center justify-center p-4 border-b bg-gray-800 border-gray-700 bg-opacity-25 w-full">
-        <ActivatePathButton {...props} />
-        <ResetPathsButton {...props} />
+        <SpectrumInfo
+          {...props}
+          spectrum={parseInt(props.data.data.spectrum)}
+        />
       </div>
+
       <table className="w-full text-sm text-left text-gray-400">
         <tbody>
           <Row title="Year Published">{getYearText(parseInt(data.year))}</Row>
@@ -45,6 +49,10 @@ export const BibleDemographicsTable = (props: BibleModalProps) => {
           ) : null}
         </tbody>
       </table>
+      <div className="flex whitespace-nowrap items-center justify-center p-4 border-b bg-gray-800 border-gray-700 bg-opacity-25 w-full">
+        <ActivatePathButton {...props} />
+        <ResetPathsButton {...props} />
+      </div>
     </div>
   )
 }
@@ -251,7 +259,7 @@ export const InfoModal = (props: BibleModalProps) => {
         />
         <ReactTooltip
           id="source-button-tooltip"
-          place="bottom"
+          place="top"
           variant="error"
           isOpen={props.showTooltips}
         />
