@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Head>
+      <body>
         <title>{meta.title}</title>
         <meta name="description" content={meta.description} />
         {/* <!-- Google / Search Engine Tags -->
@@ -29,7 +29,7 @@ export default function RootLayout({
         <meta itemProp="image" content={meta.image} />
         {/* <!-- Facebook Meta Tags -->
          */}
-        <meta property="og:url" content={`https://bibletranslations.org`} />
+        <meta property="og:url" content={`https://www.bibletranslations.org`} />
         <meta property="og:type" content="website" />
         <meta property="og:title" content={meta.title} />
         <meta property="og:description" content={meta.description} />
@@ -39,9 +39,7 @@ export default function RootLayout({
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
-        <meta name="twitter:image" content={meta.image} />'
-      </Head>
-      <body>
+        <meta name="twitter:image" content={meta.image} />
         <Navbar />
         {children}
       </body>
