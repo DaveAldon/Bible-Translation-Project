@@ -1,7 +1,8 @@
-import { Slider, TextField, Typography } from '@mui/material'
+import { Slider, Typography } from '@mui/material'
 import { getBlurStyle } from '@/app/styles/specialEffects'
 import { getYearText } from '@/app/util/years'
 import { Tooltip as ReactTooltip } from 'react-tooltip'
+import { SearchResults } from './SearchResults'
 
 interface ControlProps {
   onSliderChange: (value: number) => void
@@ -16,27 +17,12 @@ export const Controls = (props: ControlProps) => {
 
   return props.marks.length > 0 ? (
     <div
-      className="flex flex-row gap-4 w-full bg-gray-800 px-2 py-2 pr-12 justify-center items-center"
+      className="flex flex-row gap-4 w-full bg-gray-800 px-2 py-2 pr-12 justify-center items-center text-white"
       style={getBlurStyle()}
     >
-      <TextField
-        data-tooltip-id="search-tooltip"
-        data-tooltip-content="Enter the name of a translation to highlight it"
-        id="outlined-basic"
-        label="Search"
-        InputLabelProps={{
-          style: { color: 'white' },
-        }}
-        variant="outlined"
-        style={{
-          width: 200,
-        }}
-        inputProps={{ style: { color: 'white' } }}
-        sx={{ color: 'white', borderColor: 'white' }}
-        value={props.filterName}
-        onChange={(e) => {
-          props.setFilterName(e.target.value)
-        }}
+      <SearchResults
+        filterName={props.filterName}
+        setFilterName={props.setFilterName}
       />
       <div className="w-full text-white">
         <Typography

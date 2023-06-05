@@ -14,7 +14,6 @@ import { BibleNode } from '../../../../types/tree'
 import { hext } from '@davealdon/hext'
 import { ActiveGraphNode, InactiveGraphNode } from './GraphNode/GraphNode'
 import './node.style.css'
-import { Category_Colors } from '../../../../types/categories.enum'
 import { InfoModal } from '../InfoModal/InfoModal'
 import {
   LockClosedIcon,
@@ -23,6 +22,7 @@ import {
 } from '@heroicons/react/20/solid'
 import { Tooltip as ReactTooltip } from 'react-tooltip'
 import { getColorFromSpectrum } from '@/app/util/spectrums'
+import { getTranslationData } from '@/app/util/getTranslationData'
 
 const nodeTypes = {
   activeGraphNode: ActiveGraphNode,
@@ -52,6 +52,20 @@ const Flow = (props: GraphTreeProps) => {
   const reactFlowHeight = useStore(heightSelector)
 
   React.useEffect(() => {
+    if (props.filterName !== '') {
+      const node = getTranslationData().nodes.find(
+        (node: BibleNode) => node.data.title === props.filterName
+      )
+      if (node) {
+        reactFlowInstance.fitView({
+          nodes: [node],
+          maxZoom: reactFlowInstance.getZoom(),
+        })
+      }
+    }
+  }, [props.filterName])
+
+  React.useEffect(() => {
     if (!props.fitViewToggle) return
     setTimeout(() => {
       fitView()
@@ -60,6 +74,14 @@ const Flow = (props: GraphTreeProps) => {
 
   if (graphTree.nodes === null || height === 0 || width === 0) {
     return <></>
+  }
+
+  const navigateToNode = (node: BibleNode) => {
+    graphTree.onNodeClickEvent(node)
+    reactFlowInstance.fitView({
+      nodes: [node],
+      maxZoom: reactFlowInstance.getZoom(),
+    })
   }
 
   return (
@@ -72,7 +94,7 @@ const Flow = (props: GraphTreeProps) => {
           graphTree.setModalVisible(false)
         }}
         data={graphTree.modalNode}
-        navigateToNode={(node: BibleNode) => graphTree.onNodeClickEvent(node)}
+        navigateToNode={navigateToNode}
         activatePath={(node: BibleNode) => graphTree.activatePath(node)}
         resetPaths={() => graphTree.resetNodes()}
         showTooltips={props.showTooltips}
@@ -85,14 +107,16 @@ const Flow = (props: GraphTreeProps) => {
         proOptions={graphTree.options}
         nodesDraggable={false}
         nodeTypes={nodeTypes}
-        minZoom={0.06}
+        minZoom={0.05}
         onNodeClick={(_event, node) => {
           if (graphTree.selectedNode?.id !== node.id) {
             graphTree.onNodeClickEvent(node as BibleNode)
           }
         }}
         onPaneClick={async () => {
-          await graphTree.resetNodes()
+          if (graphTree.selectedNode) {
+            await graphTree.resetNodes()
+          }
         }}
         onInit={() => {
           setTimeout(() => {
