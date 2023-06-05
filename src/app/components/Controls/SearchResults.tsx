@@ -40,7 +40,7 @@ export const SearchResults = (props: SearchResultsProps) => {
         renderInput={(params) => (
           <TextField
             {...params}
-            label="Search"
+            label="Search Translations"
             InputLabelProps={{
               style: { color: 'white' },
             }}
