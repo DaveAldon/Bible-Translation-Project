@@ -10,7 +10,8 @@ function Navbar() {
     <div>
       <div className="mx-auto max-w-screen-xl p-4">
         <div className="flex items-center justify-between gap-4 lg:gap-10">
-          <div className="flex lg:w-0 lg:flex-1">
+          <div className="flex lg:w-0 lg:flex-1 gap-4 items-center">
+            <img src="/assets/images/logo.png" className="h-8 w-8" />
             <Link className="text-2xl font-extrabold text-gray-500" href="/">
               The Bible Translation Project
             </Link>
