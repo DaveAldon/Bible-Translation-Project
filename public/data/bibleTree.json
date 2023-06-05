@@ -1719,9 +1719,9 @@
       "data": {
         "id": "137d61e1-ff4c-448d-84cc-ff9e203dc4bf",
         "title": "New International Version – Anglicised",
-        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+        "parents": "95db0c3a-172e-4e94-b0b3-ef5c0ff609a8",
         "spectrum": "200",
-        "denomination": "Evangelical",
+        "denomination": "Protestant",
         "description": "",
         "image": "",
         "year": "2011",
@@ -1785,9 +1785,9 @@
       "data": {
         "id": "fcb82be3-c188-4c17-aa00-cf2dded9cd2c",
         "title": "Today’s New International Version",
-        "parents": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b,7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+        "parents": "95db0c3a-172e-4e94-b0b3-ef5c0ff609a8",
         "spectrum": "200",
-        "denomination": "Evangelical",
+        "denomination": "Protestant",
         "description": "",
         "image": "",
         "year": "2005",
@@ -3098,13 +3098,8 @@
       "target": "d90d4316-1639-4095-b367-0b0fa9960c55"
     },
     {
-      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~137d61e1-ff4c-448d-84cc-ff9e203dc4bf",
-      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
-      "target": "137d61e1-ff4c-448d-84cc-ff9e203dc4bf"
-    },
-    {
-      "id": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d~137d61e1-ff4c-448d-84cc-ff9e203dc4bf",
-      "source": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+      "id": "95db0c3a-172e-4e94-b0b3-ef5c0ff609a8~137d61e1-ff4c-448d-84cc-ff9e203dc4bf",
+      "source": "95db0c3a-172e-4e94-b0b3-ef5c0ff609a8",
       "target": "137d61e1-ff4c-448d-84cc-ff9e203dc4bf"
     },
     {
@@ -3128,13 +3123,8 @@
       "target": "8fe10169-202a-4dd8-8531-749238bd559a"
     },
     {
-      "id": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b~fcb82be3-c188-4c17-aa00-cf2dded9cd2c",
-      "source": "88c1f4c9-b4da-47f5-a5eb-e0fd916a9c4b",
-      "target": "fcb82be3-c188-4c17-aa00-cf2dded9cd2c"
-    },
-    {
-      "id": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d~fcb82be3-c188-4c17-aa00-cf2dded9cd2c",
-      "source": "7cf04dbd-d53d-4839-beaf-ce288c99cb2d",
+      "id": "95db0c3a-172e-4e94-b0b3-ef5c0ff609a8~fcb82be3-c188-4c17-aa00-cf2dded9cd2c",
+      "source": "95db0c3a-172e-4e94-b0b3-ef5c0ff609a8",
       "target": "fcb82be3-c188-4c17-aa00-cf2dded9cd2c"
     },
     {
