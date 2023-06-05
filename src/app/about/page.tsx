@@ -121,6 +121,35 @@ const Content = () => {
           like to see added, please let us know!
         </p>
       </div>
+      <div className="lg:w-3/5 sm:w-full text-white text-lg font-light">
+        <InfoCard icon={'🧑‍💻'} title={'What are you currently working on?'} />
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 py-4">
+          <div className="border-gray-400 flex flex-col select-none bg-gray-800 rounded-md flex-1 items-center p-4 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
+            <p className="mt-4 mb-4 font-normal">
+              Building a comprehensive connection between English translations
+            </p>
+            <p className="mt-4 mb-4 text-md font-light">
+              There are hundreds of intricacies making up the history of
+              codices, manuscripts, and translations. They're all interwoven
+              between each other, and it takes time to get it right. Once this
+              it done, we will focus on other languages and their translation
+              origins.
+            </p>
+          </div>
+          <div className="border-gray-400 flex flex-col select-none bg-gray-800 rounded-md flex-1 items-center p-4 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
+            <p className="mt-4 mb-4 font-normal">
+              Writing easy-to-understand, short descriptions of each translation
+            </p>
+            <p className="mt-4 mb-4 text-md font-light">
+              We want to make sure that each translation is represented properly
+              with a succinct description of its history and purpose. This takes
+              a lot of writing time to go through, so you'll find many
+              translations that are missing descriptions as we work through them
+              all.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }

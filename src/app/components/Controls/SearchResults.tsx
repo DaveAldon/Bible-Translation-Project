@@ -33,7 +33,7 @@ export const SearchResults = (props: SearchResultsProps) => {
         disablePortal
         id="combo-box-demo"
         options={translations}
-        sx={{ width: 300 }}
+        sx={{ width: 200 }}
         onChange={(_event, value) => {
           props.setFilterName(value?.visualLabel ?? '')
         }}
@@ -52,7 +52,9 @@ export const SearchResults = (props: SearchResultsProps) => {
           />
         )}
         PaperComponent={({ children }) => (
-          <Paper style={{ backgroundColor: '#111111', marginTop: 13 }}>
+          <Paper
+            style={{ backgroundColor: '#111111', marginTop: 13, width: 300 }}
+          >
             {children}
           </Paper>
         )}

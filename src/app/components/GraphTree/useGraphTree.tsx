@@ -95,7 +95,7 @@ export const useGraphTree = (props: UseGraphTreeProps) => {
         selectedNode || undefined
       )
 
-      const filterStyles = styledNodes.map((node) => {
+      /* const filterStyles = styledNodes.map((node) => {
         if (
           props.filterName !== '' &&
           (node.data.title
@@ -128,7 +128,7 @@ export const useGraphTree = (props: UseGraphTreeProps) => {
             },
           }
         }
-      })
+      }) */
 
       const selectedNodesOnPath = [
         ...nodesOnPath,
@@ -137,7 +137,7 @@ export const useGraphTree = (props: UseGraphTreeProps) => {
 
       const styledEdges = getEdgeStyles(edges, selectedNodesOnPath)
 
-      setNodes([...filterStyles])
+      setNodes([...styledNodes])
       setEdges([...styledEdges])
     })()
   }, [props.sliderValue, selectedNode, props.filterName])
