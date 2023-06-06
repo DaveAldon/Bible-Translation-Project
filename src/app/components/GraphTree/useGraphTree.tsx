@@ -36,7 +36,7 @@ export const useGraphTree = (props: UseGraphTreeProps) => {
   }, [])
 
   const onNodeClickEvent = useCallback((node: BibleNode) => {
-    setSelectedNode({ ...node })
+    //setSelectedNode({ ...node })
     setModalNode(node)
     setModalVisible(true)
   }, [])

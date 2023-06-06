@@ -90,7 +90,9 @@ const Flow = (props: GraphTreeProps) => {
         isOpen={graphTree.modalVisible}
         setIsOpen={() => graphTree.setModalVisible(true)}
         closeModal={() => {
-          graphTree.resetNodes()
+          if (graphTree.selectedNode) {
+            graphTree.resetNodes()
+          }
           graphTree.setModalVisible(false)
         }}
         data={graphTree.modalNode}
