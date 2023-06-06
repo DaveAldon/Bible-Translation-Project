@@ -100,7 +100,7 @@ export const TranslationSourceButton = ({
       onClick={() => {
         props.navigateToNode(nodeRef)
       }}
-      className=" text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
+      className="ml-4 border focus:outline-none focus:ring-4 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 bg-gray-800 text-white border-gray-600 hover:bg-gray-700 hover:border-gray-600 focus:ring-gray-700"
     >
       {nodeRef.data.title}
     </button>
@@ -114,7 +114,7 @@ export const LinkButton = ({ data }: { data: Bible }) => {
       onClick={() => {
         data.link ? window.open(data.link, '_blank') : null
       }}
-      className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
+      className="ml-4 border focus:outline-none focus:ring-4 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 bg-gray-800 text-white border-gray-600 hover:bg-gray-700 hover:border-gray-600 focus:ring-gray-700"
     >
       {data.link ? data.link.split('/')[2] : 'Unavailable'}
     </button>
@@ -130,7 +130,7 @@ export const ActivatePathButton = (props: BibleModalProps) => {
       onClick={() => {
         if (props.data) props.activatePath(props.data)
       }}
-      className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
+      className="ml-4 border focus:outline-none focus:ring-4 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 bg-gray-800 text-white border-gray-600 hover:bg-gray-700 hover:border-gray-600 focus:ring-gray-700"
     >
       <div className="flex flex-row justify-center items-center">
         <ShareIcon className="h-4 w-4 inline-block mr-2" />
