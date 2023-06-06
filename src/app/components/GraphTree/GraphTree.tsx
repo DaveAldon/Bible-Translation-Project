@@ -69,7 +69,7 @@ const Flow = (props: GraphTreeProps) => {
     if (!props.fitViewToggle) return
     setTimeout(() => {
       fitView()
-    }, 100)
+    }, 500)
   }, [reactFlowWidth, reactFlowHeight, reactFlowInstance, props.sliderValue])
 
   if (graphTree.nodes === null || height === 0 || width === 0) {
@@ -121,7 +121,7 @@ const Flow = (props: GraphTreeProps) => {
         onInit={() => {
           setTimeout(() => {
             fitView()
-          }, 100)
+          }, 500)
         }}
       >
         <MiniMap
